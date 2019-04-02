@@ -1,0 +1,110 @@
+/**
+ * 2.0 Repeatable patterns
+ * ----------------------------------------------------------------------------
+ */
+
+/* Clearing floats */
+.clear:after,
+.site-header .container:after,
+.footer-widgets:after,
+.copyright:after,
+.job_listing:after,
+.homepage-widget:after,
+.callout:after,
+.search_jobs:after,
+.search_resumes:after,
+.job_types:after,
+.job-overview-content:after,
+.job-dashboard-actions:after,
+.pricing-table-widget:after,
+.hentry:after,
+.blog-archive:after,
+.content-grid:after,
+.rcp_user_fieldset:after,
+.entry-summary form:after,
+#content:after,
+.single-job-spotlight-actions:after,
+#searchform:after,
+.gfield:after,
+.job_listing_preview_title input[name="continue"]:after {
+	clear: both;
+}
+
+.clear:before,
+.clear:after,
+.site-header .container:before,
+.site-header .container:after,
+.footer-widgets:before,
+.footer-widgets:after,
+.copyright:before,
+.copyright:after,
+.job_listing:before,
+.job_listing:after,
+.homepage-widget:before,
+.homepage-widget:after,
+.callout:before,
+.callout:after,
+.search_jobs:before,
+.search_jobs:after,
+.search_resumes:before,
+.search_resumes:after,
+.job_types:before,
+.job_types:after,
+.job-overview-content:before,
+.job-overview-content:after,
+.job-dashboard-actions:before,
+.job-dashboard-actions:after,
+.pricing-table-widget:before,
+.pricing-table-widget:after,
+.hentry:before,
+.hentry:after,
+.blog-archive:before,
+.blog-archive:after,
+.content-grid:before,
+.cotnent-grid:after,
+.rcp_user_fieldset:before,
+.rcp_user_fieldset:after,
+.entry-summary form:before,
+.entry-summary form:after,
+#content:before,
+#content:after,
+.single-job-spotlight-actions:before,
+.single-job-spotlight-actions:after,
+#searchform:before,
+#searchform:after,
+.gfield:before,
+.gfield:after {
+	content: "";
+	display: table;
+}
+
+/* Assistive text */
+.screen-reader-text,
+.site-description,
+.search_jobs label,
+.search_resumes label {
+	position: absolute !important;
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	text-decoration: none;
+	height: auto;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar */
+}

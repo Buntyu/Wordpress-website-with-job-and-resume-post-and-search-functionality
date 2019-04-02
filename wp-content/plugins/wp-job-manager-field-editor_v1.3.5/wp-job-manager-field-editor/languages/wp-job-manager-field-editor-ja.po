@@ -1,0 +1,1036 @@
+# Copyright (C) 2014 Myles McNamara
+# This file is distributed under the same license as the WP Job Manager Field Editor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager Field Editor 1.1.2\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2014-08-06 01:58:21+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-08-24 11:40+0900\n"
+"Last-Translator: Evange <mochizuki@evange.co.jp>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Language: ja\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: classes/admin/ajax.php:56
+msgid ""
+"A field group is required in order to save/edit/update fields, please "
+"contact support."
+msgstr ""
+"フィールドグループは保存/編集/更新フィールドのために必要なサポートに問い合わ"
+"せてください。"
+
+#: classes/admin/ajax.php:62
+msgid ""
+"Sorry, the taxonomy <code>%1$s</code> does not exists, please verify you are "
+"using the correct taxonomy slug"
+msgstr ""
+"申し訳ありませんが、分類 <code>%1$s</code> は存在しない、正しい分類スラグを使"
+"用しているか確認してください。"
+
+#: classes/admin/ajax.php:77
+msgid ""
+"Sorry, <code>%1$s</code> is not a valid WordPress MIME Type! Add a custom "
+"mime type or use of the default ones you can find <a href=\"%2$s\">here</a>"
+msgstr ""
+"申し訳ありませんが、<code>%1$s</code> は有効なワードプレス MIME タイプ ！追"
+"加、カスタム mime タイプまたは既定値の使用を <a href=\"%2$s\"> ここ</a>で見つ"
+"けることができます"
+
+#: classes/admin/ajax.php:101
+msgid ""
+"Sorry, that meta key already exists, please choose another or edit the "
+"existing one."
+msgstr ""
+"申し訳ありませんが、その meta キーが既に存在する、選択してください別または既"
+"存のステレオタイプの編集します。"
+
+#: classes/admin/ajax.php:110
+msgid "Sorry, there was an error adding this field.  Unable to add new field."
+msgstr ""
+"申し訳ありませんが、このフィールドを追加中にエラーがありました。新しいフィー"
+"ルドを追加することができません。"
+
+#: classes/admin/ajax.php:114
+msgid "Field added successfully!"
+msgstr "フィールドは、正常に追加されました ！"
+
+#: classes/admin/ajax.php:130
+msgid ""
+"This field can not be changed to optional as it is required for core "
+"functionality of WP Job Manager"
+msgstr ""
+"このフィールドは、WP Job Managerの中心的な機能として必要なために、実際にはオ"
+"プションのに変更することができません。"
+
+#: classes/admin/ajax.php:140
+msgid "Field edited successfully!"
+msgstr "フィールドは、正常に編集 ！"
+
+#: classes/admin/ajax.php:149
+msgid ""
+"Sorry, there was an error updating this field.  Unable to create new field "
+"configuration."
+msgstr ""
+"申し訳ありませんが、このフィールドを更新するときにエラーが発生しました。新し"
+"いフィールドの構成を作成することができません。"
+
+#: classes/admin/ajax.php:153
+msgid "Field configuration created, and updated successfully!"
+msgstr "フィールドの構成を作成し、正常に更新されました ！"
+
+#: classes/admin/ajax.php:168
+msgid "Succesfully enabled "
+msgstr "正常に有効になっています。"
+
+#: classes/admin/ajax.php:177
+msgid ""
+"Sorry, there was an error enabling this field.  Unable to create new field "
+"configuration."
+msgstr ""
+"申し訳ありませんが、このフィールドの有効化にエラーが発生しました。新しい"
+"フィールドの構成を作成することができません。"
+
+#: classes/admin/ajax.php:181
+msgid "Field configuration created, and enabled successfully!"
+msgstr "フィールドの構成を作成し、正常に有効になりました！"
+
+#: classes/admin/ajax.php:193
+msgid ""
+"This field can not be disabled as it is required for core functionality of "
+"WP Job Manager"
+msgstr "このフィールドは無効にできませんWP Job Managerのコア機能です。"
+
+#: classes/admin/ajax.php:200
+msgid "Succesfully disabled "
+msgstr "正常に無効にします。"
+
+#: classes/admin/ajax.php:209
+msgid ""
+"Sorry, there was an error disabling this field.  Unable to create new field "
+"configuration."
+msgstr ""
+"申し訳ありませんが、このフィールドを無効にするエラーがありました。新しい"
+"フィールドの構成を作成することができません。"
+
+#: classes/admin/ajax.php:215
+msgid "Field configuration created, and disabled successfully!"
+msgstr "フィールドの構成を作成し、正常に無効になっています ！"
+
+#: classes/admin/ajax.php:229
+msgid "Field configuration removed succesfully!"
+msgstr "フィールドの構成は正常に削除されます ！"
+
+#: classes/admin/ajax.php:234
+msgid ""
+"Sorry, you can only remove a default field configuration, not the actual "
+"field itself, if you want to remove it from the form, please use disable."
+msgstr ""
+"申し訳ありませんが、フィールドの既定の構成をのみ削除することができます。実際"
+"のフィールドをフォームから削除したい場合、フォームの無効化を使用してくださ"
+"い。"
+
+#: classes/admin/cpt.php:137
+msgid "Disabled (%s)"
+msgid_plural "Disabled (%s)"
+msgstr[0] "無効化 (%s)"
+msgstr[1] "無効化 (%s)"
+
+#: classes/admin/cpt.php:146
+msgid "Enabled (%s)"
+msgid_plural "Enabled (%s)"
+msgstr[0] "有効化 (%s)"
+msgstr[1] "有効化 (%s)"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager Field Editor"
+msgstr "WP Job Managerフィールドエディター"
+
+#: classes/admin/cpt.php:159 classes/admin/list-table.php:252
+msgid "Custom Field"
+msgstr "カスタムフィールド"
+
+#: classes/admin/list-table.php:54
+msgid " Field"
+msgstr "フィールド"
+
+#: classes/admin/list-table.php:178 classes/translations.php:63
+msgid "disable"
+msgstr "無効化"
+
+#: classes/admin/list-table.php:179
+msgid "enable"
+msgstr "有効化"
+
+#: classes/admin/list-table.php:188
+msgid "Field Data"
+msgstr "フィールドのデータ"
+
+#: classes/admin/list-table.php:197
+msgid "Fields"
+msgstr "フィールド"
+
+#: classes/admin/list-table.php:203
+msgid "View"
+msgstr "表示"
+
+#: classes/admin/list-table.php:251
+msgid "Disabled Field"
+msgstr "フィールド無効"
+
+#: classes/admin/list-table.php:252
+msgid "Custom Default Field"
+msgstr "既定フィールドをカスタム "
+
+#: classes/admin/list-table.php:253
+msgid "Required Field"
+msgstr "必須フィールド"
+
+#: classes/admin/list-table.php:379
+msgid ""
+"Below you will find all of the fields that have been customized.  This "
+"includes newly created custom ones, as well as any default fields that have "
+"been customized."
+msgstr ""
+"あなたは、カスタマイズされたフィールドのすべてが表示されます。これには、新し"
+"く作成したカスタムのものと同様に、カスタマイズされた既定のフィールドが含まれ"
+"ます。"
+
+#: classes/admin/list-table.php:386
+msgid ""
+"The default fields below WILL include any custom configuration you have made "
+"to them."
+msgstr ""
+"以下の既定のフィールドにはそれらに対して行ったカスタム構成が含まれます。"
+
+#: classes/admin/list-table.php:488 includes/tgmpa.php:1397
+msgid "Status"
+msgstr "状態"
+
+#: classes/admin/list-table.php:489 classes/admin/modal.php:41
+msgid "Meta Key"
+msgstr "Metaキー"
+
+#: classes/admin/list-table.php:490 classes/admin/modal.php:48
+#: includes/tgmpa.php:1396
+msgid "Type"
+msgstr "種類"
+
+#: classes/admin/list-table.php:491 classes/admin/modal.php:76
+msgid "Label"
+msgstr "ラベル"
+
+#: classes/admin/list-table.php:492 classes/admin/modal.php:83
+msgid "Description"
+msgstr "説明"
+
+#: classes/admin/list-table.php:494 classes/admin/modal.php:90
+msgid "Placeholder"
+msgstr "プレースホルダー"
+
+#: classes/admin/list-table.php:495 classes/admin/modal.php:97
+msgid "Priority"
+msgstr "優先順位"
+
+#: classes/admin/list-table.php:496 classes/admin/modal.php:69
+#: classes/translations.php:66
+msgid "Options"
+msgstr "オプション"
+
+#: classes/admin/list-table.php:585
+msgid "Default <span class=\"count\">(%s)</span>"
+msgid_plural "Default <span class=\"count\">(%s)</span>"
+msgstr[0] "既定 <span class=\"count\">(%s)</span>"
+msgstr[1] "既定 <span class=\"count\">(%s)</span>"
+
+#: classes/admin/list-table.php:588
+msgid "Custom <span class=\"count\">(%s)</span>"
+msgid_plural "Custom <span class=\"count\">(%s)</span>"
+msgstr[0] "カスタム <span class=\"count\">(%s)</span>"
+msgstr[1] "カスタム <span class=\"count\">(%s)</span>"
+
+#: classes/admin/list-table.php:591
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "有効化 <span class=\"count\">(%s)</span>"
+msgstr[1] "有効化 <span class=\"count\">(%s)</span>"
+
+#: classes/admin/list-table.php:594
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "無効化 <span class=\"count\">(%s)</span>"
+msgstr[1] "無効化 <span class=\"count\">(%s)</span>"
+
+#: classes/admin/modal.php:36
+msgid "Configuration"
+msgstr "構成"
+
+#: classes/admin/modal.php:42
+msgid "Should be something unique and lowercase, like <code>job_pay</code>"
+msgstr ""
+"ユニークなと小文字、<code>job_pay</code> のような何かをする必要があります。"
+
+#: classes/admin/modal.php:49
+msgid "Textbox, WP-Editor, Dropdown, Upload, etc."
+msgstr "WP-Editor、テキストボックス、ドロップダウン、アップロード、等"
+
+#: classes/admin/modal.php:55
+msgid "Default"
+msgstr "下書き"
+
+#: classes/admin/modal.php:56
+msgid "Default item(s) to select, not required."
+msgstr "既定の項目を選択は必要ありません。"
+
+#: classes/admin/modal.php:62
+msgid "Taxonomy"
+msgstr "分類"
+
+#: classes/admin/modal.php:70
+msgid "Using the syntax <code>value||Caption One,value2||Caption2</code>"
+msgstr ""
+"<code>value||Caption One,value2||Caption2</code>の構文を使用してください。"
+
+#: classes/admin/modal.php:80
+msgid "This will be the label next to or above your field."
+msgstr "これは横またはあなたのフィールド上のラベルになります。"
+
+#: classes/admin/modal.php:87
+msgid "This should be the help text below the field."
+msgstr "これは、フィールドの下にヘルプテキストを表示する必要があります。"
+
+#: classes/admin/modal.php:94
+msgid "This text you are reading."
+msgstr "このテキストを読み込んでいます。"
+
+#: classes/admin/modal.php:98
+msgid "Highest number will be the last field on the form, can include decimal."
+msgstr ""
+"最大数は、フォーム上の最後のフィールド、10 進数を含めることができます。"
+
+#: classes/admin/modal.php:104 includes/tgmpa.php:1200
+msgid "Required"
+msgstr "必須"
+
+#: classes/admin/modal.php:181
+msgid "WP Job Manager"
+msgstr "WP Job Manager"
+
+#: classes/admin/modal.php:182
+msgid "Field Editor"
+msgstr "フィールドエディター"
+
+#: classes/admin/settings.php:59
+msgid ""
+"<strong>WARNING! This will remove ALL configuration, saved fields, custom "
+"fields, etc!</strong>"
+msgstr ""
+"<strong>警告！ これはすべての構成を削除します。保存フィールド、カスタムフィー"
+"ルド、等</strong>"
+
+#: classes/admin.php:39 classes/admin.php:40
+msgid "Field Editor Debug"
+msgstr "フィールドエディターのデバッグ"
+
+#: classes/admin.php:51 classes/admin.php:52
+msgid "Job Fields"
+msgstr "Job フィールド"
+
+#: classes/admin.php:61 classes/admin.php:62
+msgid "Company Fields"
+msgstr "会社フィールド"
+
+#: classes/admin.php:71 classes/admin.php:72
+msgid "Resume Fields"
+msgstr "キャストフィールド"
+
+#: classes/admin.php:81 classes/admin.php:82
+msgid "Education Fields"
+msgstr "学歴フィールド"
+
+#: classes/admin.php:91 classes/admin.php:92
+msgid "Experience Fields"
+msgstr "経験フィールド"
+
+#: classes/admin.php:101 classes/admin.php:102
+msgid "Links Fields"
+msgstr "リンクURLフィールド"
+
+#: classes/admin.php:144
+msgid "Resume Field"
+msgstr "経歴フィールド"
+
+#: classes/admin.php:157
+msgid "Education Field"
+msgstr "学歴フィールド"
+
+#: classes/admin.php:170
+msgid "Experience Field"
+msgstr "経験フィールド"
+
+#: classes/admin.php:183
+msgid "Links Field"
+msgstr "リンクURLフィールド"
+
+#: classes/field-types.php:99
+msgid "Job Category"
+msgstr "依頼カテゴリ"
+
+#: classes/field-types.php:102
+msgid "Term Checklist"
+msgstr "チェックボックス項目"
+
+#: classes/field-types.php:103
+msgid "Term Multi-Select"
+msgstr "複数選択の項目"
+
+#: classes/field-types.php:104
+msgid "Term Select"
+msgstr "選択の項目"
+
+#: classes/requires.php:89 includes/tgmpa.php:199
+msgid "Install Required Plugins"
+msgstr "必要なプラグインをインストールします。"
+
+#: classes/requires.php:90 includes/tgmpa.php:200
+msgid "Install Plugins"
+msgstr "プラグインをインストール"
+
+#: classes/requires.php:91 includes/tgmpa.php:201
+msgid "Installing Plugin: %s"
+msgstr "プラグインインストール: %s"
+
+#: classes/requires.php:93
+msgid "Something went wrong with the plugin API."
+msgstr "何かプラグイン API でうまくいかなかった。"
+
+#: classes/requires.php:94
+msgid "This plugin requires the following plugin: %1$s."
+msgid_plural "This plugin requires the following plugins: %1$s."
+msgstr[0] "このプラグインは以下のプラグインが必要です: %1$s"
+msgstr[1] "このプラグインは以下のプラグインが必要です: %1$s"
+
+#: classes/requires.php:96
+msgid "This plugin recommends the following plugin: %1$s."
+msgid_plural "This plugin recommends the following plugins: %1$s."
+msgstr[0] "このプラグインは、次のプラグインをお勧めします: %1$s."
+msgstr[1] "このプラグインは、次のプラグインをお勧めします: %1$s."
+
+#: classes/requires.php:98 includes/tgmpa.php:205
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+"申し訳ありませんが、%s プラグインをインストールするアクセス許可がありません。"
+"プラグインをインストールするためのヘルプとしてこの管理者に連絡してください。"
+msgstr[1] ""
+"申し訳ありませんが、%s プラグインをインストールするアクセス許可がありません。"
+"プラグインをインストールするためのヘルプとしてこの管理者に連絡してください。"
+
+#: classes/requires.php:100 includes/tgmpa.php:206
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "必要なプラグインが現在アクティブではありません: %1$s"
+msgstr[1] "必要なプラグインが現在アクティブではありません: %1$s"
+
+#: classes/requires.php:102 includes/tgmpa.php:207
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "次の推奨プラグインは現在アクティブです: %1$s"
+msgstr[1] "次の推奨プラグインは現在アクティブです: %1$s"
+
+#: classes/requires.php:104 includes/tgmpa.php:208
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"申し訳ありませんが、%s プラグインを有効にするアクセス許可がありません。プラグ"
+"インの活性化のヘルプのためのにサイト管理者に問い合わせてください。"
+msgstr[1] ""
+"申し訳ありませんが、%s プラグインを有効にするアクセス許可がありません。プラグ"
+"インの活性化のヘルプのためのにサイト管理者に問い合わせてください。"
+
+#: classes/requires.php:106
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this plugin: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this plugin: %1$s."
+msgstr[0] ""
+"以下のプラグインは、このプラグインとの最大の互換性を確保するためには最新バー"
+"ジョンに更新する必要があります: %1$s"
+msgstr[1] ""
+"以下のプラグインは、このプラグインとの最大の互換性を確保するためには最新バー"
+"ジョンに更新する必要があります: %1$s"
+
+#: classes/requires.php:108 includes/tgmpa.php:210
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"申し訳ありませんが、%s プラグインを更新するためのアクセス許可がありません。プ"
+"ラグインを更新するためのヘルプをこのサイトの管理者に問い合わせてください。"
+msgstr[1] ""
+"申し訳ありませんが、%s プラグインを更新するためのアクセス許可がありません。プ"
+"ラグインを更新するためのヘルプをこのサイトの管理者に問い合わせてください。"
+
+#: classes/requires.php:110
+msgid "Install Plugin"
+msgid_plural "Install Plugins"
+msgstr[0] "プラグインインストール"
+msgstr[1] "プラグインインストール"
+
+#: classes/requires.php:111
+msgid "Activate Plugin"
+msgid_plural "Activate Plugins"
+msgstr[0] "プラグインをアクティブにします。"
+msgstr[1] "プラグインをアクティブにします。"
+
+#: classes/requires.php:112 includes/tgmpa.php:213
+msgid "Return to Required Plugins Installer"
+msgstr "必要なプラグインのインストーラーに戻る"
+
+#: classes/requires.php:113 includes/tgmpa.php:215 includes/tgmpa.php:1970
+msgid "Plugin activated successfully."
+msgstr "プラグインが正常にアクティブになります。"
+
+#: classes/requires.php:114
+msgid "All plugins installed and activated successfully. %s"
+msgstr "すべてのプラグインをインストールし、正常にアクティブになります。 %s"
+
+#: classes/translations.php:43
+msgid ""
+"If you want to edit this field, please click the <strong>Edit</strong> link "
+"from the list table."
+msgstr ""
+"このフィールドを編集する場合は、リスト テーブルから <strong>編集</strong> リ"
+"ンクをクリックしてください。"
+
+#: classes/translations.php:44
+msgid "A valid meta key is required!"
+msgstr "有効な Metaキー が必要です。"
+
+#: classes/translations.php:45
+msgid ""
+"Meta keys can NOT have spaces in them, use an underscore instead! As an "
+"example, job shift should be job_shift."
+msgstr ""
+"Metaキーは、それらのスペースを持つことはできません。代わりに、アンダー スコア"
+"を使用します！例として、依頼のシフトは job_shift とする必要があります。"
+
+#: classes/translations.php:46
+msgid "A valid type is required!"
+msgstr "有効なタイプが必要です。"
+
+#: classes/translations.php:47
+msgid "A valid priority is required! Priority must be a numerical value."
+msgstr "有効な優先順位が必要です。優先順位は数値である必要があります。"
+
+#: classes/translations.php:48
+msgid "Priority must be a numerical value! You CAN use decimals."
+msgstr ""
+"優先順位は数値である必要があります！小数点以下の桁数を使用することができま"
+"す。"
+
+#: classes/translations.php:49
+msgid "Add New Field"
+msgstr "新しいフィールドを追加"
+
+#: classes/translations.php:50
+msgid "Edit Field"
+msgstr "フィールド編集"
+
+#: classes/translations.php:51
+msgid "View Field"
+msgstr "フィールド表示"
+
+#: classes/translations.php:52
+msgid "Save Field"
+msgstr "フィールド保存"
+
+#: classes/translations.php:53
+msgid "Remove Field"
+msgstr "フィールド削除"
+
+#: classes/translations.php:54
+msgid "Enable Field"
+msgstr "フィールド有効化"
+
+#: classes/translations.php:55
+msgid "Disable Field"
+msgstr "フィールド無効化"
+
+#: classes/translations.php:56
+msgid "type"
+msgstr "タイプ"
+
+#: classes/translations.php:57
+msgid "label"
+msgstr "ラベル"
+
+#: classes/translations.php:58
+msgid "description"
+msgstr "説明"
+
+#: classes/translations.php:59
+msgid "placeholder"
+msgstr "プレースホルダー"
+
+#: classes/translations.php:60
+msgid "priority"
+msgstr "優先順位"
+
+#: classes/translations.php:61
+msgid "required"
+msgstr "必須"
+
+#: classes/translations.php:62
+msgid "remove"
+msgstr "削除"
+
+#: classes/translations.php:64
+msgid "Yes"
+msgstr "はい"
+
+#: classes/translations.php:65
+msgid "No"
+msgstr "いいえ"
+
+#: classes/translations.php:67
+msgid "value||Caption One,value2||Caption2"
+msgstr "value||Caption One,value2||Caption2"
+
+#: classes/translations.php:68
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: classes/translations.php:69
+msgid "Close"
+msgstr "閉じる"
+
+#: classes/translations.php:70
+msgid "Enable"
+msgstr "有効化"
+
+#: classes/translations.php:71
+msgid "Disable"
+msgstr "無効化"
+
+#: classes/translations.php:72
+msgid "Error"
+msgstr "エラー"
+
+#: classes/translations.php:73
+msgid "Success"
+msgstr "成功"
+
+#: classes/translations.php:74
+msgid "Are you sure you want to remove"
+msgstr "削除しますがよろしいですか？"
+
+#: classes/translations.php:75
+msgid "Are you sure you want to disable"
+msgstr "無効にしますがよろしいですか？"
+
+#: classes/translations.php:76
+msgid "Are you sure you want to enable"
+msgstr "有効にしますがよろしいですか？"
+
+#: classes/translations.php:78
+msgid ""
+"Allowed<br/><a href=\"%1$s\" target=\"_blank\">Mime Types</a><br/><small>NOT "
+"required</small>"
+msgstr ""
+"許可<br/><a href=\"%1$s\" target=\"_blank\">最小タイプ</a><br/><small>必須で"
+"はありません</small>"
+
+#: classes/translations.php:81
+msgid "extension||type,extension2||type"
+msgstr "拡張機能||タイプ,拡張機能2||タイプ"
+
+#: classes/wpjm/writepanels.php:26
+msgid "Job"
+msgstr "依頼"
+
+#: includes/compatibility.php:61
+msgid ""
+"Your server is using an old version of PHP ( PHP 5.2 or older ), it is "
+"<strong>strongly</strong> recommended that you upgrade to PHP 5.3 or newer..."
+"you can upgrade PHP or <a href=\"%1$s\">Hide this Notice Forever!</a>"
+msgstr ""
+"サーバーで使用しているPHPのバージョンが古い  (より古いまたはPHP5.2 )、"
+"<strong>強く</strong> PHP 5.3 以降を... にアップグレードすることをお勧めしま"
+"す。 PHP をアップグレードしするか <a href=\"%1$s\"> この通知を永遠に隠しま"
+"す ！</a>"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:43
+msgid "Debug logging has been disabled."
+msgstr "デバッグログが無効にされています。"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:51
+msgid "Debug logging has been enabled."
+msgstr "デバッグ ログが有効ににします"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:114
+msgid "Bug Report submitted succesfully!  Thank You!"
+msgstr "バグレポートを正常に提出！ありがとう！"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:115
+msgid "There was an error submitting your bug report, please try again later."
+msgstr "エラーが発生しました。バグ報告を提出した後でもう一度試してください。"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:219
+msgid "Invalid Email"
+msgstr "無効なメール"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:293
+#: includes/smyles-bug-report/smyles-bug-report.php:296
+msgid "Report a Bug"
+msgstr "バグを報告します。"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:302
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:303
+msgid "Your Email"
+msgstr "あなたのメールアドレス"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:306
+msgid "Bug Description"
+msgstr "バグの説明"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:307
+msgid "Short Bug Description ..."
+msgstr "短いバグの説明 ..."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:310
+msgid "Bug Details"
+msgstr "バグの詳細･･･"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:311
+msgid ""
+"Please describe the bug, how to replicate the bug, and any other details you "
+"can add.  Links to screenshots would be helpful as well."
+msgstr ""
+"バグを記述してください。バグを再現する方法、およびその他の詳細を追加できま"
+"す。スクリーンショットへのリンクも役に立つでしょう。"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:318
+msgid "Debug is <strong>ENABLED</strong>"
+msgstr "デバッグが <strong>有効</strong>"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:332
+msgid "Disable Force Debug"
+msgstr "強制デバッグを無効にします。"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:335
+msgid "Enable Force Debug"
+msgstr "強制デバッグを有効にします。"
+
+#: includes/smyles-update/class-smyles-update.php:71
+msgid "Deactivate Licence"
+msgstr "ライセンスを非アクティブ化します。"
+
+#: includes/smyles-update/class-smyles-update.php:83
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr ""
+"<strong>%s</strong> お客様のライセンスは、アクティブになっています。ありがと"
+"う ！"
+
+#: includes/smyles-update/class-smyles-update.php:343
+msgid ""
+"A licence key for %s could not be found. Maybe you forgot to enter a licence "
+"key when setting up %s."
+msgstr ""
+"%s のためのライセンスのキーが見つかりませんでした。%s を設定するときにライセ"
+"ンスのキーを入力し忘れたりするかもしれません。"
+
+#: includes/smyles-update/class-smyles-update.php:347
+msgid "Invalid update request"
+msgstr "無効な更新の要求"
+
+#: includes/smyles-update/class-smyles-update.php:368
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "<strong>%s</strong> のライセンスが無効になっています。"
+
+#: includes/smyles-update/class-smyles-update.php:408
+msgid "Licence"
+msgstr "ライセンス"
+
+#: includes/smyles-update/class-smyles-update.php:411
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for "
+"automatic updates."
+msgstr ""
+"あなたのライセンスキーとメールアドレスを入力し、リターンキーを押します。有効"
+"なキーが自動更新に必要です。"
+
+#: includes/smyles-update/class-smyles-update.php:432
+msgid ""
+"<a href=\"%s\">Please enter your licence key</a> to get updates for \"%s\"."
+msgstr ""
+"\"%s\"用の更新プログラムを取得するには <a href=\"%s\">ライセンスキーを入力し"
+"てください</a>."
+
+#: includes/smyles-update/class-smyles-update.php:433
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "あなたのキーを忘れましたか？<a href=\"%s\">ここで取得します。</a>."
+
+#: includes/tgmpa.php:202
+msgid "Something went wrong."
+msgstr "何か間違っていた。"
+
+#: includes/tgmpa.php:203
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "このテーマは以下のプラグインが必要です。: %1$s."
+msgstr[1] "このテーマは以下のプラグインが必要です。: %1$s."
+
+#: includes/tgmpa.php:204
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "このテーマは、次のプラグインをお勧めします: %1$s."
+msgstr[1] "このテーマは、次のプラグインをお勧めします: %1$s."
+
+#: includes/tgmpa.php:209
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"次のプラグインはこのテーマの最大の互換性を確保するためにその最新バージョンに"
+"更新する必要があります: %1$s"
+msgstr[1] ""
+"次のプラグインはこのテーマの最大の互換性を確保するために彼らの最新バージョン"
+"に更新する必要があります: %1$s"
+
+#: includes/tgmpa.php:211
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "プラグインのインストールを開始します。"
+msgstr[1] "プラグインのインストールを開始します。"
+
+#: includes/tgmpa.php:212
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "プラグインのアクティブ化を開始します。"
+msgstr[1] "プラグインのアクティブ化を開始します。"
+
+#: includes/tgmpa.php:214
+msgid "Return to the dashboard"
+msgstr "ダッシュボードに戻る"
+
+#: includes/tgmpa.php:216 includes/tgmpa.php:1655
+msgid "The following plugin was activated successfully:"
+msgstr "次のプラグインが正常にアクティブ化されました:"
+
+#: includes/tgmpa.php:217
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "すべてのプラグインをインストールし、正常にアクティブにしました。%1$s"
+
+#: includes/tgmpa.php:218
+msgid "Dismiss this notice"
+msgstr "この通知を却下します。"
+
+#: includes/tgmpa.php:559 includes/tgmpa.php:2187
+msgid "Return to the Dashboard"
+msgstr "ダッシュボードに戻る"
+
+#: includes/tgmpa.php:1189
+msgid "Private Repository"
+msgstr "プライベート リポジトリ"
+
+#: includes/tgmpa.php:1192
+msgid "Pre-Packaged"
+msgstr "事前パッケージ"
+
+#: includes/tgmpa.php:1197
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: includes/tgmpa.php:1200
+msgid "Recommended"
+msgstr "お勧めします"
+
+#: includes/tgmpa.php:1203
+msgid "Not Installed"
+msgstr "インストールされていません。"
+
+#: includes/tgmpa.php:1205
+msgid "Installed But Not Activated"
+msgstr "インストール済みですが、アクティブになっていません。"
+
+#: includes/tgmpa.php:1307 includes/tgmpa.php:1415
+msgid "Install"
+msgstr "インストール"
+
+#: includes/tgmpa.php:1329 includes/tgmpa.php:1416
+msgid "Activate"
+msgstr "アクティブ"
+
+#: includes/tgmpa.php:1378
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"インストールまたはアクティブ化したプラグインがありません。 <a href=\"%1$s\" "
+"title=\"Return to the Dashboard\">ダッシュボードに戻る</a>"
+
+#: includes/tgmpa.php:1394
+msgid "Plugin"
+msgstr "プラグイン"
+
+#: includes/tgmpa.php:1395
+msgid "Source"
+msgstr "ソース"
+
+#: includes/tgmpa.php:1525
+msgid "No plugins are available to be installed at this time."
+msgstr "この時点でインストールするプラグインはありません。"
+
+#: includes/tgmpa.php:1633
+msgid "No plugins are available to be activated at this time."
+msgstr "この時点でアクティブにするプラグインはありません。"
+
+#: includes/tgmpa.php:1953
+msgid "Install package not available."
+msgstr "インストール パッケージは利用できません。"
+
+#: includes/tgmpa.php:1954
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+"<span class=\"code\"> %s</span> からパッケージのインストールをダウンロードす"
+"る &#8230;"
+
+#: includes/tgmpa.php:1955
+msgid "Unpacking the package&#8230;"
+msgstr "パッケージを解凍 &#8230;"
+
+#: includes/tgmpa.php:1956
+msgid "Installing the plugin&#8230;"
+msgstr "プラグインをインストールする &#8230;"
+
+#: includes/tgmpa.php:1957
+msgid "Plugin install failed."
+msgstr "プラグインのインストールに失敗しました。"
+
+#: includes/tgmpa.php:1958
+msgid "Plugin installed successfully."
+msgstr "プラグインは正常にインストールされました。"
+
+#: includes/tgmpa.php:1969
+msgid "Plugin activation failed."
+msgstr "プラグインの有効化に失敗しました。"
+
+#: includes/tgmpa.php:2083
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"インストールとアクティブ化のプロセスを開始しています。このプロセスはいくつか"
+"のホストではしばらく時間がかかりますのでご了承ください。"
+
+#: includes/tgmpa.php:2084
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s をインストールし、正常にアクティブになります。"
+
+#: includes/tgmpa.php:2084 includes/tgmpa.php:2093
+msgid "Show Details"
+msgstr "詳細の表示"
+
+#: includes/tgmpa.php:2084 includes/tgmpa.php:2093
+msgid "Hide Details"
+msgstr "詳細を隠す"
+
+#: includes/tgmpa.php:2085
+msgid "All installations and activations have been completed."
+msgstr "すべてのインストールとライセンス認証を完了しています。"
+
+#: includes/tgmpa.php:2086
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "インストールとプラグインのアクティブ化 %1$s (%2$d/%3$d)"
+
+#: includes/tgmpa.php:2090
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"インストールのプロセスを開始しています。このプロセスはいくつかのホストのしば"
+"らく時間がかかりますのでご了承ください。"
+
+#: includes/tgmpa.php:2091
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "%1$s をインストール中にエラーが発生しました: <strong>%2$s</strong>."
+
+#: includes/tgmpa.php:2092
+msgid "The installation of %1$s failed."
+msgstr "%1$s のインストールに失敗しました。"
+
+#: includes/tgmpa.php:2093
+msgid "%1$s installed successfully."
+msgstr "%1$s が正常にインストールされました。"
+
+#: includes/tgmpa.php:2094
+msgid "All installations have been completed."
+msgstr "すべてのインストールが完了しました。"
+
+#: includes/tgmpa.php:2095
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグインのインストール %1$s (%2$d/%3$d)"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.smyl.es/wp-job-manager-field-editor"
+msgstr "https://plugins.smyl.es/wp-job-manager-field-editor"
+
+#. Description of the plugin/theme
+msgid "Edit or create default/custom fields for WP Job Manager"
+msgstr "編集またはデフォルトを作成/WP Job Manager用のカスタム フィールド"
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "マイルズ ・ マクナマラ"
+
+#. Author URI of the plugin/theme
+msgid "http://plugins.smyl.es"
+msgstr "http://plugins.smyl.es"
+
+#: classes/admin/cpt.php:136
+msgctxt "Disabled Field Status"
+msgid "disabled"
+msgstr "無効化"
+
+#: classes/admin/cpt.php:145
+msgctxt "Enabled Field Status"
+msgid "enabled"
+msgstr "有効化"
+
+#: classes/admin/list-table.php:582
+msgctxt "fields"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "すべて <span class=\"count\">(%s)</span>"
+msgstr[1] "すべて <span class=\"count\">(%s)</span>"

@@ -1,0 +1,801 @@
+# Copyright (C) 2014 Myles McNamara
+# This file is distributed under the same license as the WP Job Manager Field Editor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager Field Editor 1.1.4\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2014-08-25 22:00:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-08-25 21:21-0500\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>\n"
+"Language-Team: sMyles <get@smyl.es>\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: English\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: classes/admin/ajax.php:56
+msgid ""
+"A field group is required in order to save/edit/update fields, please "
+"contact support."
+msgstr ""
+"Un grupo de campos se requiere con el fin de salvar a los campos / edición / "
+"actualización, por favor póngase en contacto con apoyo."
+
+#: classes/admin/ajax.php:62
+msgid ""
+"Sorry, the taxonomy <code>%1$s</code> does not exists, please verify you are "
+"using the correct taxonomy slug"
+msgstr ""
+"Lo sentimos, la taxonomía <code> %1$s </ code> no existe, por favor "
+"verifique que usted está usando la babosa taxonomía correcta"
+
+#: classes/admin/ajax.php:77
+msgid ""
+"Sorry, <code>%1$s</code> is not a valid WordPress MIME Type! Add a custom "
+"mime type or use of the default ones you can find <a href=\"%2$s\">here</a>"
+msgstr ""
+"Lo sentimos, <code>%1$s</ code> no es un válido WordPress MIME Type! Añadir "
+"un tipo MIME personalizado o el uso de la falta de pago se puede encontrar "
+"<a href=\"%2$s\">aquí </a>"
+
+#: classes/admin/ajax.php:101
+msgid ""
+"Sorry, that meta key already exists, please choose another or edit the "
+"existing one."
+msgstr ""
+"Lo sentimos, que ya existe tecla meta, por favor elija otro o modificar la "
+"existente."
+
+#: classes/admin/ajax.php:110
+msgid "Sorry, there was an error adding this field.  Unable to add new field."
+msgstr ""
+"Lo sentimos, hubo un error al agregar este campo. No se puede agregar nuevo "
+"campo."
+
+#: classes/admin/ajax.php:114
+msgid "Field added successfully!"
+msgstr "Campo añadió correctamente!"
+
+#: classes/admin/ajax.php:130
+msgid ""
+"This field can not be changed to optional as it is required for core "
+"functionality of WP Job Manager"
+msgstr ""
+"Este campo no se puede cambiar a opcional, ya que es necesaria para la "
+"funcionalidad básica de WP Gestor de tareas"
+
+#: classes/admin/ajax.php:140
+msgid "Field edited successfully!"
+msgstr "El campo editado correctamente!"
+
+#: classes/admin/ajax.php:149
+msgid ""
+"Sorry, there was an error updating this field.  Unable to create new field "
+"configuration."
+msgstr ""
+"Lo sentimos, hubo un error al actualizar este campo. No se puede crear nueva "
+"configuración de campo."
+
+#: classes/admin/ajax.php:153
+msgid "Field configuration created, and updated successfully!"
+msgstr "El campo de configuración creado y actualizado con éxito!"
+
+#: classes/admin/ajax.php:168
+msgid "Succesfully enabled "
+msgstr "Succesfully habilitado "
+
+#: classes/admin/ajax.php:177
+msgid ""
+"Sorry, there was an error enabling this field.  Unable to create new field "
+"configuration."
+msgstr ""
+"Lo sentimos, hubo un error que permite este campo. No se puede crear nueva "
+"configuración de campo."
+
+#: classes/admin/ajax.php:181
+msgid "Field configuration created, and enabled successfully!"
+msgstr "El campo de configuración creado y habilitado correctamente!"
+
+#: classes/admin/ajax.php:193
+msgid ""
+"This field can not be disabled as it is required for core functionality of "
+"WP Job Manager"
+msgstr ""
+"Este campo no se puede desactivar, ya que es necesaria para la funcionalidad "
+"básica de WP Gestor de tareas"
+
+#: classes/admin/ajax.php:200
+msgid "Succesfully disabled "
+msgstr "Deshabilitado con éxito "
+
+#: classes/admin/ajax.php:209
+msgid ""
+"Sorry, there was an error disabling this field.  Unable to create new field "
+"configuration."
+msgstr ""
+"Lo sentimos, hubo un error deshabilitar este campo. No se puede crear nueva "
+"configuración de campo."
+
+#: classes/admin/ajax.php:215
+msgid "Field configuration created, and disabled successfully!"
+msgstr "El campo de configuración creado y desactivado con éxito!"
+
+#: classes/admin/ajax.php:229
+msgid "Field configuration removed succesfully!"
+msgstr "El campo de configuración elimina con éxito!"
+
+#: classes/admin/ajax.php:234
+msgid ""
+"Sorry, you can only remove a default field configuration, not the actual "
+"field itself, if you want to remove it from the form, please use disable."
+msgstr ""
+"Lo sentimos, sólo se puede eliminar una configuración de campo "
+"predeterminado, no el campo real, si desea eliminarlo de la forma, por "
+"favor, utilice desactivar."
+
+#: classes/admin/cpt.php:139
+msgid "WPJM Custom Fields"
+msgstr "WPJM campos personalizados"
+
+#: classes/admin/cpt.php:140
+msgid "WPJM Custom Field"
+msgstr "WPJM campo personalizado"
+
+#: classes/admin/cpt.php:150
+msgid "Disabled (%s)"
+msgid_plural "Disabled (%s)"
+msgstr[0] "Disabled ( %s )"
+msgstr[1] "Disabled ( %s )"
+
+#: classes/admin/cpt.php:159
+msgid "Enabled (%s)"
+msgid_plural "Enabled (%s)"
+msgstr[0] "Habilitado ( %s )"
+msgstr[1] "Habilitado ( %s )"
+
+#: classes/admin/list-table.php:56
+msgid " Field"
+msgstr " Campo"
+
+#: classes/admin/list-table.php:179 classes/translations.php:51
+msgid "disable"
+msgstr "deshabilitar"
+
+#: classes/admin/list-table.php:180
+msgid "enable"
+msgstr "enable"
+
+#: classes/admin/list-table.php:189 classes/admin/settings.php:149
+msgid "Field Data"
+msgstr "Datos de Campo"
+
+#: classes/admin/list-table.php:198
+msgid "Fields"
+msgstr "Campos"
+
+#: classes/admin/list-table.php:204
+msgid "View"
+msgstr "Ver"
+
+#: classes/admin/list-table.php:258
+msgid "Disabled Field"
+msgstr "El campo discapacitados"
+
+#: classes/admin/list-table.php:259
+msgid "Default Field"
+msgstr "Campo por defecto"
+
+#: classes/admin/list-table.php:259
+msgid "Custom Field"
+msgstr "Campo personalizado"
+
+#: classes/admin/list-table.php:259
+msgid "Custom Default Field"
+msgstr "Campo personalizado predeterminado"
+
+#: classes/admin/list-table.php:260
+msgid "Required Field"
+msgstr "Campo Obligatorio"
+
+#: classes/admin/list-table.php:390
+msgid ""
+"Below you will find all of the fields that have been customized.  This "
+"includes newly created custom ones, as well as any default fields that have "
+"been customized."
+msgstr ""
+"A continuación encontrará todos los campos que se han personalizado. Esto "
+"incluye los personalizados de nueva creación, así como de cualquier defecto "
+"de los campos que se han personalizado."
+
+#: classes/admin/list-table.php:399
+msgid ""
+"The default fields below WILL include any custom configuration you have made "
+"to them."
+msgstr ""
+"Los campos predeterminados a continuación incluirá cualquier configuración "
+"personalizada que ha hecho a ellos."
+
+#: classes/admin/list-table.php:502
+msgid "Status"
+msgstr "Estado"
+
+#: classes/admin/list-table.php:503 classes/admin/modal.php:41
+msgid "Meta Key"
+msgstr "Meta clave"
+
+#: classes/admin/list-table.php:504 classes/admin/modal.php:48
+msgid "Type"
+msgstr "Tipo"
+
+#: classes/admin/list-table.php:505 classes/admin/modal.php:76
+msgid "Label"
+msgstr "Etiqueta"
+
+#: classes/admin/list-table.php:506 classes/admin/modal.php:83
+msgid "Description"
+msgstr "Descripción"
+
+#: classes/admin/list-table.php:508 classes/admin/modal.php:90
+msgid "Placeholder"
+msgstr "Marcador de posición"
+
+#: classes/admin/list-table.php:509 classes/admin/modal.php:97
+msgid "Priority"
+msgstr "Prioridad"
+
+#: classes/admin/list-table.php:510 classes/admin/modal.php:69
+#: classes/translations.php:54
+msgid "Options"
+msgstr "Opciones"
+
+#: classes/admin/list-table.php:599
+msgid "Default <span class=\"count\">(%s)</span>"
+msgid_plural "Default <span class=\"count\">(%s)</span>"
+msgstr[0] "Por defecto <span class=\"count\">(%s)</span>"
+msgstr[1] "Por defecto <span class=\"count\">(%s)</span>"
+
+#: classes/admin/list-table.php:602
+msgid "Custom <span class=\"count\">(%s)</span>"
+msgid_plural "Custom <span class=\"count\">(%s)</span>"
+msgstr[0] "Personalizado <span class=\"count\">(%s)</span>"
+msgstr[1] "Personalizado <span class=\"count\">(%s)</span>"
+
+#: classes/admin/list-table.php:605
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Habilitado <span class=\"count\">(%s)</span>"
+msgstr[1] "Habilitado <span class=\"count\">(%s)</span>"
+
+#: classes/admin/list-table.php:608
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Disabled <span class=\"count\">(%s)</span>"
+msgstr[1] "Disabled <span class=\"count\">(%s)</span>"
+
+#: classes/admin/modal.php:36
+msgid "Configuration"
+msgstr "Configuración"
+
+#: classes/admin/modal.php:42
+msgid "Should be something unique and lowercase, like <code>job_pay</code>"
+msgstr "Debe ser algo único y minúsculas, como <code> job_pay </ code>"
+
+#: classes/admin/modal.php:49
+msgid "Textbox, WP-Editor, Dropdown, Upload, etc."
+msgstr "Cuadro de texto, WP-Editor, desplegable, Subir, etc"
+
+#: classes/admin/modal.php:55
+msgid "Default"
+msgstr "Por Defecto"
+
+#: classes/admin/modal.php:56
+msgid "Default item(s) to select, not required."
+msgstr "Artículo (s) por defecto para seleccionar, no es necesario."
+
+#: classes/admin/modal.php:62
+msgid "Taxonomy"
+msgstr "Clasificación"
+
+#: classes/admin/modal.php:70
+msgid "Using the syntax <code>value||Caption One,value2||Caption2</code>"
+msgstr ""
+"Utilizando la sintaxis <code> valor||Leyenda Uno,valor2||Caption2 </ code>"
+
+#: classes/admin/modal.php:80
+msgid "This will be the label next to or above your field."
+msgstr "Esta será la etiqueta al lado o por encima de su campo."
+
+#: classes/admin/modal.php:87
+msgid "This should be the help text below the field."
+msgstr "Este debería ser el texto de ayuda debajo del campo."
+
+#: classes/admin/modal.php:94
+msgid "This text you are reading."
+msgstr "Este texto que está leyendo."
+
+#: classes/admin/modal.php:98
+msgid "Highest number will be the last field on the form, can include decimal."
+msgstr ""
+"Mayor número será el último campo del formulario, puede incluir decimal."
+
+#: classes/admin/modal.php:104
+msgid "Required"
+msgstr "Necesario"
+
+#: classes/admin/modal.php:181
+msgid "WP Job Manager"
+msgstr "WP Gestor de tareas"
+
+#: classes/admin/modal.php:182
+msgid "Field Editor"
+msgstr "Editor de Campo"
+
+#: classes/admin/settings-fields.php:20
+msgid "No field data found!"
+msgstr "No hay datos de campo encontraron!"
+
+#: classes/admin/settings-fields.php:85
+msgid ""
+"No fields to remove!  A button will appear here when there is field data you "
+"can remove."
+msgstr ""
+"No hay campos para quitar! Un botón aparecerá aquí cuando hay datos de campo "
+"se puede quitar."
+
+#: classes/admin/settings-handlers.php:18
+msgid "All custom posts removed!"
+msgstr "Todos los mensajes personalizados quitan!"
+
+#: classes/admin/settings.php:31 classes/admin.php:43 classes/admin.php:44
+msgid "Field Editor Settings"
+msgstr "Editor Configuración Campo"
+
+#: classes/admin/settings.php:83
+msgid "About"
+msgstr "Acerca"
+
+#: classes/admin/settings.php:93
+msgid "Support"
+msgstr "Apoyo"
+
+#: classes/admin/settings.php:103
+msgid "Backup"
+msgstr "Respaldo"
+
+#: classes/admin/settings.php:107
+msgid "Create Backup!"
+msgstr "Crear copia de seguridad!"
+
+#: classes/admin/settings.php:110
+msgid "Generate Backup"
+msgstr "Generar copia de seguridad"
+
+#: classes/admin/settings.php:111
+msgid "Generate and download a backup of all fields."
+msgstr "Generar y descargar una copia de seguridad de todos los campos."
+
+#: classes/admin/settings.php:116
+msgid "Import Backup!"
+msgstr "Copia de seguridad de importación!"
+
+#: classes/admin/settings.php:119
+msgid "Import Backup"
+msgstr "Importación de copia de seguridad"
+
+#: classes/admin/settings.php:120
+msgid ""
+"Import a previously generated backup for custom fields.  This uses the "
+"default WordPress import feature, if you do not see a file upload after "
+"clicking this button, make sure to import using WordPress importer."
+msgstr ""
+"Importar una copia de seguridad generada previamente para campos "
+"personalizados. Esto utiliza la función de importación de WordPress por "
+"defecto, si no se ve una carga de archivos después de hacer clic en este "
+"botón, asegúrese de importar utilizando importador de WordPress."
+
+#: classes/admin/settings.php:126
+msgid "Debug"
+msgstr "Depurar"
+
+#: classes/admin/settings.php:131
+msgid "Enable Bug Reporter"
+msgstr "Habilitar Bug Reporter"
+
+#: classes/admin/settings.php:132 classes/translations.php:58
+msgid "Enable"
+msgstr "Activado"
+
+#: classes/admin/settings.php:133
+msgid ""
+"Enable the bug report icon in the top right corner to submit bug reports"
+msgstr ""
+"Activar el icono de informe de error en la esquina superior derecha para "
+"enviar informes de errores"
+
+#: classes/admin/settings.php:139
+msgid "I understand, remove all data!"
+msgstr "Entiendo, eliminar todos los datos!"
+
+#: classes/admin/settings.php:142
+msgid "Remove All"
+msgstr "Eliminar todo"
+
+#: classes/admin/settings.php:143
+msgid "This will remove all custom and customized field data!"
+msgstr ""
+"Esto eliminará todos los datos personalizados y de campo personalizado!"
+
+#: classes/admin.php:53 classes/admin.php:54
+msgid "Job Fields"
+msgstr "Los campos de empleo"
+
+#: classes/admin.php:63 classes/admin.php:64
+msgid "Company Fields"
+msgstr "Campos de Empresa"
+
+#: classes/admin.php:73 classes/admin.php:74
+msgid "Resume Fields"
+msgstr "Los campos Resume"
+
+#: classes/admin.php:83 classes/admin.php:84
+msgid "Education Fields"
+msgstr "Los campos Educación"
+
+#: classes/admin.php:93 classes/admin.php:94
+msgid "Experience Fields"
+msgstr "Experiencia Campos"
+
+#: classes/admin.php:103 classes/admin.php:104
+msgid "Links Fields"
+msgstr "Enlaces Campos"
+
+#: classes/admin.php:153
+msgid "Resume Field"
+msgstr "Reanudar Campo"
+
+#: classes/admin.php:166
+msgid "Education Field"
+msgstr "Campo de la Educación"
+
+#: classes/admin.php:179
+msgid "Experience Field"
+msgstr "La experiencia de campo"
+
+#: classes/admin.php:192
+msgid "Links Field"
+msgstr "Enlaces Campo"
+
+#: classes/field-types.php:99
+msgid "Job Category"
+msgstr "Categoría de empleo"
+
+#: classes/field-types.php:102
+msgid "Term Checklist"
+msgstr "Lista de verificación Term"
+
+#: classes/field-types.php:103
+msgid "Term Multi-Select"
+msgstr "Plazo Multi-Select"
+
+#: classes/field-types.php:104
+msgid "Term Select"
+msgstr "Plazo Select"
+
+#: classes/shortcodes.php:41
+msgid "Meta Key was not specified!"
+msgstr "Meta clave no se especifica!"
+
+#: classes/shortcodes.php:45
+msgid "Unable to determine correct job/resume/post ID!"
+msgstr "No se puede determinar correcto empleo / hojas / post ID!"
+
+#: classes/translations.php:31
+msgid ""
+"If you want to edit this field, please click the <strong>Edit</strong> link "
+"from the list table."
+msgstr ""
+"Si desea editar este campo, por favor haga clic en el <strong> Editar </ "
+"strong> de la tabla de la lista."
+
+#: classes/translations.php:32
+msgid "A valid meta key is required!"
+msgstr "Se necesita una clave meta válida!"
+
+#: classes/translations.php:33
+msgid ""
+"Meta keys can NOT have spaces in them, use an underscore instead! As an "
+"example, job shift should be job_shift."
+msgstr ""
+"Teclas Meta no pueden tener espacios en blanco, utilice un guión en su "
+"lugar! A modo de ejemplo, cambio de trabajo se debe job_shift."
+
+#: classes/translations.php:34
+msgid "A valid type is required!"
+msgstr "Se necesita un tipo válido!"
+
+#: classes/translations.php:35
+msgid "A valid priority is required! Priority must be a numerical value."
+msgstr ""
+"Se requiere una prioridad válida! La prioridad debe ser un valor numérico."
+
+#: classes/translations.php:36
+msgid "Priority must be a numerical value! You CAN use decimals."
+msgstr ""
+"La prioridad debe ser un valor numérico! Usted PUEDE utilizar decimales."
+
+#: classes/translations.php:37
+msgid "Add New Field"
+msgstr "Agregar nuevo campo"
+
+#: classes/translations.php:38
+msgid "Edit Field"
+msgstr "Modificar campo"
+
+#: classes/translations.php:39
+msgid "View Field"
+msgstr "Ver Campo"
+
+#: classes/translations.php:40
+msgid "Save Field"
+msgstr "Guardar Campo"
+
+#: classes/translations.php:41
+msgid "Remove Field"
+msgstr "Quitar campo"
+
+#: classes/translations.php:42
+msgid "Enable Field"
+msgstr "Habilitar Campo"
+
+#: classes/translations.php:43
+msgid "Disable Field"
+msgstr "Desactivar Campo"
+
+#: classes/translations.php:44
+msgid "type"
+msgstr "Teclear"
+
+#: classes/translations.php:45
+msgid "label"
+msgstr "etiqueta"
+
+#: classes/translations.php:46
+msgid "description"
+msgstr "descripción"
+
+#: classes/translations.php:47
+msgid "placeholder"
+msgstr "Lugar de situación"
+
+#: classes/translations.php:48
+msgid "priority"
+msgstr "prioridad"
+
+#: classes/translations.php:49
+msgid "required"
+msgstr "requerido"
+
+#: classes/translations.php:50
+msgid "remove"
+msgstr "borrar"
+
+#: classes/translations.php:52
+msgid "Yes"
+msgstr "Sí"
+
+#: classes/translations.php:53
+msgid "No"
+msgstr "Ño"
+
+#: classes/translations.php:55
+msgid "value||Caption One,value2||Caption2"
+msgstr "valor ||Leyenda Uno,valor2||Caption2"
+
+#: classes/translations.php:56
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: classes/translations.php:57
+msgid "Close"
+msgstr "Cerrar"
+
+#: classes/translations.php:59
+msgid "Disable"
+msgstr "Desactivar"
+
+#: classes/translations.php:60
+msgid "Error"
+msgstr "&Error"
+
+#: classes/translations.php:61
+msgid "Success"
+msgstr "Con éxito"
+
+#: classes/translations.php:62
+msgid "Are you sure you want to remove"
+msgstr "¿Seguro que desea eliminar"
+
+#: classes/translations.php:63
+msgid "Are you sure you want to disable"
+msgstr "¿Seguro que deseas desactivar"
+
+#: classes/translations.php:64
+msgid "Are you sure you want to enable"
+msgstr "¿Seguro que desea activar"
+
+#: classes/translations.php:65
+msgid ""
+"Are you sure?  This will remove ALL of your custom and customized field data!"
+msgstr ""
+"Estás seguro? Esto eliminará todos los de su aduana y datos de campo "
+"personalizadas!"
+
+#: classes/translations.php:67
+msgid ""
+"Allowed<br/><a href=\"%1$s\" target=\"_blank\">Mime Types</a><br/><small>NOT "
+"required</small>"
+msgstr ""
+"Mascotas <br/><a href=\"%1$s\" target=\"_blank\"> Tipos Mime </a><br/"
+"><small> NO requerida </ small>"
+
+#: classes/translations.php:70
+msgid "extension||type,extension2||type"
+msgstr "extensión ||tipo,extensión2||tipo2"
+
+#: classes/wpjm/writepanels.php:26
+msgid "Job"
+msgstr "Oferta de empleo"
+
+#: includes/compatibility.php:61
+msgid ""
+"Your server is using an old version of PHP ( PHP 5.2 or older ), it is "
+"<strong>strongly</strong> recommended that you upgrade to PHP 5.3 or newer..."
+"you can upgrade PHP or <a href=\"%1$s\">Hide this Notice Forever!</a>"
+msgstr ""
+"Su servidor está utilizando una versión antigua de PHP (PHP 5.2 o mayor), es "
+"<strong> fuertemente </ strong> recomienda que actualice a PHP 5.3 o más "
+"reciente ... puedes actualizar PHP o <a href=\"%1$s\"> Ocultar este Aviso "
+"siempre! </a>"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:43
+msgid "Debug logging has been disabled."
+msgstr "El registro de depuración se ha desactivado."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:51
+msgid "Debug logging has been enabled."
+msgstr "El registro de depuración se ha habilitado."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:114
+msgid "Bug Report submitted succesfully!  Thank You!"
+msgstr "Informar de un error presentado con éxito! Gracias!"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:115
+msgid "There was an error submitting your bug report, please try again later."
+msgstr ""
+"Hubo un error al presentar su informe de error, por favor intente de nuevo "
+"más tarde."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:219
+msgid "Invalid Email"
+msgstr "Correo electrónico no es válido"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:296
+#: includes/smyles-bug-report/smyles-bug-report.php:299
+msgid "Report a Bug"
+msgstr "Informar sobre un error (bug)"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:305
+msgid "Email Address"
+msgstr "Dirección de correo electrónico"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:306
+msgid "Your Email"
+msgstr "Tu Correo Electrónico"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:309
+msgid "Bug Description"
+msgstr "Bug Descripción"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:310
+msgid "Short Bug Description ..."
+msgstr "Bug Descripción breve ..."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:313
+msgid "Bug Details"
+msgstr "Detalles de errores"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:314
+msgid ""
+"Please describe the bug, how to replicate the bug, and any other details you "
+"can add.  Links to screenshots would be helpful as well."
+msgstr ""
+"Por favor describa el error, cómo reproducir el error, y cualquier otro "
+"detalle que se pueden añadir. Enlaces a las capturas serían útiles también."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:321
+msgid "Debug is <strong>ENABLED</strong>"
+msgstr "Depurar es <strong> HABILITADO </ strong>"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:335
+msgid "Disable Force Debug"
+msgstr "Deshabilitar depuración de la Fuerza"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:338
+msgid "Enable Force Debug"
+msgstr "Habilitar depuración de la Fuerza"
+
+#: includes/smyles-update/class-smyles-update.php:71
+msgid "Deactivate Licence"
+msgstr "Desactivar licencia"
+
+#: includes/smyles-update/class-smyles-update.php:83
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "Su licencia para <strong>%s</strong> ha sido activado. Gracias!"
+
+#: includes/smyles-update/class-smyles-update.php:343
+msgid ""
+"A licence key for %s could not be found. Maybe you forgot to enter a licence "
+"key when setting up %s."
+msgstr ""
+"Una clave de licencia para %s no se pudo encontrar. Quizás olvidó introducir "
+"una clave de licencia al instalar %s ."
+
+#: includes/smyles-update/class-smyles-update.php:347
+msgid "Invalid update request"
+msgstr "Solicitud de actualización no válido"
+
+#: includes/smyles-update/class-smyles-update.php:368
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "Su licencia para <strong>%s</strong> ha sido desactivado."
+
+#: includes/smyles-update/class-smyles-update.php:408
+msgid "Licence"
+msgstr "Licencia"
+
+#: includes/smyles-update/class-smyles-update.php:411
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for "
+"automatic updates."
+msgstr ""
+"Ingrese su clave de licencia y correo electrónico y pulsa enter. Se necesita "
+"una clave válida para las actualizaciones automáticas."
+
+#: includes/smyles-update/class-smyles-update.php:432
+msgid ""
+"<a href=\"%s\">Please enter your licence key</a> to get updates for \"%s\"."
+msgstr ""
+"<a href=\"%s\">Por favor, introduzca su licencia</a> clave para obtener "
+"actualizaciones para \"%s\"."
+
+#: includes/smyles-update/class-smyles-update.php:433
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "Perdió su clave? <a href=\"%s\">Recuperar aquí </a>."
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager Field Editor"
+msgstr "WP Editor campo profesional Gerente"
+
+#. Description of the plugin/theme
+msgid "Edit or create default/custom fields for WP Job Manager"
+msgstr ""
+"Predeterminados campos editar o crear / personalizados para WP Gestor de "
+"tareas"
+
+#: classes/admin/cpt.php:149
+msgctxt "Disabled Field Status"
+msgid "disabled"
+msgstr "desactivado"
+
+#: classes/admin/cpt.php:158
+msgctxt "Enabled Field Status"
+msgid "enabled"
+msgstr "habilitado"
+
+#: classes/admin/list-table.php:596
+msgctxt "fields"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Todos <span class=\"count\">(%s)</span>"
+msgstr[1] "Todos <span class=\"count\">(%s)</span>"

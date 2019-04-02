@@ -1,0 +1,143 @@
+
+/** Buttons */
+
+.woocommerce .button,
+.woocommerce input.button {
+	@extend .button-medium;
+
+	padding: 10px 20px;
+	border-radius: 6px;
+}
+
+/** Cart */
+
+.woocommerce table.cart td.actions #coupon_code {
+	width: 140px;
+}
+
+/** Message */
+
+.woocommerce-error {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.woocommerce-message,
+.woocommerce-error li {
+	margin: 0 0 2em;
+	padding: 1em;
+	background: #fff;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 4px;
+	box-shadow: rgba(0, 0, 0, .03) 0 2px 0;
+}
+
+.woocommerce-error li {
+	border-color: #ed3b3b;
+}
+
+.woocommerce_message .button,
+.woocommerce-message .button,
+.woocommerce-error .button {
+	font-size: 12px;
+	padding: 8px 12px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 0.5em;
+}
+
+
+/** Payment Methods */
+
+.payment_methods {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.payment_methods li {
+	padding: 1.5em 2em;
+	margin-bottom: 1em;
+	background: #ededed;
+	border-radius: 4px;
+}
+
+.payment_methods li .payment_box {
+	background: #fff;
+	border-style: solid;
+	border-width: 2px;
+	margin: 1.5em -2em -1.5em -2em;
+	padding: 2em;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-color: #ededed;
+
+	p {
+		margin-bottom: 0;
+	}
+}
+
+
+/** Checkout */
+
+.woocommerce #payment #place_order,
+.woocommerce-page #payment #place_order {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
+.woocommerce #payment .terms,
+.woocommerce-page #payment .terms {
+	display: inline-block;
+	text-align: right;
+	float: none;
+	margin: 0;
+	vertical-align: middle;
+
+	input {
+		float: left;
+		margin: 5px;
+	}
+}
+
+
+
+.job_listing_packages_title,
+.entry-content .job_listing_packages_title {
+	margin: 0 0 40px;
+	padding: 0;
+	background: none;
+	border: 0;
+}
+
+.job_listing_packages_title h2 {
+	padding: 0.55em 0;
+}
+
+.job_listing_packages {
+	background: none;
+	border: 0;
+	padding: 0;
+}
+
+.existing-packages {
+	margin-top: 40px;
+	clear:both;
+}
+
+.woocommerce #payment div.form-row,
+.woocommerce-page #payment div.form-row{
+	margin-bottom: 0;
+}
+
+.woocommerce-result-count,
+.woocommerce-ordering {
+	display: none;
+}
+
+.woocommerce.woocommerce-page.post-type-archive-product .woocommerce-error {
+	margin-top: 4em !important;
+}

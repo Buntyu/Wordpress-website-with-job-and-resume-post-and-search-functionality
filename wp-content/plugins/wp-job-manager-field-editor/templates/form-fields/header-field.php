@@ -1,0 +1,3 @@
+<?php wp_enqueue_script('jmfe-header-field'); ?>
+<h2 class="jmfe-header-field" id="<?php echo esc_attr( $key ); ?>" <?php if ( ! empty( $field[ 'description' ] ) ) : ?> style="" <?php endif; ?> /><?php echo $field['label']; ?></h2>
+<?php if ( ! empty( $field['description'] ) ) : ?><div id="description-<?php echo esc_attr( $key ); ?>"><small class="description"><?php echo $field['description']; ?></small></div><?php endif; ?>

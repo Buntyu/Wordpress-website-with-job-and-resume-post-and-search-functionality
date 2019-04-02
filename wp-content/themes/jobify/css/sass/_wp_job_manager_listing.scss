@@ -1,0 +1,328 @@
+/**
+ * Single Job (and Resume) Listing Styles
+ *
+ *
+ */
+
+
+.page-subtitle span.job-type {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 10px;
+	border-right: 0;
+}
+
+.job-overview-content,
+.single-resume-content {
+	line-height: 24px;
+}
+
+.job-overview-content .job-overview:not(.col-md-12),
+.job-overview-content .job-company-about {
+	margin-bottom: 60px;
+}
+
+.job-overview-title,
+.job_listing-widget-title-top,
+.sidebar-widget-title {
+	font-weight: normal;
+	font-size: 23px;
+	color: #787878;
+	margin-top: 0;
+}
+
+.job_listing-widget-title {
+	font-weight: normal;
+	text-align: center;
+	font-size: 13px;
+	color: #919191;
+	margin: 10px 0 25px;
+}
+
+.job_listing-widget {
+	padding: 15px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.job_listing-widget.jobify_widget_job_apply,
+.job_listing-widget.jobify_widget_job_type,
+.job_listing-widget.jobify_widget_job_company_logo,
+.single-job_listing .job_listing-widget.default-widget:nth-child(-n+3),
+.single-resume .job_listing-widget.default-widget:nth-child(-n+2) {
+	padding: 0;
+	margin-bottom: 15px;
+	border: 0;
+}
+
+.job_listing-widget:last-child {
+	border: 0;
+}
+
+/** Top Widgets */
+.job-meta-top {
+	border-bottom: 1px solid #eee;
+	padding: 0 15px 5px;
+	margin-bottom: 30px;
+}
+
+	@include bp(sm) {
+		.job-meta-top {
+			padding: 0;
+			padding-bottom: 5px;
+		}
+	}
+
+.job_listing-widget-top {
+	margin-bottom: 25px;
+}
+
+.job-meta-top [class^="col-"] {
+	margin-bottom: 30px;
+}
+
+.job-meta-top [class^="col-"]:last-child {
+	margin-bottom: 0;
+}
+
+.single-resume .col-md-3 .job_listing-widget-top.default-widget:first-child img,
+.single-resume .job-meta .job_listing-widget.default-widget:first-child img,
+.single-resume .job-meta .job_listing-widget.jobify_widget_job_company_logo img,
+.single-resume .col-md-3 .job_listing-widget-top.jobify_widget_job_company_logo img,
+.single-job_listing .col-md-3 .job_listing-widget-top.default-widget:first-child img,
+.single-job_listing .job-meta .job_listing-widget.default-widget:first-child img,
+.single-job_listing .job-meta .job_listing-widget.jobify_widget_job_company_logo img,
+.single-job_listing .col-md-3 .job_listing-widget-top.jobify_widget_job_company_logo img {
+	min-width: 100%;
+}
+
+.single-job_listing .col-md-3 .job_listing-widget-top.default-widget:first-child img {
+	max-width: 150px;
+	min-width: 0;
+}
+
+.job_listing-widget-top.jobify_widget_job_share .entry-share > *,
+.col-md-5 .job_listing-widget-top.default-widget .entry-share > * {
+	float: left;
+	margin-right: 20px;
+}
+
+#twitter-widget-0 {
+	width: 80px !important;
+}
+
+.job_listing-widget-top.jobify_widget_job_company_logo a {
+	display: block;
+	overflow: hidden;
+	background: #eee;
+}
+
+.company_logo {
+	max-width: 100%;
+}
+
+.job_listing-widget ul,
+.job_listing-widget-top ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.job_listing-widget li {
+	margin: 0 0 15px;
+}
+
+.job_listing-widget-top li {
+	margin-bottom: 5px;
+}
+
+.company-social-title {
+	font-size: 13px;
+	color: #919191;
+}
+
+.company-social,
+.resume-links {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.company-social li:last-child,
+.resume-categories li:last-child {
+	margin-bottom: 0;
+}
+
+.company-social a:hover {
+	text-decoration: none;
+}
+
+.job-category {
+	text-align: center;
+	display: block;
+}
+
+.single-job_listing .job-category {
+	margin-bottom: 10px;
+}
+
+.company-social li i {
+	text-align: center;
+	width: 25px;
+}
+
+.job_listing-widget-top.jobify_widget_job_company_social,
+.job_listing-widget-top.jobify_widget_resume_links,
+.col-md-4 .job_listing-widget-top.default-widget:first-child {
+	margin-bottom: 5px;
+}
+
+.job_listing-widget-top .company-social,
+.job_listing-widget-top .resume-links {
+	overflow: hidden;
+}
+
+.job_listing-widget-top .company-social li,
+.job_listing-widget-top .resume-links li {
+	margin: 0 15px 20px 0;
+	float: left;
+}
+
+.job-overview-content h2,
+.job-overview-content h3,
+.job-overview-content h4,
+.job-overview-content h5 {
+	font-weight: normal;
+}
+
+/**
+ * Submit Job
+ */
+.job-manager-form {
+	margin: 0 auto;
+}
+
+.job-manager-form h2 {
+	font-size: 23px;
+	color: #787878;
+	font-weight: normal;
+	margin: 40px 0;
+}
+
+.job-manager-form fieldset,
+body.woocommerce form .form-row,
+body.woocommerce-page form .form-row {
+	margin: 0 0 40px;
+	padding: 0;
+	border: 0;
+}
+
+.entry-content .job-manager-form p {
+	margin: 40px 0;
+}
+
+.job-manager-form .account-sign-in {
+	padding: 20px;
+	background: #fafafa;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.job-manager-form .account-sign-in .button {
+	font-size: 12px;
+	margin-top: -3px;
+	padding: 5px 10px;
+	border-radius: 4px;
+	float: right;
+	margin-left: 10px;
+}
+
+.job_listing_preview_title,
+.resume_preview_title {
+	font-weight: normal;
+	text-align: center;
+	line-height: 66px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eee;
+	overflow:  hidden;
+}
+
+.job_listing_preview_title input[name="continue"],
+.resume_preview_title input[name="continue"] {
+	float: right;
+}
+
+.job_listing_preview_title input[name="edit_job"],
+.resume_preview_title input[name="edit_resume"] {
+	float: left;
+}
+
+.job_listing_preview_title h2,
+.resume_preview_title h2 {
+	padding-top: 40px;
+}
+
+select {
+	background: #fff;
+	border-radius: 6px;
+}
+
+.select {
+	font-size: 16px;
+	padding: 10px 14px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	position: relative;
+	z-index: 1;
+}
+
+.select:before {
+	@extend .entypo;
+	content: '\e86f';
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	width: 2em;
+	z-index: -1;
+	height: 40px;
+	line-height: 40px;
+}
+
+
+.select select {
+	background-color: transparent;
+	border: 0 none;
+	box-shadow: none;
+	display: block;
+	font-size: 100%;
+	line-height: normal;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.select select::-ms-expand {
+	display: none; /* to ie 10 */
+}
+
+.select select:focus {
+	outline: none;
+}
+
+/* little trick for custom select elements in mozilla firefox  17/06/2014 @rodrigoludgero */
+
+/* pseudo class https://developer.mozilla.org/en-US/docs/Web/CSS/:any */
+
+:-moz-any(.select):before {
+	background-color: #fff; /* this is necessary for overcome the caret default browser */
+	pointer-events: none; /* https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events  */
+	z-index: 1; /* this is necessary for overcome the pseudo element */
+}

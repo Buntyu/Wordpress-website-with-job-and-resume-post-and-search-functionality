@@ -1,0 +1,342 @@
+/**
+ * 10.0 Footer
+ * ----------------------------------------------------------------------------
+ */
+
+.footer-widgets {
+	padding: 80px 0 40px;
+}
+
+.footer-widget {
+	margin-bottom: 48px;
+}
+
+.copyright {
+	overflow: visible;
+}
+
+.site-info {
+	line-height: 26px;
+	text-align: center;
+	float: none;
+}
+
+.footer-social {
+	text-align: center;
+	margin: 2em 0 0;
+	float: none;
+	width: 100%;
+}
+
+.footer-cta {
+	text-align: center;
+	margin: 100px 0 -100px;
+	padding: 30px 0;
+	box-shadow: inset 0 4px 0 rgba(255, 255, 255, .10 )
+}
+
+.footer-cta h2 {
+	font-size: 28px;
+	font-weight: normal;
+}
+
+.site-footer {
+	color: #adadad;
+	margin-top: 100px;
+	background: #24262b;
+}
+
+.site-footer a {
+	color: #adadad;
+}
+
+.site-footer a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/** Copyright */
+.copyright {
+	font: bold 12px/normal 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	padding: 30px 0;
+	overflow: hidden;
+	box-shadow: inset rgba(255, 255, 255, .10 ) 0 4px 0;
+	position: relative;
+}
+
+.footer-social a {
+	margin: 0 8px;
+	font-size: 20px;
+}
+
+.footer-social a.hidden,
+.btt {
+	display: none;
+}
+
+/** Facebook */
+.resume-link a[href*="facebook.com"]::before,
+.footer-social a[href*="facebook.com"]::before {
+	content: '\e8f4';
+}
+
+.resume-link a:hover[href*="facebook.com"]::before,
+.footer-social a:hover[href*="facebook.com"]::before {
+	color: #3b5998;
+}
+
+/** Twitter */
+.resume-link a[href*="twitter.com"]::before,
+.footer-social a[href*="twitter.com"]::before {
+	content: '\e8f2';
+}
+
+.resume-link a:hover[href*="twitter.com"]::before,
+.footer-social a:hover[href*="twitter.com"]::before {
+	color: #33ccff;
+}
+
+/** Google Plus */
+.resume-link a[href*="plus.google.com"]::before ,
+.footer-social a[href*="plus.google.com"]::before {
+	content: '\e8f7';
+}
+
+.resume-link a:hover[href*="plus.google.com"]::before,
+.footer-social a:hover[href*="plus.google.com"]::before {
+	color: #dd4b39;
+}
+
+/** Linkedin */
+.resume-link a[href*="linkedin.com"]::before,
+.footer-social a[href*="linkedin.com"]::before {
+	content: '\e8fd';
+}
+
+.resume-link a:hover[href*="linkedin.com"]::before,
+.footer-social a:hover[href*="linkedin.com"]::before {
+	color: #069;
+}
+
+/** Instagram */
+.resume-link a[href*="instagram.com"]::before,
+.footer-social a[href*="instagram.com"]::before {
+	content: '\e90a';
+}
+
+.resume-link a:hover[href*="instagram.com"]::before,
+.footer-social a:hover[href*="instagram.com"]::before {
+	color: #3f729b;
+}
+
+/** Pinterest */
+.resume-link a[href*="pinterest.com"]::before,
+.footer-social a[href*="pinterest.com"]::before {
+	content: '\e8f9';
+}
+
+.resume-link a:hover[href*="pinterest.com"]::before,
+.footer-social a:hover[href*="pinterest.com"]::before {
+	color: #c8232c;
+}
+
+/** Vimeo */
+.resume-link a[href*="vimeo.com"]::before,
+.footer-social a[href*="vimeo.com"]::before {
+	content: '\e8f0';
+}
+
+.resume-link a:hover[href*="vimeo.com"]::before,
+.footer-social a:hover[href*="vimeo.com"]::before {
+	color: #1AB7EA;
+}
+
+/** Insta */
+.resume-link a[href*="instagram.com"]::before,
+.footer-social a[href*="instagram.com"]::before {
+	content: '\e90a';
+}
+
+.resume-link a:hover[href*="instagram.com"]::before,
+.footer-social a:hover[href*="instagram.com"]::before {
+	color: #3f729b;
+}
+
+/** RSS */
+.resume-link a[href$=".rss"]::before ,
+.footer-social a[href$=".rss"]::before {
+	content: '\e854';
+}
+
+.resume-link a:hover[href$=".rss"]::before,
+.footer-social a:hover[href$=".rss"]::before {
+	color: #FF6600;
+}
+
+.btt i {
+	left: 50%;
+	top: 50%;
+	left: 50%;
+	font-size: 28px;
+	position: absolute;
+
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform:     translate(-50%, -50%);
+	transform:         translate(-50%, -50%);
+}
+
+/** Widgets */
+.footer-widgets {
+	background: #2e3137;
+	box-shadow: inset rgba(255, 255, 255, .10 ) 0 4px 0;
+}
+
+.footer-widget.widget_text {
+	margin-top: 0;
+}
+
+.footer-widget-title,
+.footer-widget #wp-calendar caption {
+	font: normal 18px Varela Round, sans-serif;
+	color: #fff;
+	margin: 0 0 12px;
+}
+
+.footer-widget ul {
+	margin: 0;
+	padding: 0;
+	list-style: inside disc none;
+}
+
+/** Calendar */
+.footer-widget #wp-calendar,
+.footer-widget #wp-calendar td,
+.footer-widget #wp-calendar th {
+	border: 0;
+}
+
+.footer-widget #wp-calendar a,
+.footer-widget #wp-calendar th {
+	color: #fff;
+}
+
+/** Search/Inputs */
+.footer-widget form label {
+	display: block;
+}
+
+.footer-widget input[type="text"],
+.footer-widget input[type="search"],
+.footer-widget input[type="email"] {
+	color: #6e6e6e;
+	padding: 15px;
+	background: #fff;
+	border-radius: 2px;
+}
+
+.footer-widget input[type="submit"] {
+	font-size: 16px;
+	color: #fff;
+	background: #484848;
+	padding: 16px;
+	border-radius: 2px;
+}
+
+.footer-widget form input[type="text"],
+#pmc_mailchimp div:first-child {
+	width: 65%;
+}
+
+.footer-widget form input[type="submit"],
+#pmc_mailchimp div:last-of-type {
+	width: 35%;
+	margin-left: 0;
+}
+
+#pmc_mailchimp label {
+	display: none;
+}
+
+#pmc_mailchimp div {
+	float: left;
+}
+
+#pmc_mailchimp div br,
+.mailbag-wrap br {
+	display: none;
+}
+
+#pmc_mailchimp div input[type="text"],
+.mailbag-wrap input[type="text"],
+.mailbag-wrap input[type="email"] {
+	width: 100%;
+	border-radius: 4px;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+	border: 0;
+}
+
+.mailbag-wrap input[type="email"]:focus {
+	border-color: #fff;
+}
+
+.footer-widget .mailbag-wrap input[type="text"],
+.footer-widget .mailbag-wrap input[type="email"] {
+	border-radius: 4px;
+	width: 100%;
+}
+
+#pmc_mailchimp div input[type="submit"],
+.mailbag-wrap input[type="submit"] {
+	font-size: 14px;
+	border-radius: 4px;
+	margin: 0;
+	border: 0;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	padding: 16px;
+	width: 100%;
+}
+
+.mailbag-wrap input[type="submit"] {
+	border-radius: 4px;
+}
+
+#pmc_mailchimp div input[type="submit"]:hover,
+.mailbag-wrap input[type="submit"]:hover {
+	color: #fff;
+}
+
+#pmc_mailchimp,
+.mailbag-wrap {
+	margin-top: 20px;
+}
+
+.mailbag-input {
+	margin-bottom: 15px;
+}
+
+.mailbag-input label {
+	font: normal 16px/normal "Varela Round", Helvetica, sans-serif;
+	color: #adadad;
+	text-transform: none;
+	margin-bottom: 4px;
+}
+
+/** Recent */
+.widget_recent_entries ul,
+.widget_twitter ul {
+	list-style: none;
+}
+
+.widget_recent_entries li,
+.widget_twitter li {
+	margin: 0 0 10px;
+}
+
+.widget_recent_entries .post-date,
+.widget_twitter .timesince {
+	display: block;
+	font-size: 80%;
+}

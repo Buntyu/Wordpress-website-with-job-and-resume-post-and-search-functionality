@@ -1,0 +1,412 @@
+.jm_icon() {
+	display:inline-block;
+	width: 1em;
+	height: 1em;
+	line-height: 1em;
+	text-align: center;
+	-webkit-font-smoothing:antialiased;
+	font-family:"job-manager";
+	text-decoration:none;
+	font-weight:400;
+	font-style:normal;
+	vertical-align:top;
+	font-size: 1em;
+	margin:0;
+	*overflow:auto;
+	*zoom:1;
+	*display:inline;
+}
+ul.job_listings {
+	.job-manager-applications-applied-notice {
+		color: #2ecc71;
+		font-weight: normal;
+		float: right;
+
+		&::before {
+			content: "\e802";
+			display: inline-block;
+			width: 16px;
+			height: 16px;
+			-webkit-font-smoothing: antialiased;
+			font-size: 16px;
+			font-family: "job-manager" !important;
+			text-decoration: none;
+			font-weight: normal;
+			font-style: normal;
+			vertical-align: top;
+			font-size: 16px;
+			margin: 0 2px 0 0;
+			*overflow: auto;
+			*zoom: 1;
+			*display: inline;
+		}
+	}
+}
+.single_job_listing {
+	.job-manager-applications-applied-notice {
+		margin: 0;
+		display: block;
+		padding: 1em;
+		text-decoration: none;
+		margin: 2em 0;
+		overflow: hidden;
+		border: 1px solid #eee;
+		border-bottom-width: 2px;
+
+		&::before {
+			content: "\e802";
+			display: inline-block;
+			width: 16px;
+			height: 16px;
+			-webkit-font-smoothing: antialiased;
+			font-size: 16px;
+			font-family: "job-manager" !important;
+			text-decoration: none;
+			font-weight: normal;
+			font-style: normal;
+			vertical-align: top;
+			font-size: 16px;
+			margin: 0 2px 0 0;
+			*overflow: auto;
+			*zoom: 1;
+			*display: inline;
+		}
+	}
+	.application .application_details {
+		form.job-manager-application-form {
+			padding: .25em 0 0 0;
+
+			.job-manager-info {
+				margin-bottom: 1em;
+			}
+
+			.job-manager-applications-error {
+				margin-bottom: 1em;
+			}
+
+			.form-content {
+				margin: 0 0 1em;
+				padding: .25em 0;
+				h3 {
+					line-height: 1.5em;
+					margin: 0 0 1em;
+					font-size: 1em;
+					padding: 0;
+				}
+				p {
+					line-height: 1.5em;
+					margin: 0 0 1em;
+				}
+			}
+			.form-content:first-child {
+				border-top: 0;
+				margin-top: 0;
+				padding: .25em 0 .25em;
+			}
+		}
+	}
+}
+.job-applications-download-csv {
+	float: right;
+}
+div.job-applications {
+	padding: 1em 1em 0;
+	background: #f7f7f7;
+	.filter-job-applications {
+		overflow: hidden;
+		p {
+			width: 48%;
+			margin: 0 0 1em;
+			float: left;
+			-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+			-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+			box-sizing: border-box;         /* Opera/IE 8+ */
+			select {
+				width: 100%;
+			}
+		}
+		p:first-child {
+			margin-right: 4%;
+		}
+	}
+	ul.job-applications {
+		list-style: none outside;
+		padding: 0;
+		margin: 0 0 1em;
+		overflow: hidden;
+		li.job-application {
+			list-style: none outside;
+			background: #fff;
+			box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+			margin: 0 0 1em;
+			border-radius: 2px;
+
+			header {
+				border-bottom: 2px solid #eee;
+				padding: 2em;
+				line-height: 42px;
+
+				img {
+					vertical-align: middle;
+					display: inline-block;
+					margin: 0 1em 0 0;
+					width: 42px;
+					height: 42px;
+				}
+				h3 {
+					display: inline-block;
+					margin: 0;
+				}
+				a.job-application-attachment {
+					&:before {
+						content: '\e81a';
+					}
+				}
+				.job-application-rating {
+					font-size: 16px;
+					height: 16px;
+					width: 80px;
+					margin: 13px 0 0;
+					float: right;
+					display: block;
+					position: relative;
+					-webkit-font-smoothing:antialiased;
+					font-family:job-manager;
+					text-decoration:none;
+					font-weight:400;
+					font-style:normal;
+					overflow: hidden;
+					&:before {
+						line-height: 16px;
+						content: "\e820\e820\e820\e820\e820";
+						top: 0;
+						left: 0;
+						position: absolute;
+						letter-spacing: 0.075em;
+						letter-spacing:0\9; // IE8 & below hack ;-(
+					}
+					span {
+						width: 0px;
+						height: 16px;
+						display: block;
+						overflow: hidden;
+						position: relative;
+						&:before {
+							line-height: 16px;
+							content: "\e803\e803\e803\e803\e803";
+							top: 0;
+							left: 0;
+							position: absolute;
+							letter-spacing: 0.075em;
+							letter-spacing:0\9; // IE8 & below hack ;-(
+						}
+					}
+				}
+			}
+			section.job-application-content,
+			section.job-application-edit,
+			section.job-application-notes {
+				overflow: hidden;
+				padding: 2em;
+				border-bottom: 2px solid #eee;
+				position: relative;
+				*:last-child {
+					margin-bottom: 0;
+				}
+				.job-application-meta {
+					background-color: #f5f5f5;
+					width: 45%;
+					padding: 1em;
+					margin: 0 0 0 5%;
+					float: right;
+					-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+					-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+					box-sizing: border-box;         /* Opera/IE 8+ */
+					dd {
+						margin: 0 0 1em;
+					}
+					*:last-child {
+						margin-bottom: 0;
+					}
+				}
+				.job-application-note-add {
+					textarea {
+						width: 100%;
+						height: 6em;
+						-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+						-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+						box-sizing: border-box;         /* Opera/IE 8+ */
+					}
+				}
+				ul.job-application-notes-list {
+					margin: 0;
+					padding: 0;
+					list-style: none outside;
+					li.job-application-note {
+						padding: 0;
+						background: #fefed8;
+						box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+						margin: 0 0 1em;
+						list-style: none outside;
+					}
+					li.job-application-note:last-child {
+						margin-bottom: 2em;
+					}
+					.job-application-note-content {
+						padding: 1em;
+						p {
+							margin: 0 0 1em;
+						}
+						*:last-child {
+							margin-bottom: 0;
+						}
+					}
+					.job-application-note-meta {
+						font-size: 0.83em;
+						padding: 1em;
+						color: #abab98;
+						border-top: 1px solid rgba(0,0,0,0.05);
+						overflow: hidden;
+						.delete_note {
+							float: right;
+						}
+					}
+				}
+				.hide_section {
+					float: right;
+					position: absolute;
+					top:0;
+					right:0;
+					color: #ccc;
+					width: 2em;
+					height:0;
+					padding: 2em 0 0 0;
+					overflow: hidden;
+					&:before {
+						display:inline-block;
+						width: 2em;
+						height: 2em;
+						line-height: 2em;
+						position: absolute;
+						top: 0;
+						left: 0;
+						text-align: center;
+						-webkit-font-smoothing:antialiased;
+						font-family:job-manager;
+						text-decoration:none;
+						font-weight:400;
+						font-style:normal;
+						vertical-align:top;
+						font-size: 1em;
+						margin:0;
+						*overflow:auto;
+						*zoom:1;
+						*display:inline;
+						content: '\e801';
+					}
+				}
+				.delete_job_application {
+					color: red;
+					float: right;
+					padding: .25em 0 0;
+				}
+			}
+			footer {
+				padding: 0;
+				overflow: hidden;
+				ul.meta {
+					margin: 0 0 0 2em;
+					padding: 0;
+					list-style: none outside;
+					float: left;
+					max-width: 50%;
+					li {
+						color: #ccc;
+						padding: 1em 0;
+						margin: 0 1em 0 0;
+						list-style: none outside;
+						float: left;
+						line-height: 1em;
+					}
+				}
+				ul.actions {
+					float: right;
+					margin: 0 1em 0 0;
+					padding: 0;
+					list-style: none outside;
+					li {
+						border-left: 1px solid #eee;
+						float: right;
+						padding: 0;
+						margin: 0;
+						list-style: none outside;
+						line-height: 1em;
+						a {
+							height: 0;
+							width: 1em;
+							overflow: hidden;
+							padding: 3em 1em 0;
+							float: left;
+							position: relative;
+						}
+						a:before {
+							.jm_icon();
+							position: absolute;
+							left: 0;
+							top: 0;
+							padding: 1em;
+							content: "\e81c";
+						}
+					}
+					li.attachment {
+						a:before {
+							content: "\e827";
+						}
+					}
+					li.resume {
+						a:before {
+							content: "\e807";
+						}
+					}
+					li.edit {
+						a:before {
+							content: "\e804";
+						}
+					}
+					li.email {
+						a:before {
+							content: "\e81c";
+						}
+					}
+					li.content {
+						a:before {
+							content: "\e823";
+						}
+					}
+					li.notes {
+						a:before {
+							content: "\e825";
+						}
+					}
+					li.has-notes {
+						a:before {
+							content: "\e826";
+						}
+					}
+				}
+			}
+		}
+	}
+}
+table.job-manager-past-applications {
+	width: 100%;
+	td,th {
+		padding-right: 1em;
+	}
+	td:last-child, th:last-child {
+		padding-right: 0;
+	}
+	td.application-message {
+		width: 50%;
+	}
+}

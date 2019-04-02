@@ -1,0 +1,234 @@
+/**
+ * List
+ */
+div.job_listings {
+	text-align: center;
+}
+
+.job-manager-error,
+.job-manager-message,
+.rcp_message.error,
+.gform_wrapper .validation_error,
+.ninja-forms-response-msg.ninja-forms-error-msg,
+div.wpcf7-validation-errors,
+div.wpcf7-mail-sent-ok {
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #fcf2f2;
+	border: 0;
+	border-left: 5px solid #df7c7b;
+}
+
+div.wpcf7-mail-sent-ok {
+	background-color: #fafcf2;
+	border-left-color: #87df7b;
+}
+
+.ninja-forms-field-error,
+body span.wpcf7-not-valid-tip {
+	color: #df7c7b;;
+	font-size: 90%;
+}
+
+.rcp_message p {
+	margin-bottom: 0;
+}
+
+.job-manager-message {
+	background-color: #f9fcf2;
+	border-left: 5px solid #a1df7b;
+}
+
+.entry-content .add-job {
+	margin: 40px 0;
+	text-align: right;
+	display: block;
+}
+
+
+
+
+/**
+ * Dashboard
+ */
+#job-manager-job-dashboard p {
+	margin-bottom: 40px;
+}
+
+.job-manager-jobs td,
+.resume-manager-resumes td {
+	padding: 20px 10px 20px 0;
+}
+
+.job-manager-jobs td.job_title,
+.resume-manager-resumes td.resume_title {
+	font-size: 18px;
+}
+
+.job-dashboard-actions,
+.candidate-dashboard-actions {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.job-dashboard-actions li,
+.candidate-dashboard-actions li {
+	line-height: normal;
+	margin-right: 20px;
+	float: left;
+}
+
+.job-dashboard-actions a,
+.candidate-dashboard-actions a {
+	font: normal 12px/normal 'Montserrat', sans-serif;
+	color: #6e6e6e;
+}
+
+.job-dashboard-actions a:hover {
+	text-decoration: none;
+}
+
+.job-dashboard-action-edit:before,
+.candidate-dashboard-action-edit:before {
+	content: '\e856';
+}
+
+.job-dashboard-action-mark_filled:before {
+	content: '\e813';
+}
+
+.job-dashboard-action-mark_not_filled:before {
+	content: '\2796';
+}
+
+
+
+/**
+ * Job Summary
+ */
+.job_summary_shortcode {
+
+}
+
+.job_summary_shortcode a:hover {
+	text-decoration: none;
+}
+
+.job_summary_shortcode .job-type {
+	margin: 20px;
+	display: inline-block;
+}
+
+.job_summary_content {
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	background: #fcfcfc;
+	border-top: 1px solid #ccc;
+	padding: 20px;
+}
+
+.job_summary_content h1 {
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+.job_summary_content .meta {
+	font-size: 14px;
+	margin: 0;
+}
+
+
+
+
+/**
+ * Job Listings
+ */
+.jobify_widget_jobs ul.job_listings {
+	border-radius: 6px;
+}
+
+ul.job_listings .job_listing:hover,
+.job_position_featured,
+ul.resumes .resume:hover {
+	background: #fafafa;
+}
+
+.recent-jobs .job_listing .meta {
+	margin-top: 15px;
+}
+
+.recent-jobs .job_listing date,
+.recent-jobs .job_listing .tagline {
+	display: none;
+}
+
+.job_listings li.indeed_attribution {
+	border-top: 0;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+/**
+ * Videos
+ */
+.job_listing a.view-video,
+.resume a.view-video {
+	@extend .button;
+	@extend .application_button;
+
+	margin-top: 1em;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.modal .company_video,
+.modal .candidate-video {
+	padding: 90px 30px 30px;
+}
+
+
+/**
+ * Categories
+ */
+.job_listing-categories a {
+	display: block;
+}
+
+
+/**
+ * Cluster Overlay
+ */
+.cluster-items {
+	margin: 0;
+	padding: 30px;
+	text-align: left;
+	list-style-position: inside;
+
+	.map-marker-info {
+		font-size: 15px;
+		text-align: left;
+		height: auto;
+		padding: 2px 0;
+		display: block;
+
+		a {
+			display: block;
+		}
+	}
+}
+
+
+/**
+ * Apply
+ */
+body.wp-job-manager-apply-url .modal,
+body.wp-job-manager-apply-email:not(.wp-job-manager-contact-listing) {
+	.job_manager_contact_details_inner {
+		@extend .modal-content;
+		padding-right: 60px;
+
+		p:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+}

@@ -1,0 +1,637 @@
+/**
+ * Jobs (and Resume) Archives.
+ *
+ * Includes sorting filters and overview displays
+ */
+
+
+/** Map */
+
+.job_listing-map,
+.resume-map {
+	position: relative;
+	top: auto;
+	right: auto;
+	left: auto;
+	bottom: auto;
+	background: rgba(0, 0, 0, .25);
+	overflow: hidden;
+	z-index: 5;
+}
+
+.job_listing-map,
+#job_listing-map-canvas,
+.resume-map,
+#resume-map-canvas {
+	width: 100%;
+	height: 500px;
+}
+
+/** Filters */
+
+.search_jobs,
+.search_resumes {
+	padding: 30px;
+	box-shadow: inset 0 4px 0 rgba(255, 255, 255, .50);
+}
+
+#search_region {
+	display: none;
+}
+
+.search_jobs > div,
+.search_resumes > div {
+	margin-bottom: 15px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	&.search_location #search_region {
+		display: block;
+	}
+
+	input,
+	.select {
+		width: 100%;
+		border: 0;
+	}
+
+	input[type="submit" ],
+	input[type="submit"] {
+		font-size: 14px;
+		background: white;
+		color: gray;
+		padding: 11px;
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.chosen-container,
+	.chosen-container-single {
+		width: 100% !important;
+		border: 0 !important;
+	}
+
+	&.search_submit {
+		margin-bottom: 0;
+	}
+}
+
+	@include bp(sm) {
+		.search_jobs > div,
+		.search_resumes > div {
+			margin-right: 3%;
+			margin-bottom: 0;
+			float: left;
+
+			&.search_keywords,
+			&.search_location,
+			&.search_region {
+				width: 48%;
+			}
+
+			&.search_location,
+			&.search_region {
+				margin-right: 0;
+			}
+
+			&.search_categories,
+			&.search_submit {
+				clear: left;
+				width: 100%;
+				margin-top: 1em;
+				margin-right: 0;
+			}
+		}
+
+		.wp-job-manager-categories-enabled.wp-job-manager-categories-multi-enabled .search_jobs {
+			.search_keywords,
+			.search_location,
+			.search_region {
+				margin-right: 2%;
+				margin-bottom: 1em;
+				width: 49%;
+			}
+
+			.search_location,
+			.search_region {
+				margin-right: 0;
+			}
+
+			.search_categories,
+			.search_submit {
+				clear: left;
+				width: 100% !important;
+				max-width: 100%;
+				min-width: 100%;
+			}
+
+			.search_submit {
+				margin-top: 1em;
+			}
+		}
+
+		.wp-resume-manager-categories-enabled.wp-resume-manager-categories-multi-enabled .search_resumes {
+			.search_keywords,
+			.search_location,
+			.search_region {
+				margin-right: 2%;
+				margin-bottom: 1em;
+				width: 49%;
+			}
+
+			.search_location,
+			.search_region {
+				margin-right: 0;
+			}
+
+			.search_categories,
+			.search_submit {
+				clear: left;
+				width: 100% !important;
+				max-width: 100%;
+				min-width: 100%;
+			}
+
+			.search_submit {
+				margin-top: 1em;
+			}
+		}
+	}
+
+	@include bp(md) {
+		.search_jobs > div,
+		.search_resumes > div {
+			&.search_keywords,
+			&.search_location,
+			&.search_region {
+				width: 36%;
+			}
+
+			&.search_location,
+			&.search_region {
+				margin-right: 0;
+			}
+
+			&.search_submit {
+				width: 20%;
+				margin: 0;
+				clear: none;
+				float: right;
+			}
+		}
+
+		.wp-job-manager-categories-enabled {
+			.search_jobs > div {
+				&.search_keywords,
+				&.search_location,
+				&.search_region,
+				&.search_categories,
+				&.search_submit {
+					margin-top: 0;
+					margin-bottom: 0;
+					clear: none;
+				}
+
+				&.search_keywords {
+					width: 30%;
+				}
+
+				&.search_location,
+				&.search_region,
+				&.search_categories {
+					margin-right: 3%;
+					width: 23%;
+				}
+
+				&.search_submit {
+					width: 15%;
+					margin-right: 0;
+				}
+			}
+		}
+
+		.wp-resume-manager-categories-enabled {
+			.search_resumes > div {
+				&.search_keywords,
+				&.search_location,
+				&.search_region,
+				&.search_categories,
+				&.search_submit {
+					margin-top: 0;
+					margin-bottom: 0;
+					clear: none;
+				}
+
+				&.search_keywords {
+					width: 30%;
+				}
+
+				&.search_location,
+				&.search_region,
+				&.search_categories {
+					margin-right: 3%;
+					width: 23%;
+				}
+
+				&.search_submit {
+					width: 15%;
+					margin-right: 0;
+				}
+			}
+		}
+	}
+
+/* Tags */
+
+.search_jobs .filter_by_tag {
+	color: #fff;
+	text-align: left;
+	float: left;
+	clear: left;
+	margin: 1em 0 0;
+	width: 100%;
+}
+
+.search_jobs .filter_by_tag a {
+	color: #fff;
+	font: bold 12px/normal 'Montserrat', sans-serif !important;
+}
+
+.filter_wide.filter_by_tag a.active:before {
+	content: '\2715';
+}
+
+/* Types */
+
+.job_types {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid #ccc;
+	border-width: 0 1px;
+}
+
+.job_types li {
+	font: bold 12px/normal 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	border-bottom: 1px solid #ccc;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+	@include bp(sm) {
+		.job_types li {
+			border: 1px solid #ccc;
+			border-width: 0 1px 1px 0;
+			width: 50%;
+			float: left;
+		}
+	}
+
+	@include bp(md) {
+		.job_types li {
+			border-width: 0 1px 0 0;
+			width: auto;
+		}
+	}
+
+.job_types li:last-child {
+	border-bottom: 0;
+}
+
+/* Showing */
+
+.showing_jobs,
+.resume_filters .showing_resumes {
+	font-size: 1em;
+	text-align: left;
+	background: #fafafa;
+	border: 1px solid #ccc;
+	border-width: 1px 1px 0;
+	padding: 15px 20px;
+}
+
+.showing_jobs span,
+.showing_resumes span {
+	font-size: 13px;
+}
+
+.showing_jobs .reset,
+.showing_jobs .rss_link,
+.showing_jobs .alert,
+.showing_resumes .reset {
+	font: bold 12px/normal 'Montserrat', sans-serif;
+	color: #ccc;
+	text-transform: uppercase;
+	float: right;
+	margin: 6px 0 0 10px;
+}
+
+.showing_jobs .reset:hover,
+.showing_jobs .rss_link:hover,
+.showing_jobs .alert:hover,
+.showing_resumes .reset:hover {
+	text-decoration: none;
+}
+
+.showing_jobs .reset:before,
+.showing_resumes .reset:before {
+	content: '\2715';
+}
+
+.showing_jobs .rss_link {
+	color: #f08d3c;
+}
+
+.showing_jobs .rss_link:before {
+	content: '\e854';
+}
+
+.showing_jobs .alert {
+	color: #bf3737;
+}
+
+.showing_jobs .alert:before {
+	content: '\e861';
+}
+
+.no_job_listings_found {
+	padding: 20px;
+}
+
+
+/** Results */
+
+.job_listing a,
+.job_listing_preview a,
+.type-resume a,
+.resume_preview a,
+.company-social a {
+	color: #787878;
+}
+
+ul.job_listings,
+ul.resumes {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid #ccc;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	background: #fff;
+}
+
+div.resumes[data-show_filters="false"] ul.resumes,
+div.job_listings[data-show_filters="false"] ul.job_listings,
+.entry-content ul.job_listings.related {
+	border-radius: 6px;
+}
+
+.related-jobs {
+	margin-top: 60px;
+}
+
+ul.resumes li.resume a,
+ul.resumes li.no_resumes_found a {
+	padding: 0;
+}
+
+li.type-job_listing,
+li.type-resume {
+	font: 16px/normal 'Varela Round', sans-serif;
+	text-align: left;
+	color: #787878;
+	padding: 24px;
+	border-bottom: 1px solid #ccc;
+}
+
+li.type-job_listing:last-of-type,
+li.type-resume:last-of-type {
+	border-bottom: 0;
+}
+
+li.type-job_listing a:hover,
+li.type-resume a:hover {
+	text-decoration: none;
+}
+
+li.type-job_listing .logo,
+li.type-job_listing .meta,
+li.type-job_listing .location,
+li.type-resume .logo,
+li.type-resume .meta,
+li.type-resume .location {
+	display: none;
+}
+
+li.type-job_listing .position h3,
+li.type-resume .position h3 {
+	font-size: 17px;
+	margin: 0;
+	padding: 0;
+}
+
+li.type-job_listing .company,
+li.type-resume .candidate-title {
+	font-size: 14px;
+	color: #919191;
+	margin: 4px 0 0;
+}
+
+li.type-job_listing .location,
+li.type-resume .location {
+
+}
+
+li.type-job_listing .location:before,
+li.type-resume .location:before {
+	@extend .entypo;
+
+	font-size: 24px;
+	content: '\e843';
+	vertical-align: middle;
+}
+
+@include bp(sm) {
+	li.type-job_listing,
+	li.type-resume {
+		padding: 15px;
+	}
+
+	li.type-job_listing .position,
+	li.type-resume .position {
+		position: relative;
+	}
+
+	li.type-job_listing .position h3,
+	li.type-resume .position h3 {
+		font-size: 16px;
+	}
+
+	li.type-job_listing .logo,
+	li.type-resume .logo {
+		display: block;
+	}
+}
+
+@include bp(md) {
+	li.type-job_listing .location,
+	li.type-resume .location {
+		clear: none;
+		display: block;
+		position: relative;
+
+		-webkit-transform: translateY(50%);
+		-moz-transform: translateY(50%);
+		transform: translateY(50%);
+	}
+
+	li.type-job_listing .position,
+	li.type-resume .position {
+		position: relative;
+
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		transform: translateY(0);
+	}
+}
+
+@include bp(lg) {
+	li.type-job_listing .logo,
+	li.type-resume .logo {
+		max-width: 80px;
+	}
+
+	li.type-job_listing .meta,
+	li.type-resume .meta {
+		display: block;
+		margin: 0;
+		list-style: none;
+	}
+
+	li.type-job_listing .meta .date,
+	li.type-resume .meta .date {
+		margin-top: 4px;
+		font-size: 14px;
+		text-align: center;
+	}
+
+	li.type-job_listing .position,
+	li.type-job_listing .meta,
+	li.type-resume .position,
+	li.type-resume .meta {
+		margin-top: 4px;
+	}
+
+	li.type-resume .meta:not(.has-category) {
+		-webkit-transform: translateY(50%);
+		-moz-transform: translateY(50%);
+		transform: translateY(50%);
+	}
+
+	li.type-resume .meta .resume-category {
+		text-align: center;
+	}
+}
+
+.job-type {
+	font: bold 12px/normal 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	padding: 3px 10px;
+	border-radius: 4px;
+}
+
+/* Pagination */
+
+ul.job_listings.loading,
+ul.resumes.loading {
+	min-height: 106px;
+	position: relative;
+}
+
+ul.job_listings.loading:before,
+ul.resumes.loading:before {
+	font-size: 20px;
+	content: '\e892';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+	-webkit-animation: rotate 1s infinite linear;
+	-moz-animation: rotate 1s infinite linear;
+	-ms-animation: rotate 1s infinite linear;
+	-o-animation: rotate 1s infinite linear;
+	animation: rotate 1s infinite linear;
+}
+
+.load_more_jobs,
+.load_more_resumes, {
+	font: bold 14px/normal 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 20px auto;
+	border-radius: 6px;
+}
+
+.load_more_jobs:before,
+.load_more_resumes:before {
+	content: '\e817';
+}
+
+.job-manager-pagination {
+	li {
+		display: inline-block;
+	}
+
+	a,
+	span {
+		@extend .button;
+		@extend .load_more_jobs;
+
+		padding: 10px 20px;
+		margin: 20px 5px;
+
+		&:before {
+			content: '';
+			display: none;
+		}
+	}
+}
+
+
+/* None */
+
+.no_job_listings_found {
+	padding: 20px;
+}
+
+.no_resumes_found {
+	padding: 10px;
+}
+
+/* Indeed */
+
+.job_listings li.indeed_job_listing+li.job_listing,
+.indeed_attribution.job_listing {
+	border-top-width: 0;
+}
+
+.job_listings li.indeed_attribution a {
+	float: none;
+}
+
+.job_listings li.indeed_attribution img {
+	float: none;
+	width: auto;
+}

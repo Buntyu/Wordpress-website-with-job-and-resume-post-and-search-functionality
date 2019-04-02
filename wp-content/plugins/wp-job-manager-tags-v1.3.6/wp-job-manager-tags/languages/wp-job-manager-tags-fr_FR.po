@@ -1,0 +1,179 @@
+# Copyright (C) 2014 WP Job Manager - Job Tags
+# This file is distributed under the same license as the WP Job Manager - Job Tags package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Job Tags 1.0.8\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-job-manager-tags\n"
+"POT-Creation-Date: 2014-05-09 19:24:21+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-11-12 00:52+0100\n"
+"Last-Translator: Cyril Slucki <cslucki@cyberworkers.com>\n"
+"Language-Team: CVStreet.org <social@cvstreet.org>\n"
+"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#: includes/class-job-manager-job-tags-shortcodes.php:59
+msgid "Filter by tag:"
+msgstr "Filtrer par tag:"
+
+#: includes/class-job-manager-job-tags-shortcodes.php:109
+msgid "tagged"
+msgstr "taggué"
+
+#: includes/class-job-manager-job-tags-shortcodes.php:195
+msgid "No jobs found tagged with %s."
+msgstr "Aucune offre tagguée avec %s."
+
+#: includes/class-job-manager-job-tags-shortcodes.php:239
+msgid "%s job"
+msgid_plural "%s jobs"
+msgstr[0] "%s offre"
+msgstr[1] "%s offres"
+
+#: includes/updater/class-wpjm-updater.php:269
+msgid "Licence"
+msgstr "License"
+
+#: includes/updater/class-wpjm-updater.php:272
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for "
+"automatic updates."
+msgstr ""
+"Entrez votre clé de licence et votre email et tapez sur la touche entrée. "
+"Une clé valide est nécessaire pour obtenir les mises à jour automatiques."
+
+#: wp-job-manager-tags.php:79
+msgid "Job Tag"
+msgstr "Tag pour l'offre"
+
+#: wp-job-manager-tags.php:80
+msgid "Job Tags"
+msgstr "Tags pour l'offre"
+
+#: wp-job-manager-tags.php:92
+msgid "Search %s"
+msgstr "Chercher %s"
+
+#: wp-job-manager-tags.php:93
+msgid "All %s"
+msgstr "Tout %s"
+
+#: wp-job-manager-tags.php:94
+msgid "Parent %s"
+msgstr "Parent %s"
+
+#: wp-job-manager-tags.php:95
+msgid "Parent %s:"
+msgstr "Parent %s:"
+
+#: wp-job-manager-tags.php:96
+msgid "Edit %s"
+msgstr "Modifier %s"
+
+#: wp-job-manager-tags.php:97
+msgid "Update %s"
+msgstr "Mettre à jour %s"
+
+#: wp-job-manager-tags.php:98
+msgid "Add New %s"
+msgstr "Ajouter Nouveau %s"
+
+#: wp-job-manager-tags.php:99
+msgid "New %s Name"
+msgstr "Nouveau %s Nom"
+
+#: wp-job-manager-tags.php:109
+msgctxt "permalink"
+msgid "job-tag"
+msgstr "job-tag"
+
+#: wp-job-manager-tags.php:123
+msgid "Maximum Job Tags"
+msgstr "Maximum de tags"
+
+#: wp-job-manager-tags.php:124
+msgid ""
+"Enter the number of tags per job submission you wish to allow, or leave "
+"blank for unlimited tags."
+msgstr ""
+"Indiquez le nombre de tags par offre soumise que vous autorisez, ou laissez "
+"ce champs vide pour un nombre de tag illimité."
+
+#: wp-job-manager-tags.php:130
+msgid "Tag Archives"
+msgstr "Archives tags"
+
+#: wp-job-manager-tags.php:131
+msgid "Enable Tag Archives"
+msgstr "Activer Achive Tag"
+
+#: wp-job-manager-tags.php:132
+msgid ""
+"Enabling tag archives will make job tags (inside jobs and tag clouds) link "
+"through to an archive of all jobs with said tag. Please note, tag archives "
+"will look like your post archives unless you create a special template to "
+"handle the display of job listings called <code>taxonomy-job_listing_tag."
+"php</code> inside your theme. See <a href=\"http://codex.wordpress.org/"
+"Template_Hierarchy#Custom_Taxonomies_display\">Template Hierarchy</a> for "
+"more information."
+msgstr ""
+
+#: wp-job-manager-tags.php:146
+msgid "Maximum of %d."
+msgstr "Maximum de %d."
+
+#: wp-job-manager-tags.php:149
+msgid "Job tags"
+msgstr "Tags pour l'offre"
+
+#: wp-job-manager-tags.php:150
+msgid ""
+"Comma separate tags, such as required skills or technologies, for this job."
+msgstr ""
+"Séparez les tags par des virgules, en indiquant compétences, formation ou "
+"encore des savoir-faire requis concernant cette offre."
+
+#: wp-job-manager-tags.php:153
+msgid "e.g. PHP, Social Media, Management"
+msgstr "Exemple : Secrétariat, Médical, Compta"
+
+#: wp-job-manager-tags.php:172
+msgid "Please enter no more than %d tags."
+msgstr "Merci d'indiquer plus de %d tags."
+
+#: wp-job-manager-tags.php:225
+msgid "Tagged as:"
+msgstr "Taggué comme :"
+
+#: wp-job-manager-tags.php:240
+msgid "Tags"
+msgstr "Tags"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Job Tags"
+msgstr "WP Job Manager - Job Tags"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpjobmanager.com/add-ons/job-tags/"
+msgstr "https://wpjobmanager.com/add-ons/job-tags/"
+
+#. Description of the plugin/theme
+msgid ""
+"Adds tags to Job Manager for tagging jobs with requried Skills and "
+"Technologies. Also adds some extra shortcodes. Requires Job Manager 1.0.4+"
+msgstr ""
+"Ajouter les tags au Job Manager pour tagguer les offres avec des compétences "
+"et technologies requises. Egalement ajoute des shortcodes supplémentaires. "
+"Nécessite  Job Manager 1.0.4+"
+
+#. Author of the plugin/theme
+msgid "Mike Jolley"
+msgstr "Mike Jolley"
+
+#. Author URI of the plugin/theme
+msgid "http://mikejolley.com"
+msgstr "http://mikejolley.com"
+

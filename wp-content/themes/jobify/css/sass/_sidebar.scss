@@ -1,0 +1,94 @@
+
+
+/* =Global Widgets
+----------------------------------------------- */
+.widget {
+	margin-bottom: 30px;
+}
+
+.widget ul,
+.widget ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.widget li {
+	margin: 5px 0;
+}
+
+.widget a {
+	text-decoration: none;
+}
+
+/* Make sure select elements fit in widgets */
+.widget select {
+	max-width: 100%;
+	min-width: 100%;
+}
+
+/** Calendar */
+#wp-calendar {
+	margin: 0;
+	width: 100%;
+}
+
+#wp-calendar th,
+#wp-calendar td,
+#wp-calendar caption {
+	text-align: left;
+}
+
+#wp-calendar caption {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#wp-calendar #next {
+	padding-right: 24px;
+	text-align: right;
+}
+
+/** RSS */
+.widget_rss li {
+	margin-bottom: 20px;
+}
+
+.widget_rss li:before {
+	content: ' ';
+}
+
+.widget_rss li a {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 0;
+}
+
+.widget_rss li a:hover {
+	background: none;
+}
+
+.widget_rss .rss-date {
+	font-size: 13px;
+	display: block;
+	margin: 5px 0;
+}
+
+/** Text */
+.widget_text {
+	margin: 40px 0;
+}
+
+/** Search */
+.widget.widget_search #searchform input[type="text"] {
+	margin-right: 5%;
+	width: 72%;
+}
+
+.widget.widget_search #searchform #searchsubmit {
+	font-size: 24px;
+	padding: 0;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	width: 22%;
+}

@@ -1,0 +1,2 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; ?>
+<textarea placeholder="<?php echo $settings['placeholder']; ?>" name="<?php echo $name; ?>" class="widefat" cols="20" rows="2" ref="<?php echo $groupid; ?>" id="<?php echo $id; ?>"><?php echo htmlentities( $value ); ?></textarea>

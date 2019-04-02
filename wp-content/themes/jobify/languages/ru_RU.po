@@ -1,0 +1,2996 @@
+# Copyright (C) 2014 Astoundify
+# This file is distributed under the GNU General Public License.
+# Translators:
+# Denis Klyuev <denisyan@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: Listify\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2014-12-22 20:18:29+00:00\n"
+"PO-Revision-Date: 2015-01-13 00:30+0300\n"
+"Last-Translator: Spencer Finnell <sfinnell472@flagler.edu>\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/listify/language/"
+"ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#: 404.php:12
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Такой страницы не найдено."
+
+#: archive.php:22
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+#: archive.php:25
+msgid "Day: %s"
+msgstr "День: %s"
+
+#: archive.php:28
+msgid "Month: %s"
+msgstr "Месяц: %s"
+
+#: archive.php:31
+msgid "Year: %s"
+msgstr "Год: %s"
+
+#: archive.php:34
+msgid "Asides"
+msgstr "Кроме"
+
+#: archive.php:37
+msgid "Galleries"
+msgstr "Галереи"
+
+#: archive.php:40
+msgid "Images"
+msgstr "Изображения"
+
+#: archive.php:43
+msgid "Videos"
+msgstr "Видео"
+
+#: archive.php:46
+msgid "Quotes"
+msgstr "Цитаты"
+
+#: archive.php:49
+msgid "Links"
+msgstr "Ссылки"
+
+#: archive.php:52
+msgid "Statuses"
+msgstr "Статусы"
+
+#: archive.php:55
+msgid "Audios"
+msgstr "Аудио"
+
+#: archive.php:58
+msgid "Chats"
+msgstr "Чаты"
+
+#: archive.php:61 sidebar.php:16
+msgid "Archives"
+msgstr "Архивы"
+
+#: author.php:35
+msgid "%d Listing Created"
+msgid_plural "%d Listings Created"
+msgstr[0] "%d Листинг создан"
+msgstr[1] "%d Листингов создано"
+msgstr[2] "%d Листингов создано"
+
+#: author.php:43
+#: inc/integrations/wp-job-manager-bookmarks/class-wp-job-manager-bookmarks.php:44
+msgid "%d Favorite"
+msgid_plural "%d Favorites"
+msgstr[0] "%d Избранный"
+msgstr[1] "%d Избранные"
+msgstr[2] "%d Избранные"
+
+#: author.php:61
+msgid "About Me"
+msgstr "О себе"
+
+#: author.php:73
+msgid "%s's Listings (%d)"
+msgstr "%s's Листингов (%d)"
+
+#: author.php:118
+msgid ""
+"%s's\n"
+"\t\t\t\t\t\tFavorites (%d)"
+msgstr ""
+"%s's\n"
+"⇥⇥⇥⇥⇥⇥Избранных (%d)"
+
+#: author.php:155
+msgid "Recent Blog Posts"
+msgstr "Последние записи"
+
+#: author.php:174 inc/integrations/woocommerce/class-woocommerce.php:101
+msgid "Social Profiles"
+msgstr "Социальные профили"
+
+#: comments.php:26
+msgid "Sort By"
+msgstr "Сортировать по"
+
+#: comments.php:48
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:49
+msgid "&larr; Older Comments"
+msgstr "&larr; В прошлое"
+
+#: comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr "В будущее &rarr;"
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: comments.php:66
+msgid "Publish Review"
+msgstr "Опубликовать отзыв"
+
+#: comments.php:66 comments.php:71
+msgid "Publish Reply"
+msgstr "Опубликовать ответ"
+
+#: comments.php:72 comments.php:76
+msgid "Leave a Reply"
+msgstr "Ответить"
+
+#: comments.php:76
+msgid "Leave a Review"
+msgstr "Оставить отзыв"
+
+#: content-job_listing-attachment.php:13
+msgid "View Image"
+msgstr "Посмотреть изображение"
+
+#: content-job_listing-attachment.php:16 content.php:42
+msgid "0 Comments"
+msgstr "0 Комментариев"
+
+#: content-job_listing-attachment.php:16 content.php:42
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+#: content-job_listing-attachment.php:16 content.php:42
+msgid "% Comments"
+msgstr "% Комментариев"
+
+#: content-no-jobs-found.php:11
+msgid ""
+"Perhaps try revising your search or <a href=\"%s\">create a listing</a> "
+"instead!</li>"
+msgstr ""
+"Возможно вам нужно повторить поиск по другим параметрам, или <a href=\"%s\"> "
+"создайте свой листинг!</a></li>"
+
+#: content-none.php:15
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готовы опубликовать свой первый пост? <a href=\"%1$s\">\n"
+"Вперед!</a>."
+
+#: content-none.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, но ничего не найдено.\n"
+"Попробуйте изменить параметры поиска."
+
+#: content-none.php:24
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Кажется мы можем найти то, что вы ищите.\n"
+"Возможно поможет поиск."
+
+#: content-single-job_listing-gallery-overview.php:27
+msgid "No images found. Why not add your own?"
+msgstr "Изображений не найдено. Почему бы не добавить?"
+
+#: content-single-job_listing.php:57
+msgid "Listing Location"
+msgstr "Расположение"
+
+#: content-single-job_listing.php:70 inc/class-page-settings.php:56
+#: inc/class-strings.php:258
+msgid "Video"
+msgstr "Видео"
+
+#: content-single-job_listing.php:79
+msgid "Listing Description"
+msgstr "Описание"
+
+#: content.php:66
+msgid "Read More"
+msgstr "Читать дальше"
+
+#: functions.php:53
+msgid "Primary Menu (header)"
+msgstr "Основное меню (header)"
+
+#: functions.php:54
+msgid "Secondary Menu"
+msgstr "Дополнительное меню"
+
+#: functions.php:55
+msgid "Tertiary Menu"
+msgstr "Высшее меню"
+
+#: functions.php:56
+msgid "Social Menu (footer)"
+msgstr "Социальное меню (подвал)"
+
+#: functions.php:102
+msgid "Sidebar"
+msgstr "Сайдбар"
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr "Домашняя страница"
+
+#: functions.php:113
+msgid "Widgets that appear on the \"Homepage\" Page Template"
+msgstr "Виджеты, которые появляются в шаблоне \"Домашней страницы\""
+
+#: functions.php:123
+msgid "Footer Column 1 (wide)"
+msgstr "Подвал, Колонка 1 (широкая)"
+
+#: functions.php:133
+msgid "Footer Column 2"
+msgstr "Подвал, Колонка 2"
+
+#: functions.php:143
+msgid "Footer Column 3"
+msgstr "Подвал, Колонка 3"
+
+#: functions.php:247
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-business-hours.php:96
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-business-hours.php:97
+msgid "Closed"
+msgstr "Закрыто"
+
+#: image.php:29 single-job_listing-gallery.php:18
+msgid "Back to %s"
+msgstr "Назад к %s"
+
+#: inc/class-navigation.php:47
+msgid "Guest"
+msgstr "Гость"
+
+#: inc/class-page-settings.php:23
+msgid "Page Settings"
+msgstr "Настройки страницы"
+
+#: inc/class-page-settings.php:37
+msgid "Show tertiary navigation bar"
+msgstr "Показывать высшую навигацию"
+
+#: inc/class-page-settings.php:41
+msgid "Hero Style"
+msgstr ""
+
+#: inc/class-page-settings.php:46
+#: inc/customizer/controls/class-controls-nav.php:29
+msgid "None"
+msgstr "Отсутствует"
+
+#: inc/class-page-settings.php:51
+msgid "Featured Image"
+msgstr "Главное изображение"
+
+#: inc/class-page-settings.php:61
+#: inc/integrations/wp-job-manager/class-wp-job-manager-map.php:143
+msgid "Map"
+msgstr "Карта"
+
+#: inc/class-setup.php:17
+msgid "Install Required &amp; Recommended Plugins"
+msgstr "Установить необходимые и рекомендуемые плагины"
+
+#: inc/class-setup.php:40 inc/class-tgm-plugin-activation.php:197
+msgid "Install Plugins"
+msgstr "Установить плагины"
+
+#: inc/class-setup.php:49
+msgid "Import Demo Content"
+msgstr "Импортировать демо-материал"
+
+#: inc/class-setup.php:52
+msgid ""
+"Installing the demo content is not required to use this theme. It is simply "
+"meant to provide a way to get a feel for the theme without having to "
+"manually set up all of your own content. <strong>If you choose not to import "
+"the demo content you need to make sure you manually create all necessary "
+"page templates for your website.</strong>"
+msgstr ""
+"Установка демо-материала не требуется, чтобы использовать эту тему. Он "
+"необходим для получения представления о теме, без ручной настройки всех "
+"страниц.\n"
+"\n"
+"<strong>Если вы выберете не импортировать демо-материал, то вам будет "
+"необходимо вручную создать все страницы для сайта.</strong>"
+
+#: inc/class-setup.php:53
+msgid ""
+"The Listify theme package includes multiple demo content .XML files. This is "
+"what you will\n"
+"\t\t\t\t\tupload to the WordPress importer. Depending on the plugins you "
+"have activated or the intended use of your\n"
+"\t\t\t\t\twebsite you may not need to upload all .XML files."
+msgstr ""
+"Тема Listify включается в себя несколько версий демонстрационного контента "
+"в .XML\n"
+"\n"
+"Вот что вы загрузите в Импорт Wordpress:\n"
+"⇥⇥⇥⇥⇥\n"
+"\n"
+"Вам не требуется загрузать все .XML\n"
+"⇥⇥⇥⇥⇥\n"
+"только в зависимости от ваших целей и установленных плагинов."
+
+#: inc/class-setup.php:59
+msgid "Begin Importing Content"
+msgstr "Начать импортирование демонстрационного материала"
+
+#: inc/class-setup.php:68
+msgid "Import Widgets"
+msgstr "Импортировать виджеты"
+
+#: inc/class-setup.php:71
+msgid ""
+"Importing the demo widgets is not required to use this theme. It simply "
+"allows you to quickly match the same settings found on our theme demo. If "
+"you do not import the widgets you can manually manage your widgets just like "
+"a standard WordPress widget area."
+msgstr ""
+"Импортировать демо виджеты не требуется для использования этой темы. \n"
+"\n"
+"Это просто позволяет быстро создать те же настройки, как на нашем демо. \n"
+"\n"
+"Если вы не импортируете виджеты, вы можете создать их вручную через "
+"стандартную WordPress виджет-зону."
+
+#: inc/class-setup.php:74
+msgid "Begin Importing Widgets"
+msgstr "Начать импорт виджетов"
+
+#: inc/class-setup.php:81
+msgid "Setup Menus"
+msgstr "Настроить меню"
+
+#: inc/class-setup.php:83
+msgid ""
+"Make sure you create and assign your menus to the menu locations found in "
+"the theme. This is required to use the custom mega menu dropdown, account "
+"item, and more."
+msgstr ""
+"Убедитесь что вы создали и назначили меню для всех мест для меню в теме. Это "
+"необходимо для использования пользовательского выпадающего мега-меню и др."
+
+#: inc/class-setup.php:85
+msgid "Manage Menus"
+msgstr "Управление меню"
+
+#: inc/class-setup.php:99
+msgid "Setup Static Homepage"
+msgstr "Настроить статическую домашнюю страницу"
+
+#: inc/class-setup.php:101
+msgid ""
+"In order to display custom widgets on your homepage you must first assign "
+"your static page in the WordPress settings. You can also set which page will "
+"display your blog posts."
+msgstr ""
+"Для отображения пользовательских виджетов на главной странице сайта "
+"необходимо сначала назначить статические страницы в настройках WordPress. Вы "
+"можете также указать, какие страницы будут отображать Ваши сообщения в блоге."
+
+#: inc/class-setup.php:103
+msgid "Reading Settings"
+msgstr "Настройки чтения"
+
+#: inc/class-setup.php:111
+msgid "Setup Widgets"
+msgstr "Настроить виджеты"
+
+#: inc/class-setup.php:114
+msgid ""
+"Manage your widgets to control what displays on your homepage, listing "
+"pages, standard pages, and more."
+msgstr ""
+"Управляйте виджетами для настройки отображения контента на вашей домашней "
+"странице, странице листинга, обычных страницах и др."
+
+#: inc/class-setup.php:115
+msgid "Manage Widgets"
+msgstr "Управление виджетами"
+
+#: inc/class-setup.php:122 inc/class-setup.php:125
+msgid "Customize"
+msgstr "Настроить"
+
+#: inc/class-setup.php:124
+msgid ""
+"Manage the appearance and behavior of various theme components with the live "
+"customizer."
+msgstr ""
+"Управление внешним видом и поведением многих компонентов темы через "
+"настройщик в реальном времени."
+
+#: inc/class-setup.php:135
+msgid "Get Involved"
+msgstr "Втягивайтесь!"
+
+#: inc/class-setup.php:136
+msgid ""
+"Help improve Listify by submitting a rating and helping to translate the "
+"theme to as many languages as possible!"
+msgstr ""
+"Помогите нам улучшить Listify!\n"
+"Оставить отзыв или помогите в переводе темы на другие языки!"
+
+#: inc/class-setup.php:151
+msgid "Listify Setup"
+msgstr "Настройка Listify"
+
+#: inc/class-setup.php:151
+msgid "Setup Guide"
+msgstr "Помощь в настройке"
+
+#: inc/class-setup.php:270
+msgid "Completed!"
+msgstr "Завершено!"
+
+#: inc/class-setup.php:272
+msgid "Incomplete"
+msgstr "Незавершено"
+
+#: inc/class-setup.php:279
+msgid "You can read more and watch helpful video tutorials below:"
+msgstr "Вы можете почитать и посмотреть обучающие видео здесь:"
+
+#: inc/class-setup.php:305
+msgid "Welcome to Listify %s"
+msgstr "Добро пожаловать в Listify %s"
+
+#: inc/class-setup.php:306
+msgid ""
+"The last directory you will ever buy.\n"
+"\tUse the steps below to finish setting up your new website. If you have "
+"more questions\n"
+"\tplease <a href=\"%s\">review the documentation</a>."
+msgstr ""
+"Последний каталог, который вы когда-либо купите.\n"
+"⇥Следуйте инструкциям ниже, для завершения настройки вашего сайта. Если у "
+"вас возникнут вопросы,\n"
+"<a href=\"%s\">обратитесь к документации</a>.."
+
+#: inc/class-setup.php:317
+msgid "Documentation"
+msgstr "Документация"
+
+#: inc/class-setup.php:318
+msgid "Submit a Support Ticket"
+msgstr "Отравить вопрос в поддержку"
+
+#: inc/class-strings.php:69
+msgid "%s Category"
+msgstr "%s Категория"
+
+#: inc/class-strings.php:70 inc/class-strings.php:71
+msgid "%s Categories"
+msgstr "%s Категории"
+
+#: inc/class-strings.php:72
+msgid "%s-category"
+msgstr "%s-категория"
+
+#: inc/class-strings.php:74 inc/class-strings.php:366
+msgid "%s Type"
+msgstr "%s Тип"
+
+#: inc/class-strings.php:75 inc/class-strings.php:76
+msgid "%s Types"
+msgstr "%s Типы"
+
+#: inc/class-strings.php:77
+msgid "%s-type"
+msgstr "%s-тип"
+
+#: inc/class-strings.php:79
+msgid ""
+"%s will be shown if within ANY\n"
+"\t\t\t\tselected category"
+msgstr ""
+"%s будут показаны из ЛЮБОЙ\n"
+"выбранной категории"
+
+#: inc/class-strings.php:81
+msgid ""
+"%s will be shown if within ALL\n"
+"\t\t\t\tselected categories"
+msgstr ""
+"%s будут показаны из ВСЕХ\n"
+"выбранных категорий"
+
+#: inc/class-strings.php:84
+msgid "Contact Email"
+msgstr "Email"
+
+#: inc/class-strings.php:85
+msgid "Contact URL"
+msgstr "Адрес страницы"
+
+#: inc/class-strings.php:86
+msgid "Contact email/URL"
+msgstr "Email / Адрес страницы"
+
+#: inc/class-strings.php:88
+msgid "Listing filled?"
+msgstr "Заполнили до конца?"
+
+#: inc/class-strings.php:90
+msgid "A video about your listing"
+msgstr "Видео о вашем листинге"
+
+#: inc/class-strings.php:97
+msgid "Add a %s via the back-end"
+msgstr "Добавить %s через бэк-энд"
+
+#: inc/class-strings.php:99
+msgid "Add a %s via the front-end"
+msgstr "Добавить %s через фронт-энд"
+
+#: inc/class-strings.php:101
+msgid ""
+"Find out more about the\n"
+"\t\t\t\tfront-end %s submission form"
+msgstr "Узнайте больше о фронт-энд форме отправки заявок"
+
+#: inc/class-strings.php:103
+msgid "View submitted %s listings"
+msgstr "Просмотреть отправленные %s заявки"
+
+#: inc/class-strings.php:105
+msgid ""
+"Add the [jobs] shortcode to a page to\n"
+"\t\t\t\tlist %s"
+msgstr ""
+"Добавить шорт-код [jobs] на страницу\n"
+"на список %s"
+
+#: inc/class-strings.php:107
+msgid "View the %s dashboard"
+msgstr "Просмотреть %s панель управления"
+
+#: inc/class-strings.php:109
+msgid ""
+"Find out more about the front-end %s\n"
+"\t\t\t\tdashboard"
+msgstr ""
+"Узнайте больше о фронт-энд\n"
+"панели управления"
+
+#: inc/class-strings.php:112
+msgid "Company name"
+msgstr "Название компании"
+
+#: inc/class-strings.php:113
+msgid "Company website"
+msgstr "Сайт компании"
+
+#: inc/class-strings.php:114
+msgid "Company tagline"
+msgstr "Лозунг компании"
+
+#: inc/class-strings.php:115
+msgid "Brief description about the company"
+msgstr "Кратное описание компании"
+
+#: inc/class-strings.php:116
+msgid "Company Twitter"
+msgstr "Twitter"
+
+#: inc/class-strings.php:117
+msgid "Company logo"
+msgstr "Логотип"
+
+#: inc/class-strings.php:118
+msgid "URL to the company logo"
+msgstr "URL для логотипа"
+
+#: inc/class-strings.php:119
+msgid "Company video"
+msgstr "Видео"
+
+#: inc/class-strings.php:121
+msgid "WP Job Manager Add-ons"
+msgstr "Дополнения WP Job Manger"
+
+#: inc/class-strings.php:122
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/class-strings.php:123
+msgid "Add-ons"
+msgstr "Дополнения"
+
+#: inc/class-strings.php:124
+msgid "Approve %s"
+msgstr "Одобрить %s"
+
+#: inc/class-strings.php:125
+msgid "Expire %s"
+msgstr "Истекает %s"
+
+#: inc/class-strings.php:126
+msgid "%s approved"
+msgstr "%s одобрено"
+
+#: inc/class-strings.php:127
+msgid "%s expired"
+msgstr "%s истекает"
+
+#: inc/class-strings.php:128
+msgid "Select category"
+msgstr "Выбрать категорию"
+
+#: inc/class-strings.php:129
+msgid "Position"
+msgstr "Расположение"
+
+#: inc/class-strings.php:130
+msgid "%s updated. View"
+msgstr "%s обновлено. Просмотреть"
+
+#: inc/class-strings.php:131
+msgid "Custom field updated."
+msgstr "Дополнительное поле обновлено."
+
+#: inc/class-strings.php:132
+msgid "Custom field deleted."
+msgstr "Дополнительное поле удалено."
+
+#: inc/class-strings.php:133
+msgid "%s updated."
+msgstr "%s обновлено."
+
+#: inc/class-strings.php:134
+msgid "%s restored to revision from %s"
+msgstr "%s восстановлено к ревизции из %s"
+
+#: inc/class-strings.php:135
+msgid "%s published. View"
+msgstr "%s опубликовано. Просмотреть"
+
+#: inc/class-strings.php:136
+msgid "%s saved."
+msgstr "%s сохранено."
+
+#: inc/class-strings.php:137
+msgid "%s submitted. Preview"
+msgstr "%s отпправлено. Просмотреть"
+
+#: inc/class-strings.php:138
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: inc/class-strings.php:139
+msgid "%s draft updated. Preview"
+msgstr "%s черновик обновлен. Просмотреть"
+
+#: inc/class-strings.php:140 inc/class-tgm-plugin-activation.php:1393
+msgid "Type"
+msgstr "Тип"
+
+#: inc/class-strings.php:141
+msgid "Posted"
+msgstr "Опубликвано"
+
+#: inc/class-strings.php:142
+msgid "Expires"
+msgstr "Истекает"
+
+#: inc/class-strings.php:143
+msgid "Categories"
+msgstr "Категории"
+
+#: inc/class-strings.php:144
+msgid "Featured?"
+msgstr "Выделить?"
+
+#: inc/class-strings.php:145
+msgid "Filled?"
+msgstr "Заполнено?"
+
+#: inc/class-strings.php:146 inc/class-tgm-plugin-activation.php:1394
+msgid "Status"
+msgstr "Статус"
+
+#: inc/class-strings.php:147
+msgid "Actions"
+msgstr "Действия"
+
+#: inc/class-strings.php:148
+msgid "ID: %d"
+msgstr "ID: %d"
+
+#: inc/class-strings.php:149
+msgid "M j, Y"
+msgstr "M j, Y"
+
+#: inc/class-strings.php:150
+msgid "by a guest"
+msgstr "от гостя"
+
+#: inc/class-strings.php:151
+msgid "by %s"
+msgstr "от %s"
+
+#: inc/class-strings.php:152
+msgid "Approve"
+msgstr "Одобрить"
+
+#: inc/class-strings.php:153
+msgid "View"
+msgstr "Просмотреть"
+
+#: inc/class-strings.php:154
+msgid "Edit"
+msgstr "Правка"
+
+#: inc/class-strings.php:155
+msgid "Delete"
+msgstr "Удалить"
+
+#: inc/class-strings.php:156
+msgid "Listings Per Page"
+msgstr "Листингов на странице"
+
+#: inc/class-strings.php:157
+msgid "How many listings should be shown per page by default?"
+msgstr "Количество листингов на странице по-умолчанию "
+
+#: inc/class-strings.php:158
+msgid "Filled Positions"
+msgstr "Заполненные поля"
+
+#: inc/class-strings.php:159
+msgid "Hide filled positions"
+msgstr "Скрыть заполненные поля"
+
+#: inc/class-strings.php:160
+msgid "If enabled, filled positions will be hidden."
+msgstr "Если включено, то заполненные поля будут скрыты."
+
+#: inc/class-strings.php:161
+msgid "Enable categories for listings"
+msgstr "Включить категории для листингов"
+
+#: inc/class-strings.php:162
+msgid "Multi-select Categories"
+msgstr "Мульти-выбор категорий"
+
+#: inc/class-strings.php:163
+msgid "Enable category multiselect by default"
+msgstr "Включить мульти-выбор категорий по-умолчанию"
+
+#: inc/class-strings.php:164
+msgid "Category Filter Type"
+msgstr "Фильтр категорий"
+
+#: inc/class-strings.php:165
+msgid "Account Required"
+msgstr "Нужно зарегистрироваться"
+
+#: inc/class-strings.php:166
+msgid "Submitting listings requires an account"
+msgstr "Что бы отправить свой листинг, нужно зарегистрироваться"
+
+#: inc/class-strings.php:167
+msgid "Account Creation"
+msgstr "Создание профиля"
+
+#: inc/class-strings.php:168
+msgid "Allow account creation"
+msgstr "Разрешить создавать профили"
+
+#: inc/class-strings.php:169
+msgid "Account Role"
+msgstr "Роль"
+
+#: inc/class-strings.php:170
+msgid "Approval Required"
+msgstr "Необходимо подтверждение"
+
+#: inc/class-strings.php:171
+msgid "New submissions require admin approval"
+msgstr "Новые заявки требуют подтреждения"
+
+#: inc/class-strings.php:172
+msgid "If enabled, new submissions will be inactive, pending admin approval."
+msgstr "Если включено, то новые заявки будут неактивны до одобрения."
+
+#: inc/class-strings.php:173
+msgid "Allow Pending Edits"
+msgstr "Разрешить редактирование до одобрения"
+
+#: inc/class-strings.php:174
+msgid "Submissions awaiting approval can be edited"
+msgstr "Заявки, ожидающие подтверждения можно редактировать"
+
+#: inc/class-strings.php:175
+msgid "Listing Duration"
+msgstr "Срок действия"
+
+#: inc/class-strings.php:176
+msgid "Application Method"
+msgstr "Способ связи"
+
+#: inc/class-strings.php:177
+msgid "Choose the contact method for listings."
+msgstr "Выберите способ связи"
+
+#: inc/class-strings.php:178
+msgid "Email address or website URL"
+msgstr "Email или адрес сайта"
+
+#: inc/class-strings.php:179
+msgid "Email addresses only"
+msgstr "Только Email"
+
+#: inc/class-strings.php:180
+msgid "Website URLs only"
+msgstr "Только сайт"
+
+#: inc/class-strings.php:181
+msgid "Pages"
+msgstr "Страницы"
+
+#: inc/class-strings.php:182
+msgid "Settings successfully saved"
+msgstr "Настройки успешно сохранены"
+
+#: inc/class-strings.php:183
+msgid "--no page--"
+msgstr "--нет страниц--"
+
+#: inc/class-strings.php:184
+msgid "Select a page…"
+msgstr "Выберите страницу..."
+
+#: inc/class-strings.php:185
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: inc/class-strings.php:186
+msgid "Setup"
+msgstr "Настройки"
+
+#: inc/class-strings.php:187
+msgid "Skip this step"
+msgstr "Пропустить"
+
+#: inc/class-strings.php:188
+msgid "All Done!"
+msgstr "Все хорошо!"
+
+#: inc/class-strings.php:189
+msgid "Location"
+msgstr "Локация"
+
+#: inc/class-strings.php:190
+msgid "e.g. \\'London\\'"
+msgstr "например \\'Москва, Шмитовский 1\\'"
+
+#: inc/class-strings.php:191
+msgid "Leave this blank if the location is not important"
+msgstr "Оставить пустым, что бы скрыть себя с карты"
+
+#: inc/class-strings.php:192
+msgid "Application email/URL"
+msgstr "Email и адрес сайта"
+
+#: inc/class-strings.php:193
+msgid "URL or email which applicants use to apply"
+msgstr "Адрес сайта или email"
+
+#: inc/class-strings.php:194
+msgid "URL to the company video"
+msgstr "Ссылка на видел"
+
+#: inc/class-strings.php:195
+msgid "Position filled?"
+msgstr "Все заполнено?"
+
+#: inc/class-strings.php:196
+msgid "Feature this listing?"
+msgstr "Выделить?"
+
+#: inc/class-strings.php:197
+msgid "yyyy-mm-dd"
+msgstr "yyyy-mm-dd"
+
+#: inc/class-strings.php:198
+msgid "Posted by"
+msgstr "Опубликовано"
+
+#: inc/class-strings.php:199
+msgid "%s Data"
+msgstr "%s Дата"
+
+#: inc/class-strings.php:200
+msgid "Use file"
+msgstr "Использовать"
+
+#: inc/class-strings.php:201
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:269
+msgid "Upload"
+msgstr "Загрузить"
+
+#: inc/class-strings.php:202
+msgid "Add file"
+msgstr "Добавить"
+
+#: inc/class-strings.php:203
+msgid "Guest user"
+msgstr "Гость"
+
+#: inc/class-strings.php:204
+msgid "Showing %s"
+msgstr "Отображаем %s"
+
+#: inc/class-strings.php:205
+msgid "Showing all %s"
+msgstr "Отображаем все %s"
+
+#: inc/class-strings.php:206
+msgid "located in &quot;%s&quot;"
+msgstr "находится в &quot;%s&quot;"
+
+#: inc/class-strings.php:207
+msgid "No results found"
+msgstr "Ничего не найдено"
+
+#: inc/class-strings.php:208
+msgid "Query limit reached"
+msgstr "Достигнут лимит запросов"
+
+#: inc/class-strings.php:209
+msgid "Geocoding error"
+msgstr "Ошибка в гео-коде"
+
+#: inc/class-strings.php:210
+msgid "Employer"
+msgstr "Работодатель"
+
+#: inc/class-strings.php:211
+msgid "Search %s"
+msgstr "Поиск %s"
+
+#: inc/class-strings.php:212
+msgid "All %s"
+msgstr "Все %s"
+
+#: inc/class-strings.php:213
+msgid "Parent %s"
+msgstr "Родственная %s"
+
+#: inc/class-strings.php:214
+msgid "Parent %s:"
+msgstr "Родственная %s:"
+
+#: inc/class-strings.php:215
+msgid "Edit %s"
+msgstr "Редактировать %s"
+
+#: inc/class-strings.php:216
+msgid "Update %s"
+msgstr "Обновить %s"
+
+#: inc/class-strings.php:217
+msgid "Add New %s"
+msgstr "Новый %s"
+
+#: inc/class-strings.php:218
+msgid "New %s Name"
+msgstr "Новое имя %s"
+
+#: inc/class-strings.php:219
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: inc/class-strings.php:220
+msgid "Add %s"
+msgstr "Добавить %s"
+
+#: inc/class-strings.php:221
+msgid "New %s"
+msgstr "Новое %s"
+
+#: inc/class-strings.php:222
+msgid "View %s"
+msgstr "Просмотр %s"
+
+#: inc/class-strings.php:223 inc/class-strings.php:363
+msgid "No %s found"
+msgstr "%s не найдено "
+
+#: inc/class-strings.php:224
+msgid "No %s found in trash"
+msgstr "В корзине %s не найдено"
+
+#: inc/class-strings.php:225
+msgid "This is where you can create and manage %s."
+msgstr "Здесь вы можете создавать и управлять своими %s"
+
+#: inc/class-strings.php:226
+msgid "Expired"
+msgstr "Истекло"
+
+#: inc/class-strings.php:227
+msgid "Expired (%s)"
+msgstr "Истекло (%s)"
+
+#: inc/class-strings.php:228
+msgid "Invalid ID"
+msgstr "Неверный ID"
+
+#: inc/class-strings.php:229
+msgid "This position has already been filled"
+msgstr "Это поле уже заполнено"
+
+#: inc/class-strings.php:230
+msgid "%s has been filled"
+msgstr "%s заполнены"
+
+#: inc/class-strings.php:231
+msgid "This position is not filled"
+msgstr "Не заполнено"
+
+#: inc/class-strings.php:232
+msgid "%s has been marked as not filled"
+msgstr "%s была отмечена как \"не заполнено\""
+
+#: inc/class-strings.php:233
+msgid "%s has been deleted"
+msgstr "%s удалена"
+
+#: inc/class-strings.php:234 inc/customizer/class-customizer-panels.php:104
+#: inc/customizer/controls/class-controls-as-seen-on.php:17
+#: inc/customizer/controls/class-controls-call-to-action.php:21
+#: inc/customizer/controls/class-controls-markers.php:14
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:40
+msgid "Title"
+msgstr "Заголовок"
+
+#: inc/class-strings.php:235
+msgid "Date Posted"
+msgstr "Дата публикации"
+
+#: inc/class-strings.php:236
+msgid "Date Expires"
+msgstr "Срок годности"
+
+#: inc/class-strings.php:237
+msgid "Load more listings"
+msgstr "Загрузить еще"
+
+#: inc/class-strings.php:238
+msgid "Recent %s"
+msgstr "Недавние %s"
+
+#: inc/class-strings.php:239
+msgid "Keyword"
+msgstr "Ключевое слово"
+
+#: inc/class-strings.php:240
+msgid "Number of listings to show"
+msgstr "Количество на странице"
+
+#: inc/class-strings.php:241
+msgid "Invalid listing"
+msgstr "Неверный листинг"
+
+#: inc/class-strings.php:242
+msgid "Save changes"
+msgstr "Сохранить"
+
+#: inc/class-strings.php:243
+msgid "Your changes have been saved."
+msgstr "Ваши изменения сохранены."
+
+#: inc/class-strings.php:244
+msgid "View →"
+msgstr "Просмотр"
+
+#: inc/class-strings.php:245
+msgid "Submit Details"
+msgstr "Опубликовать"
+
+#: inc/class-strings.php:246 inc/class-strings.php:303
+msgid "Preview"
+msgstr "Просмотр"
+
+#: inc/class-strings.php:247
+msgid "Done"
+msgstr "Выполнено"
+
+#: inc/class-strings.php:248
+msgid "Application email"
+msgstr "Email"
+
+#: inc/class-strings.php:249
+msgid "you@yourdomain.com"
+msgstr "example@mail.ru"
+
+#: inc/class-strings.php:250
+msgid "Application URL"
+msgstr "Адрес сайта"
+
+#: inc/class-strings.php:251
+msgid "http://"
+msgstr "http://"
+
+#: inc/class-strings.php:252
+msgid "Enter an email address or website URL"
+msgstr "Введите почту или адрес сайта"
+
+#: inc/class-strings.php:253
+#: inc/customizer/controls/class-controls-call-to-action.php:24
+msgid "Description"
+msgstr "Описание"
+
+#: inc/class-strings.php:254
+msgid "Enter the name of the company"
+msgstr "Введите название"
+
+#: inc/class-strings.php:255
+msgid "Website"
+msgstr "Адрес сайта"
+
+#: inc/class-strings.php:256
+msgid "Tagline"
+msgstr "Лозунг"
+
+#: inc/class-strings.php:257
+msgid "Briefly describe your company"
+msgstr "Кратко опишите компанию"
+
+#: inc/class-strings.php:259
+msgid "A link to a video about your company"
+msgstr "Ссылка на видео"
+
+#: inc/class-strings.php:260
+msgid "Twitter username"
+msgstr "Twitter"
+
+#: inc/class-strings.php:261
+msgid "@yourcompany"
+msgstr "@example"
+
+#: inc/class-strings.php:262
+msgid "Logo"
+msgstr "Логотип"
+
+#: inc/class-strings.php:263
+msgid "%s is a required field"
+msgstr "%s  Обязательно поле"
+
+#: inc/class-strings.php:264
+msgid "%s is invalid"
+msgstr "%s неверно"
+
+#: inc/class-strings.php:265
+msgid "Please enter a valid application email address"
+msgstr "Введите верный email"
+
+#: inc/class-strings.php:266
+msgid "Please enter a valid application URL"
+msgstr "Введите верный адрес сайта"
+
+#: inc/class-strings.php:267
+msgid "Please enter a valid application email address or URL"
+msgstr "Введите верные адреса почты и сайта"
+
+#: inc/class-strings.php:268
+msgid "Preview &rarr;"
+msgstr "Просмотр"
+
+#: inc/class-strings.php:269
+msgid "You must be signed in to post a new listing."
+msgstr "Вы должны быть авторизованы для подачи заявки"
+
+#: inc/class-strings.php:270
+msgid "Submit Listing →"
+msgstr "Отправить на рассмотрение"
+
+#: inc/class-strings.php:271
+msgid "&larr; Edit listing"
+msgstr "&larr; Редактировать"
+
+#: inc/class-strings.php:272
+msgid "\\%s\\ (filetype %s) needs to be one of the following file types: %s"
+msgstr "\\%s\\ (тип %s) должен быть следующих типов: %s"
+
+#: inc/class-strings.php:273
+msgid "Your account"
+msgstr "Ваш профиль"
+
+#: inc/class-strings.php:274
+msgid "You are currently signed in as %s."
+msgstr "Вы зашли как %s."
+
+#: inc/class-strings.php:275
+msgid "Sign out"
+msgstr "Выход"
+
+#: inc/class-strings.php:276
+msgid "Have an account?"
+msgstr "Уже зарегистрированы?"
+
+#: inc/class-strings.php:277
+msgid "Sign in"
+msgstr "Войти"
+
+#: inc/class-strings.php:278
+msgid "optionally"
+msgstr "не обязательно"
+
+#: inc/class-strings.php:279
+msgid "You must sign in to create a new listing."
+msgstr "Вы должны быть авторизованы для создания нового листинга"
+
+#: inc/class-strings.php:280
+msgid "Your email"
+msgstr "Email"
+
+#: inc/class-strings.php:281
+msgid "(optional)"
+msgstr "(не обязательно)"
+
+#: inc/class-strings.php:282 inc/template-tags.php:239
+msgid "%s ago"
+msgstr "%s назад"
+
+#: inc/class-strings.php:283
+msgid "No more results found."
+msgstr "Больше ничего не найдено."
+
+#: inc/class-strings.php:284
+msgid "Posted %s ago"
+msgstr "Опубликовано %s тому назад"
+
+#: inc/class-strings.php:285
+msgid "This position has been filled"
+msgstr "Заполнено"
+
+#: inc/class-strings.php:286
+msgid "This listing has expired"
+msgstr "Истекло"
+
+#: inc/class-strings.php:287
+msgid "remove"
+msgstr "удалить"
+
+#: inc/class-strings.php:288
+msgid "or"
+msgstr "или"
+
+#: inc/class-strings.php:289
+msgid "Maximum file size: %s."
+msgstr "Максимальный размер файла: %s."
+
+#: inc/class-strings.php:290
+msgid "Apply using webmail:"
+msgstr "Подать заявку через вебпочту:"
+
+#: inc/class-strings.php:291
+msgid "Apply for %s"
+msgstr "Подать заявку на %s"
+
+#: inc/class-strings.php:292
+msgid "You need to be signed in to manage your listings."
+msgstr "Вы должны быть авторизованы для управления своими объявлениями."
+
+#: inc/class-strings.php:293
+msgid "You do not have any active listings."
+msgstr "У вас нет активных объявлений."
+
+#: inc/class-strings.php:294
+msgid "Mark not filled"
+msgstr "Отметить как \"не заполнено\""
+
+#: inc/class-strings.php:295
+msgid "Mark filled"
+msgstr "Отметить как \"заполнено\""
+
+#: inc/class-strings.php:296
+msgid "Relist"
+msgstr "Перепубликовать"
+
+#: inc/class-strings.php:297
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#: inc/class-strings.php:298
+msgid "Category"
+msgstr "Категория"
+
+#: inc/class-strings.php:299
+msgid "Any category"
+msgstr "Любая категория"
+
+#: inc/class-strings.php:300
+msgid "Company Details"
+msgstr "О компании"
+
+#: inc/class-strings.php:301
+msgid "%s submitted successfully. Your listing will be visible once approved."
+msgstr "%s успешно отправлена. После подтверждения сразу появится на сайте."
+
+#: inc/class-strings.php:302
+msgid "Draft"
+msgstr "Черновик"
+
+#: inc/class-strings.php:304
+msgid "Pending approval"
+msgstr "Ожидания подтверждения"
+
+#: inc/class-strings.php:305
+msgid "Pending payment"
+msgstr "Ожидание оплаты"
+
+#: inc/class-strings.php:306
+msgid "Active"
+msgstr "Активный"
+
+#: inc/class-strings.php:307
+msgid "Reset"
+msgstr "Сбросить"
+
+#: inc/class-strings.php:308
+msgid "RSS"
+msgstr "RSS"
+
+#: inc/class-strings.php:309
+msgid "Your email address isn’t correct."
+msgstr "Вы ввели не верный Email."
+
+#: inc/class-strings.php:310
+msgid "This email is already registered, please choose another one."
+msgstr ""
+"Этот email уже зарегистрирован.\n"
+"Используйте другой."
+
+#: inc/class-strings.php:311
+msgid "Choose a category…"
+msgstr "Выберите категорию"
+
+#: inc/class-strings.php:312
+msgid "Inactive"
+msgstr "Неактивно"
+
+#: inc/class-strings.php:313
+msgid "Application via \\%s\\ listing on %s"
+msgstr "Заявление через \\%s\\ для %s"
+
+#: inc/class-strings.php:314
+msgid "Anywhere"
+msgstr "Везде"
+
+#: inc/class-strings.php:315
+msgid "Are you sure you want to delete this listing?"
+msgstr "Точно удалить?"
+
+#: inc/class-strings.php:322
+msgid ""
+"Choose some tags, such as required skills available features, for this "
+"listing."
+msgstr "Выберите тэги"
+
+#: inc/class-strings.php:323
+msgid "Filter by tag: "
+msgstr "Фильтровать по тэгам:"
+
+#: inc/class-strings.php:332
+msgid "Display a list of %s regions."
+msgstr "Показать список %s регионов."
+
+#: inc/class-strings.php:335
+msgid "%s listing posted out of %d"
+msgstr "%s листинг опубликован из %d"
+
+#: inc/class-strings.php:336
+msgid "%s listings posted out of %d"
+msgstr "%s листингов опубликован из %d"
+
+#: inc/class-strings.php:337
+msgid "%s for %d listing"
+msgstr "%s для %d листинга"
+
+#: inc/class-strings.php:338
+msgid "%s for %s listings"
+msgstr "%s для %s листингов"
+
+#: inc/class-strings.php:339
+msgid "%s Package"
+msgstr "%s Пакет"
+
+#: inc/class-strings.php:340
+msgid "%s Package Subscription"
+msgstr "%s Подписка"
+
+#: inc/class-strings.php:342
+msgid "%s Listing"
+msgstr "%s Листинг"
+
+#: inc/class-strings.php:343
+msgid "%s limit"
+msgstr "%s лимит"
+
+#: inc/class-strings.php:344
+msgid "%s duration"
+msgstr "%s продолжительность"
+
+#: inc/class-strings.php:345
+msgid ""
+"The number of days that the %s\n"
+"\t\t\t\twill be active"
+msgstr ""
+"Количество дней, которые %s\n"
+"⇥⇥⇥⇥будет активно"
+
+#: inc/class-strings.php:347
+msgid "Feature %s?"
+msgstr "Выделить %s?"
+
+#: inc/class-strings.php:348
+msgid ""
+"Feature this %s\n"
+"\t\t\t\t-- it will be styled differently and sticky."
+msgstr ""
+"Выделите %s\n"
+"⇥⇥⇥⇥-- она будет особенно выделена и закреплена."
+
+#: inc/class-strings.php:350
+msgid "My %s packages"
+msgstr "Мои %s пакеты"
+
+#: inc/class-strings.php:351
+msgid "%s Remaining"
+msgstr "%s Осталось"
+
+#: inc/class-strings.php:354
+msgid "#%d Payment Update"
+msgstr "#%d Обновление оплаты"
+
+#: inc/class-strings.php:357
+msgid "Alert Results Matching \\\"%s\\\""
+msgstr "Оповещать о результатах, соответствующих \\\"%s\\\""
+
+#: inc/class-strings.php:358
+msgid ""
+"No\n"
+"\t\t\t\tresults were found matching your search. Login to your account to "
+"change your alert criteria"
+msgstr ""
+"Ничего не найдено.\n"
+"Войдите в свой аккаунт и поменяйте критерии оповещений."
+
+#: inc/class-strings.php:361
+msgid ""
+"This alert will automatically stop\n"
+"\t\t\t\tsending after %s."
+msgstr ""
+"Оповещение будет прекращено\n"
+"после отправления %s."
+
+#: inc/class-strings.php:364
+msgid ""
+"Optionally add a keyword to match %s \n"
+"\t\t\t\tagainst"
+msgstr ""
+"Вы можете добавить ключевое слово %s\n"
+"⇥⇥⇥⇥против"
+
+#: inc/class-strings.php:367
+msgid "Any %s type"
+msgstr "Любой %s тип"
+
+#: inc/class-strings.php:368
+msgid "%s Type:"
+msgstr "%s Тип:"
+
+#: inc/class-strings.php:369
+msgid ""
+"Your alerts are\n"
+"\t\t\t\tshown in the table below. The alerts will be sent to %s."
+msgstr ""
+"Ваши оповещения\n"
+"⇥⇥⇥⇥показаны в таблице ниже. Оповещения будут отправляться на %s."
+
+#: inc/class-tgm-plugin-activation.php:196
+msgid "Install Required Plugins"
+msgstr "Установить необходимые плагины"
+
+#: inc/class-tgm-plugin-activation.php:198
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина: %s"
+
+#: inc/class-tgm-plugin-activation.php:199
+msgid "Something went wrong."
+msgstr "Что-то пошло не так."
+
+#: inc/class-tgm-plugin-activation.php:200
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Нужна установка плагина: %1$s."
+msgstr[1] "Нужна установка плагинов: %1$s."
+msgstr[2] "Нужна установка плагинов: %1$s."
+
+#: inc/class-tgm-plugin-activation.php:201
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Рекомендуется установка плагина: %1$s."
+msgstr[1] "Рекомендуется установка плагинов: %1$s."
+msgstr[2] "Рекомендуется установка плагинов: %1$s."
+
+#: inc/class-tgm-plugin-activation.php:202
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+"Просим прощения, но у вас нет прав для установки %s плагина.\n"
+"Свяжитесь с администратором для помощи в установке."
+msgstr[1] ""
+"Просим прощения, но у вас нет прав для установки %s плагинов.\n"
+"Свяжитесь с администратором для помощи в установке."
+msgstr[2] ""
+"Просим прощения, но у вас нет прав для установки %s плагинов.\n"
+"Свяжитесь с администратором для помощи в установке."
+
+#: inc/class-tgm-plugin-activation.php:203
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Необходимый плагин не активен: %1$s."
+msgstr[1] "Необходимые плагины не активны: %1$s."
+msgstr[2] "Необходимые плагины не активны: %1$s."
+
+#: inc/class-tgm-plugin-activation.php:204
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Рекомендуемый плагин не активен: %1$s."
+msgstr[1] "Рекомендуемые плагины не активны: %1$s."
+msgstr[2] "Рекомендуемые плагины не активны: %1$s."
+
+#: inc/class-tgm-plugin-activation.php:205
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"Просим прощения, но у вас нет прав для активации %s плагина.\n"
+"Свяжитесь с администратором для помощи в установке."
+msgstr[1] ""
+"Просим прощения, но у вас нет прав для активации %s плагинов.\n"
+"Свяжитесь с администратором для помощи в установке."
+msgstr[2] ""
+"Просим прощения, но у вас нет прав для активации %s плагинов.\n"
+"Свяжитесь с администратором для помощи в установке."
+
+#: inc/class-tgm-plugin-activation.php:206
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Плагин должен быть обновлен до последней версии, что бы обеспечить "
+"максимальную совместимость с этим шабоном: %1$s."
+msgstr[1] ""
+"Плагины должны быть обновлены до последних версий, что бы обеспечить "
+"максимальную совместимость с этим шабоном: %1$s."
+msgstr[2] ""
+"Плагины должны быть обновлены до последних версий, что бы обеспечить "
+"максимальную совместимость с этим шабоном: %1$s."
+
+#: inc/class-tgm-plugin-activation.php:207
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"Просим прощения, но у вас нет прав для обновления %s плагина.\n"
+"Свяжитесь с администратором для помощи в установке."
+msgstr[1] ""
+"Просим прощения, но у вас нет прав для обновления %s плагинов.\n"
+"Свяжитесь с администратором для помощи в установке."
+msgstr[2] ""
+"Просим прощения, но у вас нет прав для обновления %s плагинов.\n"
+"Свяжитесь с администратором для помощи в установке."
+
+#: inc/class-tgm-plugin-activation.php:208
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Начать установку плагина"
+msgstr[1] "Начать установку плагинов"
+msgstr[2] "Начать установку плагинов"
+
+#: inc/class-tgm-plugin-activation.php:209
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Активировать плагин."
+msgstr[1] "Активировать плагины."
+msgstr[2] "Активировать плагины."
+
+#: inc/class-tgm-plugin-activation.php:210
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться к установщику необходимых плагинов"
+
+#: inc/class-tgm-plugin-activation.php:211
+msgid "Return to the dashboard"
+msgstr "Вернуться в консоль"
+
+#: inc/class-tgm-plugin-activation.php:212
+#: inc/class-tgm-plugin-activation.php:1965
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован"
+
+#: inc/class-tgm-plugin-activation.php:213
+#: inc/class-tgm-plugin-activation.php:1652
+msgid "The following plugin was activated successfully:"
+msgstr "Следующие плагины успешно активированы:"
+
+#: inc/class-tgm-plugin-activation.php:214
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все плагины установлены и активированы. %1$s"
+
+#: inc/class-tgm-plugin-activation.php:215
+msgid "Dismiss this notice"
+msgstr "Скрыть"
+
+#: inc/class-tgm-plugin-activation.php:556
+#: inc/class-tgm-plugin-activation.php:2182
+msgid "Return to the Dashboard"
+msgstr "Вернуться в консоль"
+
+#: inc/class-tgm-plugin-activation.php:1186
+msgid "Private Repository"
+msgstr "Личное хранилище"
+
+#: inc/class-tgm-plugin-activation.php:1189
+msgid "Pre-Packaged"
+msgstr "В комплекте"
+
+#: inc/class-tgm-plugin-activation.php:1194
+msgid "WordPress Repository"
+msgstr "WordPress хранилище"
+
+#: inc/class-tgm-plugin-activation.php:1197
+msgid "Required"
+msgstr "Необходимый"
+
+#: inc/class-tgm-plugin-activation.php:1197
+msgid "Recommended"
+msgstr "Рекомендуется"
+
+#: inc/class-tgm-plugin-activation.php:1200
+msgid "Not Installed"
+msgstr "Не установлено"
+
+#: inc/class-tgm-plugin-activation.php:1202
+msgid "Installed But Not Activated"
+msgstr "Установлено, но не активно"
+
+#: inc/class-tgm-plugin-activation.php:1304
+#: inc/class-tgm-plugin-activation.php:1412
+msgid "Install"
+msgstr "Установить"
+
+#: inc/class-tgm-plugin-activation.php:1326
+#: inc/class-tgm-plugin-activation.php:1413
+msgid "Activate"
+msgstr "Активировать"
+
+#: inc/class-tgm-plugin-activation.php:1375
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Нет плагинов для установки или активации. <a href=\"%1$s\" title=\"Вернуться "
+"в консоль\">Вернуться в консоль</a>"
+
+#: inc/class-tgm-plugin-activation.php:1391
+msgid "Plugin"
+msgstr "Плагин"
+
+#: inc/class-tgm-plugin-activation.php:1392
+msgid "Source"
+msgstr "Источник"
+
+#: inc/class-tgm-plugin-activation.php:1522
+msgid "No plugins are available to be installed at this time."
+msgstr "Нет плагинов для установки."
+
+#: inc/class-tgm-plugin-activation.php:1630
+msgid "No plugins are available to be activated at this time."
+msgstr "Нет плагинов для активации."
+
+#: inc/class-tgm-plugin-activation.php:1948
+msgid "Install package not available."
+msgstr "Установка не доступна."
+
+#: inc/class-tgm-plugin-activation.php:1949
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Скачивание установщика из <span class=\"code\">%s</span>&#8230;"
+
+#: inc/class-tgm-plugin-activation.php:1950
+msgid "Unpacking the package&#8230;"
+msgstr "Распаковка&#8230;"
+
+#: inc/class-tgm-plugin-activation.php:1951
+msgid "Installing the plugin&#8230;"
+msgstr "Установка плагина&#8230;"
+
+#: inc/class-tgm-plugin-activation.php:1952
+msgid "Plugin install failed."
+msgstr "Установка не удалась."
+
+#: inc/class-tgm-plugin-activation.php:1953
+msgid "Plugin installed successfully."
+msgstr "Установка прошла успешно!"
+
+#: inc/class-tgm-plugin-activation.php:1964
+msgid "Plugin activation failed."
+msgstr "Активация плагина не удалась."
+
+#: inc/class-tgm-plugin-activation.php:2078
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Началась установка и активация.\n"
+"Этот процесс может занять некоторое время, будьте терпеливы."
+
+#: inc/class-tgm-plugin-activation.php:2079
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s установлено и успешно активировано."
+
+#: inc/class-tgm-plugin-activation.php:2079
+#: inc/class-tgm-plugin-activation.php:2088
+msgid "Show Details"
+msgstr "Показать подробнее"
+
+#: inc/class-tgm-plugin-activation.php:2079
+#: inc/class-tgm-plugin-activation.php:2088
+msgid "Hide Details"
+msgstr "Скрыть"
+
+#: inc/class-tgm-plugin-activation.php:2080
+msgid "All installations and activations have been completed."
+msgstr "Все установки и активации завершены."
+
+#: inc/class-tgm-plugin-activation.php:2081
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация плагина %1$s (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:2085
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Начинается установка.\n"
+"Этот процесс может занять некоторое время, поэтому будьте терпеливы."
+
+#: inc/class-tgm-plugin-activation.php:2086
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Возникла ошибка при установке %1$s: <strong>%2$s</strong>."
+
+#: inc/class-tgm-plugin-activation.php:2087
+msgid "The installation of %1$s failed."
+msgstr "Установка %1$s не удалась."
+
+#: inc/class-tgm-plugin-activation.php:2088
+msgid "%1$s installed successfully."
+msgstr "Установка %1$s прошла успешно."
+
+#: inc/class-tgm-plugin-activation.php:2089
+msgid "All installations have been completed."
+msgstr "Все установки завершены успешно."
+
+#: inc/class-tgm-plugin-activation.php:2090
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка плагина %1$s (%2$d/%3$d)"
+
+#: inc/class-widget.php:236 inc/widgets/class-widget-home-features.php:64
+#: inc/widgets/class-widget-home-features.php:175
+msgid "Choose Image"
+msgstr "Выберите изображение"
+
+#: inc/class-widgetized-pages.php:23
+msgid "Page: %s"
+msgstr "Страница: %s"
+
+#: inc/class-widgetized-pages.php:24
+msgid "Widgets that appear on the \"%s\" page."
+msgstr "Виджеты для \"%s\" страницы."
+
+#: inc/customizer/class-customizer-panels.php:18
+msgid "General"
+msgstr "Основные настройки"
+
+#: inc/customizer/class-customizer-panels.php:23
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: inc/customizer/class-customizer-panels.php:26
+msgid "Colors & Scheme"
+msgstr "Цвета и цветовые схемы"
+
+#: inc/customizer/class-customizer-panels.php:27
+msgid ""
+"Choose a color scheme and continue to\n"
+"\t\t\t\t\t\tcustomize based on your brand. Certain schemes use the\n"
+"\t\t\t\t\t\tcolors differently so be sure to experiment!"
+msgstr ""
+"Выберите цветовую схему и продолжите\n"
+"⇥⇥⇥⇥⇥⇥настраивать ваш сайт. Некоторые цветовые схемы\n"
+"⇥⇥⇥⇥⇥⇥используются цвета по-разному, поэтому смело экспериментируйте!"
+
+#: inc/customizer/class-customizer-panels.php:32
+msgid "Menus & Navigation"
+msgstr "Меню и навигация"
+
+#: inc/customizer/class-customizer-panels.php:35
+msgid "Header & Logo"
+msgstr "Шапка и логотип"
+
+#: inc/customizer/class-customizer-panels.php:40
+msgid "Footer Area"
+msgstr "Подвал"
+
+#: inc/customizer/class-customizer-panels.php:43
+msgid "Call to Action"
+msgstr "Призыв к действию"
+
+#: inc/customizer/class-customizer-panels.php:46
+msgid "As Seen On"
+msgstr "Как увидено на"
+
+#: inc/customizer/class-customizer-panels.php:49
+msgid "Copyright"
+msgstr "Авторское право"
+
+#: inc/customizer/class-customizer-panels.php:111
+msgid "Homepage Display"
+msgstr "Отображение домашней страницы"
+
+#: inc/customizer/controls/class-controls-as-seen-on.php:20
+msgid "Logos"
+msgstr "Логотипы"
+
+#: inc/customizer/controls/class-controls-call-to-action.php:17
+msgid "Display this section"
+msgstr "Отображать эту секцию"
+
+#: inc/customizer/controls/class-controls-call-to-action.php:28
+msgid "Button Label"
+msgstr "Кнопка: Надпись"
+
+#: inc/customizer/controls/class-controls-call-to-action.php:31
+msgid "Button Link"
+msgstr "Кнопка: Ссылка"
+
+#: inc/customizer/controls/class-controls-call-to-action.php:34
+msgid "Button Subtext"
+msgstr "Кнопка: Подтекст"
+
+#: inc/customizer/controls/class-controls-colors.php:23
+msgid "Color Scheme"
+msgstr "Цветовая схема"
+
+#: inc/customizer/controls/class-controls-colors.php:28
+msgid "Header Background Color"
+msgstr "Цвет фона шапки"
+
+#: inc/customizer/controls/class-controls-colors.php:32
+msgid "Navigation Text Color"
+msgstr "Цвет текста навигации"
+
+#: inc/customizer/controls/class-controls-colors.php:36
+msgid "Link Text Color"
+msgstr "Цвет ссылок"
+
+#: inc/customizer/controls/class-controls-colors.php:40
+msgid "Body Text Color"
+msgstr "Цвет текста body"
+
+#: inc/customizer/controls/class-controls-colors.php:44
+msgid "Primary Color"
+msgstr "Основной цвет"
+
+#: inc/customizer/controls/class-controls-colors.php:48
+msgid "Accent Color"
+msgstr "Цвет акцента"
+
+#: inc/customizer/controls/class-controls-colors.php:52
+msgid "\"As Seen On\" Background Color"
+msgstr "Цвет заднего фона \"Как увидено на\""
+
+#: inc/customizer/controls/class-controls-colors.php:56
+msgid "Footer Widgets Background Color"
+msgstr "Цвет заднего фона виджетов в подвале"
+
+#: inc/customizer/controls/class-controls-colors.php:60
+msgid "Footer Background Color"
+msgstr "Цвет заднего фона подвала"
+
+#: inc/customizer/controls/class-controls-copyright.php:17
+#: inc/customizer/controls/class-controls-listing-archive.php:33
+msgid "Display Style"
+msgstr "Стиль отображения"
+
+#: inc/customizer/controls/class-controls-copyright.php:20
+msgid "Dark"
+msgstr "Темный"
+
+#: inc/customizer/controls/class-controls-copyright.php:21
+msgid "Transparent"
+msgstr "Прозрачны"
+
+#: inc/customizer/controls/class-controls-copyright.php:25
+msgid "Copyright Text"
+msgstr "Цвет \"копирайта\""
+
+#: inc/customizer/controls/class-controls-header_image.php:17
+msgid "Fixed Header"
+msgstr "Фиксированная шапка"
+
+#: inc/customizer/controls/class-controls-labels.php:17
+msgid "Singular Label"
+msgstr "Единичная метка"
+
+#: inc/customizer/controls/class-controls-labels.php:20
+msgid "Plural Label"
+msgstr "Множественная метка"
+
+#: inc/customizer/controls/class-controls-labels.php:23
+msgid "Use \"directory\" submission fields"
+msgstr "Используйте вид представления полей \"каталог\""
+
+#: inc/customizer/controls/class-controls-labels.php:28
+msgid "Use categories only"
+msgstr "Используйте только категории"
+
+#: inc/customizer/controls/class-controls-labels.php:30
+msgid ""
+"Categories will be used to create map markers, and types will\n"
+"\t\t\t\tbe hidden from all other areas. Categories must be enabled in "
+"Listings > Settings.\n"
+"\t\t\t\t<br /><br />Refresh this page in your browser after saving."
+msgstr ""
+"Категории будут использованы для создания маркеров на карте, а типы будут "
+"спрятаны из всех других зон. Категории должны быть включены в Листинги > "
+"Настройки.\n"
+"⇥⇥⇥⇥<br /><br />Обновите страницу после сохранения."
+
+#: inc/customizer/controls/class-controls-listing-archive.php:17
+msgid "Display"
+msgstr "Отображение"
+
+#: inc/customizer/controls/class-controls-listing-archive.php:20
+msgid "Results Only"
+msgstr "Только результаты"
+
+#: inc/customizer/controls/class-controls-listing-archive.php:21
+msgid "Map + Results"
+msgstr "Карта + Результаты"
+
+#: inc/customizer/controls/class-controls-listing-archive.php:25
+msgid "Map Position"
+msgstr "Расположение карты"
+
+#: inc/customizer/controls/class-controls-listing-archive.php:28
+msgid "Side (fixed)"
+msgstr "Сбоку (фиксированно)"
+
+#: inc/customizer/controls/class-controls-listing-archive.php:29
+#: inc/integrations/facetwp/class-facetwp.php:87
+msgid "Top"
+msgstr "Сверху"
+
+#: inc/customizer/controls/class-controls-listing-archive.php:36
+msgid "Grid"
+msgstr "Сетка"
+
+#: inc/customizer/controls/class-controls-listing-archive.php:37
+msgid "List"
+msgstr "Список"
+
+#: inc/customizer/controls/class-controls-listing-archive.php:52
+#: inc/customizer/controls/class-controls-map-behavior.php:64
+#: inc/customizer/controls/class-controls-marker-appearance.php:49
+msgid "Default"
+msgstr "По-умолчанию"
+
+#: inc/customizer/controls/class-controls-map-behavior.php:17
+msgid "Use Clusters"
+msgstr "Использовать кластеры"
+
+#: inc/customizer/controls/class-controls-map-behavior.php:21
+msgid "Cluster Grid Size (px)"
+msgstr "Размер сетки кластера (px)"
+
+#: inc/customizer/controls/class-controls-map-behavior.php:24
+msgid "Autofit on load"
+msgstr "Автоподбор ширины при загрузке"
+
+#: inc/customizer/controls/class-controls-map-behavior.php:28
+msgid "Default Center Coordinate"
+msgstr "Координата центра по-умолчанию"
+
+#: inc/customizer/controls/class-controls-map-behavior.php:31
+msgid "Default Zoom Level"
+msgstr "Приближение по-умолчанию"
+
+#: inc/customizer/controls/class-controls-map-behavior.php:39
+msgid "Max Zoom Level"
+msgstr "Максимальное приближение"
+
+#: inc/customizer/controls/class-controls-map-behavior.php:47
+msgid "Search Radius Min"
+msgstr "Минимальный радиус поиска"
+
+#: inc/customizer/controls/class-controls-map-behavior.php:50
+msgid "Search Radius Max"
+msgstr "Максимальный радиус поиска"
+
+#: inc/customizer/controls/class-controls-marker-appearance.php:28
+msgid "%s Icon Class"
+msgstr "%s класс иконок"
+
+#: inc/customizer/controls/class-controls-marker-appearance.php:33
+msgid "%s Marker Color"
+msgstr "%s цвет маркера"
+
+#: inc/customizer/controls/class-controls-nav.php:19
+msgid "Display cart icon"
+msgstr "Отображение иконки корзины"
+
+#: inc/customizer/controls/class-controls-nav.php:23
+msgid "Display search icon"
+msgstr "Отображение иконки поиска"
+
+#: inc/customizer/controls/class-controls-nav.php:27
+msgid "Secondary Mega Menu Taxonomy"
+msgstr "Таксономия вторичного мега-меню"
+
+#: inc/customizer/helper-functions.php:33
+msgid "Listing"
+msgstr "Листинг"
+
+#: inc/customizer/helper-functions.php:34
+msgid "Listings"
+msgstr "Листинги"
+
+#: inc/customizer/helper-functions.php:57
+msgid "Copyright %s &copy; %s. All Rights Reserved"
+msgstr "&copy; Защищено авторским правом."
+
+#: inc/extras.php:35
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: inc/integrations/facetwp/class-facetwp-proximity.php:78
+msgid "Distance"
+msgstr "Расстояние"
+
+#: inc/integrations/facetwp/class-facetwp-template.php:100
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:814
+#: sidebar-shop-archive.php:19
+msgid "Toggle Filters"
+msgstr "Включить фильтры"
+
+#: inc/integrations/facetwp/class-facetwp.php:83
+msgid "FacetWP Filter Position"
+msgstr "Расположение фильтра FacetWP"
+
+#: inc/integrations/facetwp/class-facetwp.php:86
+msgid "Side"
+msgstr "Сбоку"
+
+#: inc/integrations/facetwp/class-facetwp.php:92
+msgid "FacetWP Filters"
+msgstr "Фильтры FacetWP"
+
+#: inc/integrations/facetwp/class-facetwp.php:93
+msgid ""
+"A comma (,) separated list of FacetWP facet slugs. The order they\n"
+"\t\t\tappear here will be the order they appear on your website."
+msgstr ""
+"Разделяйте запятой (,) список из тегов FacetWP.\n"
+"В таком же порядке они появится на вашем сайте."
+
+#: inc/integrations/facetwp/includes/proximity.php:10
+msgid "Proximity"
+msgstr "Близость"
+
+#: inc/integrations/facetwp/includes/proximity.php:25
+msgid "Enter location..."
+msgstr "Введите местоположение"
+
+#: inc/integrations/jetpack/class-jetpack-share.php:43
+msgid "Share"
+msgstr "Поделиться"
+
+#: inc/integrations/ratings/class-comments.php:11
+msgid "Newest First"
+msgstr "Новые впереди"
+
+#: inc/integrations/ratings/class-comments.php:12
+msgid "Oldest First"
+msgstr "Старые впереди"
+
+#: inc/integrations/ratings/class-comments.php:13
+msgid "Rating (High-Low)"
+msgstr "Рейтинг (Высокий-Низкий)"
+
+#: inc/integrations/ratings/class-comments.php:14
+msgid "Rating (Low-High)"
+msgstr "Рейтинг (Низкий-Высокий)"
+
+#: inc/integrations/ratings/class-ratings.php:53
+msgid "Your Rating"
+msgstr "Ваш рейтинг"
+
+#: inc/integrations/woocommerce/class-woocommerce-template.php:92
+msgid "Item"
+msgid_plural "Items"
+msgstr[0] "Предмет"
+msgstr[1] "Предметы"
+msgstr[2] "Предметы"
+
+#: inc/integrations/woocommerce/class-woocommerce.php:46
+msgid "Product Sidebar"
+msgstr "Сайдбар продукта"
+
+#: inc/integrations/woocommerce/class-woocommerce.php:55
+msgid "Shop Sidebar"
+msgstr "Сайдбар магазина"
+
+#: inc/integrations/woocommerce/class-woocommerce.php:71
+msgid "Twitter URL"
+msgstr "Twitter:"
+
+#: inc/integrations/woocommerce/class-woocommerce.php:72
+msgid "Facebook URL"
+msgstr "Facebook:"
+
+#: inc/integrations/woocommerce/class-woocommerce.php:73
+msgid "Google+ URL"
+msgstr "Google+"
+
+#: inc/integrations/woocommerce/class-woocommerce.php:74
+msgid "Pinterest URL"
+msgstr "Pinterest"
+
+#: inc/integrations/woocommerce/class-woocommerce.php:75
+msgid "LinkedIn URL"
+msgstr "LinkedIn"
+
+#: inc/integrations/woocommerce/class-woocommerce.php:76
+msgid "GitHub URL"
+msgstr "GitHub"
+
+#: inc/integrations/woocommerce/class-woocommerce.php:92
+#: inc/integrations/woocommerce/class-woocommerce.php:95
+msgid "Biography"
+msgstr "Биография"
+
+#: inc/integrations/woocommerce/widgets/class-widget-job_listing-social-profiles.php:13
+msgid "Display the social profiles of the listing author"
+msgstr "Отобразить социальные профили автора листинга"
+
+#: inc/integrations/woocommerce/widgets/class-widget-job_listing-social-profiles.php:15
+msgid "Listify - Listing: Social Profiles"
+msgstr "Listify - Листинг: Социальные профили"
+
+#: inc/integrations/woocommerce/widgets/class-widget-job_listing-social-profiles.php:20
+#: inc/integrations/woocommerce-bookings/widgets/class-widget-job_listing-bookings.php:20
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-map-listings.php:20
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-recent-listings.php:20
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-search-listings.php:22
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-tabbed-listings.php:28
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-taxonomy-image-grid.php:18
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:18
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-business-hours.php:20
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-comments.php:20
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-content.php:20
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-gallery.php:20
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-tags.php:24
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-video.php:20
+#: inc/integrations/wp-job-manager-products/widgets/class-widget-job_listing-products.php:20
+#: inc/integrations/wp-job-manager-wc-paid-listings/widgets/class-widget-pricing-table.php:20
+#: inc/widgets/class-widget-ad.php:20
+#: inc/widgets/class-widget-home-feature-callout.php:79
+#: inc/widgets/class-widget-home-features.php:25
+#: inc/widgets/class-widget-home-features.php:165
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: inc/integrations/woocommerce/widgets/class-widget-job_listing-social-profiles.php:25
+#: inc/integrations/woocommerce-bookings/widgets/class-widget-job_listing-bookings.php:25
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-business-hours.php:25
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-comments.php:25
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-content.php:25
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-gallery.php:25
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-tags.php:29
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-video.php:25
+#: inc/integrations/wp-job-manager-products/widgets/class-widget-job_listing-products.php:25
+#: inc/widgets/class-widget-ad.php:25
+msgid "Icon:"
+msgstr "Иконка:"
+
+#: inc/integrations/woocommerce-bookings/widgets/class-widget-job_listing-bookings.php:13
+msgid "Display the booking form for the linked bookable product."
+msgstr "Отображать форму бронирования для продукта с ссылкой."
+
+#: inc/integrations/woocommerce-bookings/widgets/class-widget-job_listing-bookings.php:15
+msgid "Listify - Listing: Bookings"
+msgstr "Listify - Листинг: Бронирование"
+
+#: inc/integrations/woocommerce-bookings/widgets/class-widget-job_listing-bookings.php:46
+msgid "Book Now"
+msgstr "Забронировать"
+
+#: inc/integrations/wp-job-manager/class-walker-category.php:28
+msgid "View all listings filed under %s"
+msgstr "Показать все все листинг"
+
+#: inc/integrations/wp-job-manager/class-walker-category.php:57
+msgid "Feed for all posts filed under %s"
+msgstr "Лента для всех постов, заполненных под %s"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-business-hours.php:38
+#: inc/integrations/wp-job-manager/class-wp-job-manager-business-hours.php:55
+#: sidebar-single-job_listing.php:57
+msgid "Hours of Operation"
+msgstr "Время работы"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-claim.php:37
+msgid "Claim Listing"
+msgstr "Пожаловаться"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-claim.php:40
+msgid "Claim \"%s\""
+msgstr "Пожаловаться на \"%s\""
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-claim.php:55
+msgid "Claimed:"
+msgstr "Жалоба:"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-claim.php:57
+msgid "The owner has been verified"
+msgstr "Проверенный пользователь"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-customizer.php:16
+msgid "Labels & Behavior"
+msgstr "Метки и поведение"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-customizer.php:19
+msgid "Archive Page"
+msgstr "Архивная страница"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-customizer.php:22
+msgid "Marker Appearance"
+msgstr "Внешний вид маркера"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-customizer.php:25
+msgid "Map Behavior"
+msgstr "Внешний вид карты"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:168
+msgid "%s Gallery"
+msgstr "%s галерея"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:194
+msgid "Manage gallery images"
+msgstr "Управление изображениями в галерее"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:195
+msgid "Clear gallery"
+msgstr "Очистить галерею"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:266
+#: popup-content-single-job_listing-add-photo.php:27
+msgid "Add Images to Gallery"
+msgstr "Добавить изображения в галерею"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:267
+msgid "Add to gallery"
+msgstr "Добавить в галерею"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:268
+msgid "Delete image"
+msgstr "Удалить изображение"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:270
+msgid "Select this"
+msgstr "Выделить"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-map.php:143
+msgid "Results"
+msgstr "Результаты"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-map.php:158
+msgid "Radius: <span class=\"radi\">%s</span> mi"
+msgstr "Радиус: <span class=\"radi\">%s</span> миль"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-map.php:234
+msgid "within a %d mile radius"
+msgstr "радиус в пределах %d мили"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-submission.php:91
+msgid "Phone Number"
+msgstr "Номер телефона"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-submission.php:104
+msgid "Company phone"
+msgstr "Телефон компании"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-submission.php:114
+msgid "Cover Image"
+msgstr "Обложка"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-submission.php:131
+msgid "Gallery Images"
+msgstr "Изображения в галерее"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:296
+msgid "%s Archives - Sidebar"
+msgstr "%s Архив - Сайдбар"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:305
+msgid "Single %s - Main Content"
+msgstr "Одиночная %s - Главное содержание"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:314
+msgid "Single %s - Sidebar"
+msgstr "Одиночная %s - Сайдбар"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:368
+msgid "View All"
+msgstr "Посмотреть все"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:643
+msgid "Add Photos"
+msgstr "Добавить фотографии"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:653
+msgid "Submit a Review"
+msgstr "Добавить отзыв"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:715
+msgid "Filter by %s:"
+msgstr "Сортировка по %s:"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:798
+msgid "<span class=\"results-found\">%s</span> Results Found"
+msgstr "<span class=\"results-found\">%s</span> Результатов найдено"
+
+#: inc/integrations/wp-job-manager/services/class-wp-job-manager-service-guestful.php:7
+msgid "Book with Guestful"
+msgstr "Забронировать в Guestful"
+
+#: inc/integrations/wp-job-manager/services/class-wp-job-manager-service-opentable.php:7
+msgid "Book with OpenTable"
+msgstr "Забронировать в OpenTable"
+
+#: inc/integrations/wp-job-manager/services/class-wp-job-manager-service-resurva.php:7
+msgid "Book with Resurva"
+msgstr "Забронировать в Resurva"
+
+#: inc/integrations/wp-job-manager/templates/form-fields/business-hours-field.php:16
+msgid "Open"
+msgstr "Открыто"
+
+#: inc/integrations/wp-job-manager/templates/form-fields/business-hours-field.php:17
+msgid "Close"
+msgstr "Закрыто"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-map-listings.php:13
+msgid "Display a map and results of listings"
+msgstr "Карта и результаты листингов"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-map-listings.php:15
+msgid "Listify - Page: Map"
+msgstr "Listify - Страница: Карта"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-map-listings.php:25
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-recent-listings.php:25
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-search-listings.php:27
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-taxonomy-image-grid.php:23
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:23
+#: inc/integrations/wp-job-manager-wc-paid-listings/widgets/class-widget-pricing-table.php:25
+#: inc/widgets/class-widget-home-features.php:30
+#: inc/widgets/class-widget-home-features.php:183
+msgid "Description:"
+msgstr "Описание:"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-map-listings.php:30
+msgid "Display results"
+msgstr "Показывать результаты"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-map-listings.php:38
+msgid "Number of listings per page:"
+msgstr "Количество листингов на странице:"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-recent-listings.php:13
+msgid "Display a grid of recent or featured listings"
+msgstr "Отображать сетку из недавних или выделенных листингов"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-recent-listings.php:15
+msgid "Listify - Page: Recent Listings"
+msgstr "Listify - Страница: Недавние листинги"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-recent-listings.php:30
+msgid "Show only featured listings"
+msgstr "Показывать только выделенные листинги"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-recent-listings.php:38
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-gallery.php:31
+msgid "Number to show:"
+msgstr "Количество для отображения:"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-search-listings.php:15
+msgid "Display a search form to search listings"
+msgstr "Показывать строку поиска для поиска листигов"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-search-listings.php:17
+msgid "Listify - Page: Search Listings"
+msgstr "Listify - Страница: Поиск листингов"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-search-listings.php:35
+msgid "Facets:"
+msgstr "Грани:"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-search-listings.php:98
+msgid "Search"
+msgstr "Поиск"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-tabbed-listings.php:21
+msgid "Display a tabbed layout of listing types"
+msgstr "Отображать вкладками типы листингов"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-tabbed-listings.php:23
+msgid "Listify - Page: Tabbed Listings"
+msgstr "Listify - Страница: Вкладки листингов"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-tabbed-listings.php:36
+msgid "Number per tab:"
+msgstr "Количество на старнице:"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-tabbed-listings.php:41
+msgid "Use Featured listings"
+msgstr "Использовать Выделенные листинги"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-tabbed-listings.php:44
+msgid "Types to Feature:"
+msgstr "Типы для выделения:"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-tabbed-listings.php:87
+msgid "See More"
+msgstr "Далее"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-taxonomy-image-grid.php:10
+msgid "Display a grid of images for a certain taxonomy"
+msgstr "Показывать сетку изображений для выбранной таксономии"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-taxonomy-image-grid.php:12
+msgid "Listify - Page: Image Grid"
+msgstr "Listify - Страница: Сетка изображений"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-taxonomy-image-grid.php:26
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:45
+msgid "Taxonomy:"
+msgstr "Таксономия:"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-taxonomy-image-grid.php:37
+msgid "Number of terms to show:"
+msgstr "Количество правил для отображения:"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:10
+msgid "Display lists of listings associated with terms of a given taxonomy."
+msgstr "Отображать список листингов по правилам заданной таксономии."
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:12
+msgid "Listify - Page: Term Lists"
+msgstr "Listify - Сатраница: Листы правил"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:31
+msgid "Number per list"
+msgstr "Количество на листе"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:34
+msgid "Order By:"
+msgstr "Сортировка по:"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:38
+msgid "Date"
+msgstr "Дата"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:39
+msgid "Featured"
+msgstr "Выбранным"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:41
+msgid "ID"
+msgstr "ID"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:53
+msgid "Use only featured listings"
+msgstr "Использовать только выбранные листинги"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-home-term-lists.php:124
+msgid "More"
+msgstr "Далее"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-author.php:13
+msgid "Display the listing's author"
+msgstr "Показать автора листинга"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-author.php:15
+msgid "Listify - Listing: Author"
+msgstr "Listify - Листинг: Автор"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-author.php:20
+msgid "Descriptor:"
+msgstr "Описатель:"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-author.php:25
+msgid "Show biography"
+msgstr "Показать биография"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-business-hours.php:13
+msgid "Display the business hours of the listing."
+msgstr "Отображать время работы"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-business-hours.php:15
+msgid "Listify - Listing: Business Hours"
+msgstr "Listify - Листинг: Время работы"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-comments.php:13
+msgid "Display the listing comments."
+msgstr "Показать комментарии к листингу."
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-comments.php:15
+msgid "Listify - Listing: Reviews"
+msgstr "Listify - Листинг: Отзывы"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-content.php:13
+msgid "Display the listing description."
+msgstr "Показывать описание листинга."
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-content.php:15
+msgid "Listify - Listing: Description"
+msgstr "Listify - Листинг: Описание"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-gallery.php:13
+msgid "Display the listing photo gallery."
+msgstr "Отображать фотогалерею."
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-gallery.php:15
+msgid "Listify - Listing: Photo Gallery"
+msgstr "Listify - Листинг: Фотогалерея"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-map.php:13
+msgid "Display the listing location and contact details."
+msgstr "Отображать местоположение и контактную информацию."
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-map.php:15
+msgid "Listify - Listing: Map & Contact Details"
+msgstr "Listify - Листинг: Карта и контактная информация"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-map.php:20
+msgid "Display map"
+msgstr "Отображать карту"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-map.php:25
+msgid "Display address"
+msgstr "Отображать адрес"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-map.php:30
+msgid "Display phone number"
+msgstr "Отображать телефон"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-map.php:35
+msgid "Display website"
+msgstr "Отображать веб-сайт"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-tags.php:17
+msgid "Display the listing tags."
+msgstr "Отображать тэги"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-tags.php:19
+msgid "Listify - Listing: Tags"
+msgstr "Listify - Листиг: Тэги"
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-video.php:13
+msgid "Display the listing video."
+msgstr "Отображать видео."
+
+#: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-video.php:15
+msgid "Listify - Listing: Video"
+msgstr "Listify - Листинг: Видео"
+
+#: inc/integrations/wp-job-manager-products/widgets/class-widget-job_listing-products-main.php:13
+msgid "Display the listings products (main content)"
+msgstr "Отображать продукты (основное содержание)"
+
+#: inc/integrations/wp-job-manager-products/widgets/class-widget-job_listing-products-main.php:15
+msgid "Listify - Listing: Products (Content)"
+msgstr "Listify - Листинг: Продукты (Содержание)"
+
+#: inc/integrations/wp-job-manager-products/widgets/class-widget-job_listing-products.php:13
+msgid "Display the listings products (sidebar)"
+msgstr "Отображать продукты (сайдбар)"
+
+#: inc/integrations/wp-job-manager-products/widgets/class-widget-job_listing-products.php:15
+msgid "Listify - Listing: Products (Sidebar)"
+msgstr "Listify - Листинг: Продукты (Сайдбар)"
+
+#: inc/integrations/wp-job-manager-reviews/class-wp-job-manager-reviews.php:63
+msgid "<span itemprop=\"reviewCount\">%1$d</span> Review"
+msgid_plural ""
+"<span\n"
+"\t\t\t\titemprop=\"reviewCount\">%d</span> Reviews"
+msgstr[0] "<span itemprop=\"reviewCount\">%1$d</span> Отзыв"
+msgstr[1] ""
+"<span \n"
+"itemprop=\"reviewCount\">%d</span> Отзывы"
+msgstr[2] ""
+"<span \n"
+"itemprop=\"reviewCount\">%d</span> Отзывы"
+
+#: inc/integrations/wp-job-manager-wc-paid-listings/widgets/class-widget-pricing-table.php:13
+msgid "Display the pricing packages available for listings"
+msgstr "Отображать ценовые пакеты для листингов"
+
+#: inc/integrations/wp-job-manager-wc-paid-listings/widgets/class-widget-pricing-table.php:15
+msgid "Listify - Page: Pricing Table"
+msgstr "Listify - Страница: Таблица цен"
+
+#: inc/integrations/wp-job-manager-wc-paid-listings/widgets/class-widget-pricing-table.php:97
+msgid "Get Started Now"
+msgstr "Начните прямо сейчас"
+
+#: inc/template-tags.php:218
+msgid "Listing Owner"
+msgstr "Хозяин"
+
+#: inc/template-tags.php:226
+msgid "<span class=\"ion-edit\"></span>"
+msgstr "<span class=\"ion-edit\"></span>"
+
+#: inc/template-tags.php:230
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: inc/template-tags.php:272
+msgid "Post navigation"
+msgstr "Навигация"
+
+#: inc/widgets/class-widget-ad.php:13
+msgid "Display an advertisement"
+msgstr "Показать рекламу"
+
+#: inc/widgets/class-widget-ad.php:15
+msgid "Listify - Standard: Advertisement"
+msgstr "Listify - Стандарт: Реклама"
+
+#: inc/widgets/class-widget-ad.php:31
+msgid "Ad Code:"
+msgstr "Код рекламы:"
+
+#: inc/widgets/class-widget-ad.php:36
+msgid "Remove box around widget"
+msgstr "Убрать обрамление вокруг виджета"
+
+#: inc/widgets/class-widget-home-feature-callout.php:13
+msgid "Display a full-width \"feature\" callout"
+msgstr "Отображать \"выноску\" на полную ширину"
+
+#: inc/widgets/class-widget-home-feature-callout.php:15
+msgid "Listify - Page: Feature Callout"
+msgstr "Listify - Страница: Выноска"
+
+#: inc/widgets/class-widget-home-feature-callout.php:23
+msgid "Text Align:"
+msgstr "Выравнивание текста:"
+
+#: inc/widgets/class-widget-home-feature-callout.php:25
+msgid "Left"
+msgstr "Слева"
+
+#: inc/widgets/class-widget-home-feature-callout.php:26
+msgid "Right"
+msgstr "Справа"
+
+#: inc/widgets/class-widget-home-feature-callout.php:27
+msgid "Center (cover only)"
+msgstr "По центру (только обложка)"
+
+#: inc/widgets/class-widget-home-feature-callout.php:33
+msgid "Image Style:"
+msgstr "Стиль изображения:"
+
+#: inc/widgets/class-widget-home-feature-callout.php:35
+msgid "Cover"
+msgstr "Обложка"
+
+#: inc/widgets/class-widget-home-feature-callout.php:36
+msgid "Pull Out"
+msgstr "Выдвинуть"
+
+#: inc/widgets/class-widget-home-feature-callout.php:42
+msgid "Image Position:"
+msgstr "Положение изображения:"
+
+#: inc/widgets/class-widget-home-feature-callout.php:44
+msgid "Left Top"
+msgstr "Слева сверху"
+
+#: inc/widgets/class-widget-home-feature-callout.php:45
+msgid "Left Center"
+msgstr "Слева по центру"
+
+#: inc/widgets/class-widget-home-feature-callout.php:46
+msgid "Left Bottom"
+msgstr "Слева снизу"
+
+#: inc/widgets/class-widget-home-feature-callout.php:47
+msgid "Right Top"
+msgstr "Справа сверху"
+
+#: inc/widgets/class-widget-home-feature-callout.php:48
+msgid "Right Center"
+msgstr "Справа по центру"
+
+#: inc/widgets/class-widget-home-feature-callout.php:49
+msgid "Right Bottom"
+msgstr "Справа снизу"
+
+#: inc/widgets/class-widget-home-feature-callout.php:50
+#: inc/widgets/class-widget-home-feature-callout.php:53
+msgid "Center Top"
+msgstr "По центру сверху"
+
+#: inc/widgets/class-widget-home-feature-callout.php:51
+msgid "Center Center"
+msgstr "По центру / По центру"
+
+#: inc/widgets/class-widget-home-feature-callout.php:52
+msgid "Center Bottom"
+msgstr "По центру снизу"
+
+#: inc/widgets/class-widget-home-feature-callout.php:59
+msgid "Use transparent overlay"
+msgstr "Использовать прозрачное наложение"
+
+#: inc/widgets/class-widget-home-feature-callout.php:64
+msgid "Add standard spacing above/below widget"
+msgstr "Добавить отступ по-умолчанию снизу/сверху виджета"
+
+#: inc/widgets/class-widget-home-feature-callout.php:69
+msgid "Text Color:"
+msgstr "Цвет текста:"
+
+#: inc/widgets/class-widget-home-feature-callout.php:74
+msgid "Background Color:"
+msgstr "Цвет заднего фона:"
+
+#: inc/widgets/class-widget-home-feature-callout.php:84
+msgid "Content:"
+msgstr "Содержание:"
+
+#: inc/widgets/class-widget-home-feature-callout.php:90
+msgid "Image:"
+msgstr "Изображение:"
+
+#: inc/widgets/class-widget-home-features.php:15
+msgid "Display top features about your site"
+msgstr "Отображение ТОП-особенностей о вашем сайте"
+
+#: inc/widgets/class-widget-home-features.php:17
+msgid "Listify - Page: Features"
+msgstr "Listify - Страница: Особенности"
+
+#: inc/widgets/class-widget-home-features.php:65
+msgid "Use Image"
+msgstr "Использовать изображение"
+
+#: inc/widgets/class-widget-home-features.php:150
+msgid "Add Feature"
+msgstr "Добавить особенность"
+
+#: inc/widgets/class-widget-home-features.php:171
+msgid "Image"
+msgstr "Изображение"
+
+#: page-templates/template-home.php:91
+msgid "Recent  Listings"
+msgstr "Недавно добавлено"
+
+#: page-templates/template-home.php:92
+msgid "Take a look at what's been recently added."
+msgstr "Взгляните на последние обновления."
+
+#: popup-content-single-job_listing-add-photo.php:11
+msgid "Upload Images"
+msgstr "Загрузить изображения"
+
+#: popup-content-single-job_listing-add-photo.php:18
+msgid "Click to upload..."
+msgstr "Нажмите для загрузки..."
+
+#: product-searchform.php:11 searchform-header.php:12 searchform.php:11
+msgid "Search for:"
+msgstr "Искать:"
+
+#: sidebar-archive-job_listing.php:17
+msgid "Toggle Sidebar"
+msgstr "Включить сайдбар"
+
+#: sidebar-shop-archive.php:27 sidebar-shop.php:21
+msgid "Products"
+msgstr "Продукты"
+
+#: sidebar-single-job_listing.php:25
+msgid "%s Owner"
+msgstr "%s Владелец"
+
+#: sidebar-single-job_listing.php:34
+msgid "Photo Gallery"
+msgstr "Фотогалерея"
+
+#: sidebar-single-job_listing.php:46
+msgid "Listing Information"
+msgstr "Информация о листинге"
+
+#: sidebar.php:23
+msgid "Meta"
+msgstr "Мета"
+
+#: single-job_listing-gallery.php:44
+msgid "No images found."
+msgstr "Изображений не найдено."
+
+#. Theme Name of the plugin/theme
+msgid "Listify"
+msgstr "Listify"
+
+#. Theme URI of the plugin/theme
+msgid "http://astoundify.com/themes/listify"
+msgstr "http://astoundify.com/themes/listify"
+
+#. Description of the plugin/theme
+msgid "The last directory theme you will ever buy."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Astoundify"
+msgstr "Astoundify"
+
+#. Author URI of the plugin/theme
+msgid "http://astoundify.com"
+msgstr "http://astoundify.com"
+
+#. Template Name of the plugin/theme
+msgid "Listing Archive"
+msgstr "Активный листинг"
+
+#. Template Name of the plugin/theme
+msgid "No Sidebar (blank)"
+msgstr "Без сайдбара (пусто)"
+
+#. Template Name of the plugin/theme
+msgid "No Sidebar"
+msgstr "Без сайдбара"
+
+#. Template Name of the plugin/theme
+msgid "Homepage (Slider)"
+msgstr "Домашняя страница (Слайдер)"
+
+#. Template Name of the plugin/theme
+msgid "Homepage (Visual Composer)"
+msgstr "Домашняя страница (Visual Composer)"
+
+#. Template Name of the plugin/theme
+msgid "Plans and Pricing"
+msgstr "Планы и цены"
+
+#. Template Name of the plugin/theme
+msgid "No Sidebar (thinner)"
+msgstr "Без сайдбара (Тоньше)"
+
+#. Template Name of the plugin/theme
+msgid "Widgetized"
+msgstr "С виджетами"
+
+#: archive.php:28
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:31
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Montserrat, translate this to 'off'. Do not translate into
+#. your
+#. * own language.
+#: functions.php:170
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "на"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:10
+msgctxt "gallery endpoint slug"
+msgid "gallery"
+msgstr "галерея"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:731
+msgctxt "search filters submit"
+msgid "Update %s"
+msgstr "Обновить %s"
+
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:734
+msgctxt "search filters submit"
+msgid "Search %s"
+msgstr "Поиск %s"
+
+#: inc/template-tags.php:175
+msgctxt "noun"
+msgid "Menu"
+msgstr "Меню"
+
+#: index.php:19 single.php:12
+msgctxt "blog page title"
+msgid "Blog"
+msgstr "Блог"

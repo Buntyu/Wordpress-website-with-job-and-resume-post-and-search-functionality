@@ -1,0 +1,24 @@
+.modal {
+	.ninja-forms-cont {
+		max-width: 100%;
+		margin-bottom: 0;
+
+		.ninja-forms-form-title {
+			@extend .modal-title;
+			width: 100%;
+		}
+
+		.ninja-forms-form {
+			@extend .modal-content;
+
+			.field-wrap.submit-wrap {
+				@extend .modal-submit;
+				margin: 0 -30px -30px;
+			}
+		}
+
+		.field-wrap.hidden-wrap {
+			display: none;
+		}
+	}
+}

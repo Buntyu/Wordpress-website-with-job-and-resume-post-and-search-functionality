@@ -1,0 +1,8 @@
+<wpml-config>
+	<admin-texts>
+		<key name="job_application_email_content" />
+		<key name="job_application_email_subject" />
+		<key name="job_application_candidate_email_content" />
+		<key name="job_application_candidate_email_subject" />
+	</admin-texts>
+</wpml-config>

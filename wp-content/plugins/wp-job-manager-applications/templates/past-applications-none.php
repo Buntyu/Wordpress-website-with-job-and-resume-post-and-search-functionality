@@ -1,0 +1,1 @@
+<?php _e( 'You haven\'t made any applications yet!', 'wp-job-manager-applications' ); ?>

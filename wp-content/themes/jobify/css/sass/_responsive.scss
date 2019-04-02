@@ -1,0 +1,445 @@
+
+
+@media (min-width: 768px) {
+
+	.homepage-widget-title {
+		font-size: 36px;
+		margin-bottom: 50px;
+	}
+
+	.homepage-widget-description {
+		font-size: 16px;
+	}
+
+	.jobify_widget_slider_hero .soliloquy-container .soliloquy-caption {
+		left: 50%;
+		max-width: 750px;
+
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+
+	.jobify_widget_slider .soliloquy-container .soliloquy-caption-title,
+	.jobify_widget_slider_hero .soliloquy-container .soliloquy-caption-title {
+		font-size: 28px;
+		text-align: left;
+	}
+
+	.jobify_widget_slider_hero .soliloquy-container .soliloquy-caption p,
+	.jobify_widget_slider .soliloquy-container .soliloquy-caption p {
+		font-size: 18px;
+		line-height: 1.25em;
+		text-align: left;
+		display: block;
+		max-width: 70%;
+	}
+
+	.jobify_widget_slider .soliloquy-container .soliloquy-image-wrap {
+		width: 45%;
+		float: left;
+		position: relative;
+	}
+
+	.jobify_widget_slider .soliloquy-container .soliloquy-caption-wrap {
+		width: 52%;
+		float: right;
+		padding: 80px 0;
+		position: relative;
+	}
+
+	.jobify_widget_slider .soliloquy-container .soliloquy-caption-wrap .soliloquy-caption {
+		position: relative;
+		top: auto;
+		left: auto;
+		right: auto;
+		bottom: auto;
+		background: none;
+	}
+
+	.jobify_widget_slider .soliloquy-container .soliloquy-caption-wrap .soliloquy-caption .soliloquy-caption-inside {
+		padding: 0;
+	}
+
+	.jobify_widget_slider .soliloquy-container .soliloquy-caption-wrap .soliloquy-caption-title  {
+		font-size: 38px;
+		color: #FFF;
+		font-weight: normal;
+		text-shadow: none;
+	}
+
+	.jobify_widget_slider .soliloquy-container .soliloquy-caption-wrap .soliloquy-caption p {
+		font-size: 16px;
+		line-height: 26px;
+		text-align: left;
+		text-shadow: none;
+		background: none;
+		padding: 0;
+		max-width: 100%;
+		margin: 24px 0;
+	}
+
+	.jobify_widget_slider .soliloquy-container .soliloquy-prev {
+		left: -50px;
+	}
+
+	.jobify_widget_slider .soliloquy-container .soliloquy-next {
+		right: -50px;
+	}
+
+
+
+	.job-stat {
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	.jobify_widget_testimonials {
+		padding: 75px 0;
+	}
+
+	.jobify_widget_testimonials .flex-direction-nav,
+	.jobify_widget_companies .flex-direction-nav {
+		display: block;
+	}
+
+	.page-title {
+		font-size: 34px;
+	}
+
+	.page-subtitle li {
+		padding: 0 20px 0 10px;
+		border-right: 1px solid #ccc;
+		display: inline-block;
+	}
+
+	.job-meta-top {
+		padding: 0 0 60px;
+		margin-bottom: 60px;
+	}
+
+	.job-overview-content .job-company-about.col-md-12,
+	.single-resume-content .resume-info.col-md-12 {
+		padding-top: 60px;
+		margin: 60px 0;
+	}
+
+	.job-meta-top [class^="col-"] {
+		margin-bottom: 0;
+	}
+
+	.testimonial-slider-wrap {
+		padding: 0 60px;
+	}
+
+	.btt {
+		display: block;
+	}
+
+	.site-info {
+		float: left;
+	}
+
+	.footer-social {
+		float: right;
+		width: auto;
+		margin-top: 0;
+	}
+
+	.footer-cta {
+		padding: 50px 0;
+	}
+
+	.footer-cta h2 {
+		font-size: 38px;
+	}
+
+
+	.video-description {
+		width: 55%;
+		float: left;
+		margin-bottom: 0;
+	}
+
+	.video-preview {
+		width: 40%;
+		float: right;
+	}
+
+	.callout-description {
+		margin-bottom: 0;
+		width: 65%;
+		float: left;
+	}
+
+	.callout-action {
+		width: 30%;
+		float: right;
+	}
+
+	.single-job_listing .col-md-3 .job_listing-widget-top.default-widget:first-child img {
+		max-width: 100%;
+		min-width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	.jobify_widget_slider_hero .soliloquy-container .soliloquy-caption-title {
+		font-size: 40px;
+		font-weight: normal;
+	}
+
+	.jobify_widget_slider_hero .soliloquy-container .soliloquy-caption p {
+		max-width: 30%;
+		line-height: 26px;
+		font-size: 22px;
+	}
+
+	.job_types li {
+		border-width: 0 1px 0 0;
+		width: auto;
+	}
+
+	.job-stats.showing-5 .job-stat {
+		float: none;
+	}
+
+	.job-stat {
+		border-bottom: 0;
+		border-right: 1px solid #ddd;
+	}
+
+	.job-stat:last-child {
+		border-right: 0;
+	}
+
+	.search_jobs,
+	.resume_filters .search_resumes {
+		padding: 30px;
+	}
+
+	.jobify_widget_jobs_search .standalone-search-jobs > div,
+	.search_jobs [class^="col-"],
+	.search_resumes [class^="col-"] {
+		margin-bottom: 0;
+	}
+
+	.job-overview-content .job-overview,
+	.job-overview-content .job-company-about {
+		margin-bottom: 0;
+	}
+
+	.entry-content .job-manager-form {
+		max-width: 75%;
+	}
+
+	.entry-content .job-manager-error {
+		max-width: none;
+		margin-bottom: 2em;
+	}
+
+	.rcp_user_fieldset p {
+		margin-right: 6%;
+		width: 47%;
+		float: left;
+	}
+
+	.rcp_user_fieldset #rcp_password_again_wrap {
+		margin-right: 0;
+	}
+
+	.fieldset-job_description,
+	.fieldset-job_tags {
+		clear: left;
+	}
+
+	.fieldset-company_logo,
+	.fieldset-company_linkedin {
+		clear: both;
+	}
+
+
+
+	.jobify_widget_slider_hero .soliloquy-container .soliloquy-caption {
+		max-width: 1170px;
+	}
+
+	.jobify_widget_jobs .job-spotlight {
+		margin-top: 0;
+	}
+}
+
+@media (min-width: 1200px) {
+	.site-header .container {
+		padding: 2em 0;
+	}
+
+	.site-primary-navigation {
+		display: block;
+	}
+
+	.primary-menu-toggle,
+	.site-primary-navigation #searchform {
+		display: none;
+	}
+
+	.site-title {
+		font-size: 36px;
+	}
+
+	.site-primary-navigation {
+		position: absolute;
+		right: 0;
+		top: 50%;
+
+		-webkit-transform: translatey(-50%);
+		-moz-transform: translatey(-50%);
+		transform: translatey(-50%);
+	}
+
+	.site-header.open .primary-menu-toggle {
+		display: none;
+	}
+
+	.nav-menu-primary ul,
+	.nav-menu-primary {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.nav-menu-primary ul li,
+	.nav-menu-primary li {
+		margin-left: 10px;
+		float: left;
+		position: relative;
+	}
+
+	.nav-menu-primary li .sub-menu {
+		padding-left: 0;
+	}
+
+	.nav-menu-primary li .sub-menu a {
+		font-size: 14px;
+	}
+
+	.nav-menu-primary li.login > a,
+	.nav-menu-primary li.highlight > a {
+		border: 2px solid #fff;
+		border-radius: 4px;
+		display: inline-block;
+	}
+
+	.nav-menu-primary ul li a,
+	.nav-menu-primary li a {
+		font: bold 14px/normal 'Montserrat', sans-serif;
+		text-transform: uppercase;
+		vertical-align: middle;
+		color: #fff;
+		margin: 2px 0;
+		padding: 8px 14px;
+		display: block;
+		border: 2px solid transparent;
+	}
+
+	.nav-menu-primary ul li a:hover,
+	.nav-menu-primary li a:hover {
+		text-decoration: none;
+	}
+
+	.nav-menu-primary li.has-children > a:after {
+		 content: '\e874';
+	}
+
+	.nav-menu-primary li.has-children .sub-menu li.has-children a:after {
+		content: '\e876';
+	}
+
+	.nav-menu-primary .sub-menu,
+	.nav-menu-primary .children {
+		display: none;
+		padding: 20px 0;
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		z-index: 99999;
+		border-bottom-left-radius: 6px;
+		border-bottom-right-radius: 6px;
+		box-shadow: inset rgba(0, 0, 0, .10) 0 -4px 0;
+		-webkit-transform: translate(-50%, 0);
+		-ms-transform:     translate(-50%, 0);
+		transform:         translate(-50%, 0);
+	}
+
+	.nav-menu-primary .sub-menu li,
+	.nav-menu-primary .children li {
+		margin: 0;
+		padding: 0;
+	}
+
+	.nav-menu-primary .sub-menu li:last-child,
+	.nav-menu-primary .children li:last-child {
+		border-bottom: 0;
+	}
+
+	ul.nav-menu-primary ul a,
+	.nav-menu-primary ul ul a {
+		line-height: 1;
+		text-align: center;
+		margin: 0;
+		padding: 8px 10px;
+		width: 180px;
+		display: block;
+	}
+
+	ul.nav-menu-primary ul a:hover,
+	.nav-menu-primary ul ul a:hover {
+
+	}
+
+	ul.nav-menu-primary li:hover > ul,
+	.nav-menu-primary ul li:hover > ul,
+	ul.nav-menu-primary li:hover ul > ul,
+	.nav-menu-primary ul li:hover ul > ul {
+		display: block;
+	}
+
+
+	ul.nav-menu-primary li:hover ul ul,
+	.nav-menu-primary ul li:hover ul ul {
+		top: 0;
+		margin-top: 0;
+		left: 270px;
+		border-radius: 6px;
+	}
+
+	.map-filter {
+		left: 50%;
+		margin-left: -570px;
+	}
+
+	.footer-widgets .footer-widget.col-md-3:not(:first-child) {
+		width: 22%;
+	}
+
+	.footer-widgets .footer-widget.col-md-3:first-child {
+		width: 33.3333%;
+	}
+
+	.jobify_widget_jobs li.type-job_listing .position,
+	.jobify_widget_jobs li.type-resume .position {
+		width: 41.66666666666667%;
+	}
+
+	.jobify_widget_jobs li.type-job_listing .logo,
+	.jobify_widget_jobs li.type-resume .logo,
+	.jobify_widget_jobs li.type-job_listing .location,
+	.jobify_widget_jobs li.type-resume .location {
+		display: block;
+	}
+
+	.jobify_widget_jobs li.type-job_listing .company_logo {
+		margin-top: 8px;
+		margin-left: 7px;
+	}
+}

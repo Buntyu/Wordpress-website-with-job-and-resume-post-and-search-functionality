@@ -1,0 +1,93 @@
+
+/**
+ * Modal
+ */
+.modal {
+	.job-manager-application-form.job-manager-form {
+		@extend .modal-content;
+		max-width: 100%;
+		margin-bottom: 0;
+
+		.modal-title {
+			font-size: 28px;
+			margin-top: -30px;
+			margin-left: -30px;
+			margin-right: -30px;
+		}
+
+		p:last-of-type {
+			@extend .modal-submit;
+			margin: 0 -30px -30px;
+		}
+	}
+}
+
+.single-job_listing .job-manager-applications-applied-notice {
+	margin-top: 1em;
+
+	&::before {
+		@extend .entypo;
+		content: '\e813';
+	}
+}
+
+ul.job_listings .job-manager-applications-applied-notice {
+	position: absolute;
+	right: 0;
+	top: 10px;
+
+	&:before {
+		@extend .entypo;
+		content: '\e813';
+	}
+}
+
+div.job-applications {
+	ul.job-applications {
+		li.job-application {
+			header {
+				.job-application-rating:before {
+					content: '\e80a\e80a\e80a\e80a\e80a';
+				}
+
+				.job-application-rating span:before {
+					content: '\e809\e809\e809\e809\e809';
+				}
+			}
+
+			section.job-application-content .hide_section:before,
+			section.job-application-edit .hide_section:before,
+			section.job-application-notes .hide_section:before {
+				content: '\e814' !important;
+			}
+
+			footer ul.actions li a {
+				width: 50px;
+
+				&:before {
+					content: '\e812';
+				}
+
+				&.job-application-toggle-content:before {
+					content: '\e812';
+				}
+
+				&.job-application-resume:before {
+					content: '\e84e';
+				}
+
+				&.job-application-contact:before {
+					content: '\e806';
+				}
+
+				&.job-application-toggle-notes:before {
+					content: '\e8a6';
+				}
+
+				&.job-application-toggle-edit:before {
+					content: '\e837';
+				}
+			}
+		}
+	}
+}

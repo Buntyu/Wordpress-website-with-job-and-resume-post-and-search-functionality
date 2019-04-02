@@ -1,0 +1,73 @@
+/*
+Theme Name: Jobify - Child
+Theme URI: https://astoundify.com/
+Author: Astoundify
+Author URI: http://astoundify.com
+Description: A beautiful job board site completely integrated with Mike Jolley's WP Job Manager plugin. Use 10+ custom widgets including an interactive map, multiple sliders, testimonials, and more to create a unique homepage in seconds.
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, one-column, right-sidebar, fixed-width, custom-background, custom-header, theme-options, full-width-template, featured-images, flexible-header, custom-menu, translation-ready
+Template: jobify
+*/
+
+/**
+ * The parent theme's CSS is automatically included so there is no need
+ * to use the @import rule to include the parent theme CSS.
+
+/**
+ * Place Custom CSS Below this.
+ */
+
+
+.site-header {
+	z-index:9999;
+}
+ body{
+	color: #000;
+ }
+ 
+ input[type=tel]{
+    font-size: 16px;
+    padding: 10px 14px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+ }
+ 
+ a.load_more_jobs{
+     display: inline-block !important;
+ }
+ 
+table.arc-extra-links td{
+     min-width: 150px;
+ }
+ 
+ .arc-test-wrapper, .arc-ref-wrapper{
+     padding: 20px;
+ }
+ 
+  .job-manager-success{
+     border-left: 5px solid #46b450;
+     background-color: rgba(49, 165, 81, 0.10);
+     margin:40px auto;
+     padding: 20px;
+ }
+ 
+ .job-manager-multiselect {
+    height: 150px !important;
+    max-height: 150px !important;
+}
+
+#resume_file.input-text.wp-job-manager-file-upload {
+    font-size: 15px;
+}
+
+div.mce-path {
+    padding: 2px 10px;
+    margin: 0;
+    display: none;
+}
+
+
+

@@ -1,0 +1,60 @@
+
+/**
+ * 8.0 Restrict Content Pro
+ * ----------------------------------------------------------------------------
+ */
+.rcp_level_duration {
+	font: bold 14px/normal 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.rcp_subscription_message {
+	display: none;
+}
+
+.rcp_subscription_fieldset {
+	margin: 40px 0;
+}
+
+.rcp_subscription_fieldset > div {
+	clear: both;
+}
+
+.rcp_subscription_fieldset .pricing-table-widget-description h2:first-child {
+	font-size: 60px;
+}
+
+.rcp_subscription_fieldset input[name="rcp_level"] {
+	display: none;
+}
+
+.rcp_subscription_level_fake {
+	background: #fff;
+}
+
+.page-template-page-templatespricing-php .rcp_subscription_level_fake {
+	opacity: 1;
+}
+
+.rcp_subscription_level:hover,
+.rcp_subscription_level_fake:hover {
+	cursor: pointer;
+}
+
+.rcp_subscription_level.selected {
+	box-shadow: 0 0 10px rgba(0, 0, 0, .20);
+	border-radius: 7px;
+}
+
+.rcp_subscription_level.selected .pricing-table-widget-description {
+	border-color: #bbb;
+}
+
+#rcp_registration_form .card-expiry-month,
+#rcp_registration_form .card-expiry-year {
+	width: 10% !important;
+}
+
+input#card-cvc.edd-input.required {
+	width: 20% !important;
+}

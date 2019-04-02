@@ -1,0 +1,123 @@
+/** Buttons */
+.button,
+.button-small,
+.button-medium,
+.button-secondary,
+input[type="submit"],
+button,
+.load_more_jobs,
+.load_more_resumes,
+#wp-submit,
+#submitcomment,
+#searchsubmit,
+.jobify_widget_slider a.button-secondary,
+.jobify_widget_slider_hero a.button,
+.single_job_listing .application .apply-with-linkedin {
+	font: bold 18px/normal 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 20px 50px;
+	border-radius: 8px;
+	display: inline-block;
+	border: 2px solid transparent;
+
+	-webkit-transition: all 0.3s;
+	-moz-transition:    all 0.3s;
+	transition:         all 0.3s;
+}
+
+a.button,
+.jobify_widget_slider_hero a.button:hover {
+	color: #fff;
+}
+
+.jobify_widget_slider_hero a.button:hover,
+a.button-white {
+	color: #FFF !important;
+	text-shadow: #000 0 0 13px;
+	border-color: #FFF !important;
+	background: rgba(0, 0, 0, 0) !important;
+}
+
+a.button-white {
+	text-shadow: none !important;
+}
+
+.button:hover,
+#wp-submit:hover,
+#submitcomment:hover,
+#searchsubmit:hover,
+input[type="submit"]:hover {
+	text-decoration: none;
+	background: none;
+}
+
+.button-secondary:hover,
+.load_more_jobs:hover,
+.load_more_resumes:hover,
+.jobify_widget_slider a.button-secondary:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.button-small,
+input.button-small {
+	font-size: 12px;
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+
+.woocommerce .button-small {
+	font-size: 13px;
+	padding: 8px 10px;
+}
+
+.woocommerce .woocommerce-message .button-small,
+.woocommerce .woocommerce-checkout .button-secondary.button-small {
+	float: right;
+	font-size: 12px;
+	padding: 5px 10px;
+}
+
+.woocommerce .checkout_coupon .button-small {
+	padding: 11px;
+}
+
+.button-medium,
+input.button-medium,
+#wp-submit,
+#submitcomment,
+#searchsubmit,
+.entry-summary form input[type="submit"] {
+	font-size: 15px;
+	padding: 14px 24px;
+}
+
+.application_button,
+.resume_contact_button,
+.job-tag,
+.single_job_listing .application .apply-with-linkedin {
+	font: bold 15px/normal 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	background-color: #f08d3c;
+	padding: 15px 50px;
+	display: inline-block;
+}
+
+.job-meta .application_button {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.job_listing .job-tag,
+.resume .job-tag,
+.resume_preview .job-tag,
+.job_listing_preview .job-tag {
+	font-size: 13px;
+	color: #fff;
+	padding: 8px 15px;
+	margin: 0 8px 8px 0;
+	border-radius: 20px;
+	display: inline-block;
+}

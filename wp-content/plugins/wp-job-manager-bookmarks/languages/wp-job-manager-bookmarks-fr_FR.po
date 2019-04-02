@@ -1,0 +1,101 @@
+# Copyright (C) 2014 WP Job Manager - Bookmarks
+# This file is distributed under the same license as the WP Job Manager - Bookmarks package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Bookmarks 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-job-manager-bookmarks\n"
+"POT-Creation-Date: 2014-06-03 21:36:11+00:00\n"
+"PO-Revision-Date: 2014-11-11 23:34+0100\n"
+"Last-Translator: Cyril Slucki <cslucki@cyberworkers.com>\n"
+"Language-Team: CVStreet.org <social@cvstreet.org>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: includes/updater/class-wpjm-updater.php:270
+msgid "Licence"
+msgstr "Licence"
+
+#: includes/updater/class-wpjm-updater.php:273
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for "
+"automatic updates."
+msgstr ""
+"Entrez votre clé de licence et votre email et tapez sur la touche entrée. "
+"Une clé valide est nécessaire pour obtenir les mises à jour automatiques."
+
+#: templates/bookmark-form.php:4
+msgid "Remove Bookmark"
+msgstr "Supprimer favori"
+
+#: templates/bookmark-form.php:4
+msgid "This %s is bookmarked!"
+msgstr "%s est ajouté aux favoris"
+
+#: templates/bookmark-form.php:6
+msgid "Bookmark This %s"
+msgstr "Ajoutez aux favoris et annotez"
+
+#: templates/logged-out-bookmark-form.php:2
+msgid "Login to bookmark this %s"
+msgstr "Connectez-vous pour ajouter aux favoris"
+
+#: wp-job-manager-bookmarks.php:265
+msgid "You need to be signed in to manage your bookmarks."
+msgstr "Vous devez être connecté pour accèder à la gestion de vos favoris."
+
+#: templates/bookmark-form.php:10
+msgid "Notes:"
+msgstr "Notes :"
+
+#: templates/bookmark-form.php:14
+msgid "Update Bookmark"
+msgstr "Mettre à jour Favori"
+
+#: templates/bookmark-form.php:14
+msgid "Add Bookmark"
+msgstr "Ajouter favori"
+
+#: templates/my-bookmarks.php:5
+msgid "Bookmark"
+msgstr "Favori"
+
+#: templates/my-bookmarks.php:6
+msgid "Notes"
+msgstr "Notes"
+
+#: templates/my-bookmarks.php:24
+msgid "Delete"
+msgstr "Supprimer"
+
+#: templates/my-bookmarks.php:43
+msgid "You currently have no bookmarks"
+msgstr "Vous n'avez pas encore de favori"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Bookmarks"
+msgstr "WP Job Manager  - Favoris"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpjobmanager.com/add-ons/bookmarks/"
+msgstr "https://wpjobmanager.com/add-ons/applications/"
+
+#. Description of the plugin/theme
+msgid ""
+"Allow logged in candidates and employers to bookmark jobs and resumes along "
+"with an added note."
+msgstr ""
+"Permettre aux candidats et employeurs de mettre en favori les offres et les "
+"CV avec une note."
+
+#. Author of the plugin/theme
+msgid "Mike Jolley"
+msgstr "Mike Jolley"
+
+#. Author URI of the plugin/theme
+msgid "http://mikejolley.com"
+msgstr "http://mikejolley.com"
+

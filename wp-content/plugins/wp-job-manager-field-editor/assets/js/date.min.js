@@ -1,0 +1,1 @@
+jQuery(function(a){a(".jmfe-date-picker").each(function(){a(this).datepicker(jmfe_date_field)})});

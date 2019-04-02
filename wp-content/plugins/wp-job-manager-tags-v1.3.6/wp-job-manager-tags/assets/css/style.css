@@ -1,0 +1,7 @@
+.job_filters .search_jobs .filter_by_tag a {
+	padding: .25em;
+}
+.job_filters .search_jobs .filter_by_tag a.active {
+	background: #ddd;
+	text-decoration: none;
+}

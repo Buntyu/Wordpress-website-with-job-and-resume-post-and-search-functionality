@@ -1,0 +1,157 @@
+# Copyright (C) 2015 WP Job Manager - ZipRecruiter Integration
+# This file is distributed under the same license as the WP Job Manager - ZipRecruiter Integration package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - ZipRecruiter Integration 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-job-manager-ziprecruiter-"
+"integration\n"
+"POT-Creation-Date: 2015-11-24 12:08:09+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class-wp-job-manager-ziprecruiter-shortcode.php:85
+msgid "Load more job listings"
+msgstr ""
+
+#: includes/import-framework/templates/content-imported-job-listing.php:20
+msgid "%s ago"
+msgstr ""
+
+#: includes/updater/views/html-key-input.php:5
+msgid "License"
+msgstr ""
+
+#: includes/updater/views/html-key-input.php:8
+msgid ""
+"Enter your license key and email and hit return. A valid key is required for "
+"updates."
+msgstr ""
+
+#: includes/updater/views/html-key-notice.php:2
+msgid "Hide notice"
+msgstr ""
+
+#: includes/updater/views/html-ms-update.php:6
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:72
+msgid "ZipRecruiter"
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:79
+msgid "API Key"
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:80
+msgid ""
+"To show search results from ZipRecruiter you will need an API key. %sObtain "
+"this here%s."
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:86
+msgid "Backfilling (no results)"
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:87
+msgid ""
+"If there are no <strong>local</strong> jobs found, backfill with X jobs from "
+"ZipRecruiter instead. Leave blank or set to 0 to disable."
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:93
+msgid "Backfill before jobs"
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:94
+msgid ""
+"Show a maximum of X jobs from ZipRecruiter above your local job listings. "
+"Leave blank or set to 0 to disable."
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:100
+msgid "Backfill after jobs"
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:101
+msgid ""
+"Show a maximum of X jobs from ZipRecruiter after the last page of your local "
+"job listings. Leave blank or set to 0 to disable."
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:107
+msgid "Backfill per page"
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:108
+msgid ""
+"For each page of local jobs loaded, show a maximum of X jobs from "
+"ZipRecruiter. Leave blank or set to 0 to disable."
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:114
+msgid "Default Keywords"
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:115
+msgid ""
+"Enter keywords to search for by default. Surround multiple terms in quotes "
+"to treat them as a single phrase. These will be overridden when a user "
+"enters their own keywords."
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:121
+msgid "Exclude Keywords"
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:122
+msgid "Comma separate keywords and phrases to exclude from all searches."
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:128
+msgid "Require Keywords"
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:129
+msgid "Comma separate keywords and phrases to require for all searches."
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:135
+msgid "Default location"
+msgstr ""
+
+#: wp-job-manager-ziprecruiter-integration.php:136
+msgid ""
+"Enter a location to search for by default. This will be overridden when a "
+"user enters their own location."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - ZipRecruiter Integration"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpjobmanager.com/add-ons/ziprecruiter-integration/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Query and show results from ZipRecruiter using the ZipSearch API. Note: "
+"ZipRecruiter jobs will be displayed in list format linking offsite (without "
+"full descriptions)."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mike Jolley"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://mikejolley.com"
+msgstr ""

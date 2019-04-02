@@ -1,0 +1,134 @@
+@import "mixins.scss";
+
+@import "reset.scss";
+@import "entypo.scss";
+@import "grid.scss";
+@import "patterns.scss";
+@import "button.scss";
+@import "forms.scss";
+@import "structure.scss";
+@import "page.scss";
+@import "page_comments.scss";
+@import "page_home.scss";
+@import "header.scss";
+@import "sidebar.scss";
+@import "footer.scss";
+@import "modals.scss";
+
+@import "wp_job_manager.scss";
+@import "wp_job_manager_listing.scss";
+@import "wp_job_manager_archive.scss";
+@import "wp_job_manager_map.scss";
+@import "wp_job_manager_resumes.scss";
+@import "wp_job_manager_bookmarks.scss";
+@import "wp_job_manager_companies.scss";
+@import "wp_job_manager_linkedin.scss";
+@import "wp_job_manager_applications.scss";
+
+@import "restrict_content_pro.scss";
+
+@import "woocommerce.scss";
+
+@import "geo_job_manager.scss";
+
+@import "chosen.scss";
+
+@import "gravityforms.scss";
+@import "ninjaforms.scss";
+@import "cf7.scss";
+
+@import "jetpack.scss";
+
+// needs to be split out
+@import "responsive.scss";
+
+
+/**
+ * Misc
+ */
+.entry-content #loginform,
+.entry-content #register-form,
+.entry-content .rcp_form {
+	margin: 0 auto;
+	width: 50%;
+}
+
+.entry-content .job-manager-error {
+	margin-bottom: 2em;
+}
+
+.rcp_header {
+	display: none;
+}
+
+.modal-login .login-remember {
+	display: none;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+	width: 100% !important;
+}
+
+.contact-form textarea {
+	height: 195px;
+}
+
+.two_third.last_column div {
+	width: 95%;
+	float: right;
+}
+
+.contact-submit {
+	margin-top: 20px;
+}
+
+.gfield_description.validation_message {
+	color: #df7c7b;
+	float: right;
+}
+
+.modal .gform_wrapper .validation_error,
+.ninja-forms-required-items {
+	margin: 0 0 30px;
+}
+
+body .field-wrap.label-left .ninja-forms-field {
+	margin-left: 0;
+}
+
+body .soliloquy-container.soliloquy-preloader {
+	background: none;
+}
+
+.application-deadline:before,
+.application-deadline.expiring:before,
+.application-deadline.expired:before {
+	content: '\e863';
+}
+
+.jobify_widget_job_application_deadline .application-deadline:before {
+	padding-top: 3px;
+	vertical-align: top;
+}
+
+.application-deadline.expiring {
+	color: #f39c12;
+}
+
+.application-deadline.expired {
+	color: #e74c3c;
+}
+
+body .pac-container {
+	border: 0;
+	box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.08) !important;
+}
+
+.gform_wrapper .gform_fileupload_multifile .gform_drop_area {
+	padding: 25px;
+	border: 2px dashed #DDD;
+	text-align: center;
+	color: #AAA;
+	margin-bottom: 10px;
+}

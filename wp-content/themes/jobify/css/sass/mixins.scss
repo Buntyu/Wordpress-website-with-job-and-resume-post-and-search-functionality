@@ -1,0 +1,40 @@
+@mixin bp($point) {
+
+	$bp-sm: "(min-width: 768px)";
+	$bp-md: "(min-width: 992px)";
+	$bp-lg: "(min-width: 1200px)";
+
+	@if $point == sm {
+		@media #{$bp-sm} { @content; }
+	}
+
+	@else if $point == md {
+		@media #{$bp-md} { @content; }
+	}
+
+	@else if $point == lg {
+		@media #{$bp-lg}  { @content; }
+	}
+
+}
+
+@-o-keyframes rotate {
+  from {-o-transform:rotate(0deg);}
+  to {-o-transform:rotate(-360deg);}
+}
+@-moz-keyframes rotate {
+  from {-moz-transform:rotate(0deg);}
+  to {-moz-transform:rotate(-360deg);}
+}
+@-ms-keyframes rotate {
+  from {-ms-transform:rotate(0deg);}
+  to {-ms-transform:rotate(-360deg);}
+}
+@-webkit-keyframes rotate {
+  from {-webkit-transform:rotate(0deg);}
+  to {-webkit-transform:rotate(-360deg);}
+}
+@-keyframes rotate {
+  from { transform:rotate(0deg);}
+  to { transform:rotate(-360deg);}
+}

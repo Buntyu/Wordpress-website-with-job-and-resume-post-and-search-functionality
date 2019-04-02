@@ -1,0 +1,51 @@
+
+
+.single_job_listing .application .apply-with-linkedin,
+input.import-from-linkedin {
+	@extend .button;
+
+	font-size: 15px;
+	border-color: #007bb6;
+	background: rgba(0, 0, 0, 0);
+	color: #007BB6;
+	text-shadow: none;
+	padding: 15px 20px;
+	border-radius: 3px;
+	float: none;
+	margin: 1em 0;
+}
+
+.single_job_listing .job-meta.col-md-2 .application .apply-with-linkedin {
+	font-size: 12px;
+	padding: 15px 10px;
+}
+
+.apply-with-linkedin-details.modal {
+	.apply-with-linkedin-profile {
+		@extend .modal-content;
+	}
+
+	h2.profile-name {
+		@extend .modal-title;
+		font-weight: normal;
+		margin-top: -30px;
+		margin-left: -30px;
+		margin-right: -30px;
+		margin-bottom: 30px;
+	}
+
+	dl {
+		margin: 1em 0 0;
+	}
+
+	.apply-with-linkedin-submit {
+		@extend .modal-submit;
+		margin: -30px;
+		margin-top: 30px;
+
+		input {
+			display: block;
+			margin-bottom: 1em;
+		}
+	}
+}

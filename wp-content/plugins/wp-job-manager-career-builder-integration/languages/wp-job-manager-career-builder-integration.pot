@@ -1,0 +1,198 @@
+# Copyright (C) 2015 WP Job Manager - Career Builder Integration
+# This file is distributed under the same license as the WP Job Manager - Career Builder Integration package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Career Builder Integration 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-job-manager-career-builder-integration\n"
+"POT-Creation-Date: 2015-01-18 22:33:54+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class-wp-job-manager-career-builder-categories.php:28
+#: includes/class-wp-job-manager-career-builder-categories.php:49
+msgid "Map to Career Builder Category"
+msgstr ""
+
+#: includes/class-wp-job-manager-career-builder-categories.php:30
+#: includes/class-wp-job-manager-career-builder-categories.php:52
+msgid "None"
+msgstr ""
+
+#: includes/class-wp-job-manager-career-builder-shortcode.php:100
+msgid "Load more job listings"
+msgstr ""
+
+#: includes/import-framework/templates/content-imported-job-listing.php:20
+msgid "Posted %s ago"
+msgstr ""
+
+#: includes/updater/views/html-key-input.php:4
+msgid "Licence"
+msgstr ""
+
+#: includes/updater/views/html-key-input.php:7
+msgid "Enter your licence key and email and hit return. A valid key is required for automatic updates."
+msgstr ""
+
+#: includes/updater/views/html-key-notice.php:2
+msgid "Hide notice"
+msgstr ""
+
+#: includes/updater/views/html-ms-update.php:6
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\">update now</a>."
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:86
+msgid "Career Builder"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:93
+msgid "Developer Key"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:94
+msgid "To show search results from Career Builder you will need a developer key. Obtain this here: http://developer.careerbuilder.com/"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:100
+msgid "Backfilling (no results)"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:101
+msgid "If there are no jobs found, backfill with X jobs from career_builder instead. Leave blank or set to 0 to disable."
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:107
+msgid "Backfill before jobs"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:108
+msgid "Show a maximum of X jobs from career_builder above your job listings. Leave blank or set to 0 to disable."
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:114
+msgid "Backfill after jobs"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:115
+msgid "Show a maximum of X jobs from career_builder after the last page of your job listings. Leave blank or set to 0 to disable."
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:121
+msgid "Backfill per page"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:122
+msgid "For each page of jobs loaded, show a maximum of X jobs from career_builder. Leave blank or set to 0 to disable."
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:129
+msgid "Default Keywords"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:130
+msgid "Enter keywords to search for by default. Comma-separate multiple values. These will be overridden when a user enters their own keywords."
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:136
+msgid "Default Keyword Operator"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:137
+msgid "Choose \"AND\" to find jobs matching all of your default keywords, or \"OR\" to find jobs matching any of your keywords."
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:140
+msgid "AND"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:141
+msgid "OR"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:147
+msgid "Default location"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:148
+msgid "Enter a location to search for by default. This will be overridden when a user enters their own location."
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:154
+msgid "Default country"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:155
+msgid "Choose a default country to show jobs from.  This will be overridden when a user enters their own location."
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:162
+msgid "Exclude Keywords"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:163
+msgid "Enter keywords to exclude from searches. Comma-separate multiple values."
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:169
+msgid "Exclude Job Titles"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:170
+msgid "Enter job titles to exclude from searches. Comma-separate multiple values."
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:176
+msgid "Exclude Company Names"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:177
+msgid "Enter company names to exclude from searches. Comma-separate multiple values."
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:184
+msgid "Limit Results to Job Title"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:185
+msgid "Accepts a single value. Will return only jobs with the provided job title in their title."
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:191
+msgid "Limit Results to Company"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:192
+msgid "Accepts a single value. Will limit the Job Search to companies whose names contain the value provided."
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:198
+msgid "Limit Results to Country"
+msgstr ""
+
+#: wp-job-manager-career-builder-integration.php:199
+msgid "Enter a country code to limit results to jobs only within this country."
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Career Builder Integration"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpjobmanager.com/add-ons/career-builder-integration/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Query and show sponsored results from Career Builder when listing jobs and list Career Builder jobs via a shortcode. Note: Career Builder jobs will be displayed in list format linking offsite (without full descriptions). Requires SimpleXML support on the server."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mike Jolley"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://mikejolley.com"
+msgstr ""

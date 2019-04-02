@@ -1,0 +1,343 @@
+@import "mixins";
+@import "icons.less";
+
+.wp-job-manager-applications-form-editor {
+	.nav-tab-wrapper {
+		margin-bottom: 15px;
+	}
+	table {
+		th {
+			padding: 1em 0 1em 1em;
+		}
+		td {
+			overflow: visible;
+			padding: 1em 0 1em 1em;
+			vertical-align: middle;
+			input.input-text, select {
+				width: 100%;
+				min-width: 100px;
+			}
+			.na {
+				display: block;
+				color: #ccc;
+				text-align: center;
+			}
+			.file-options {
+				.allowed_mime_types {
+					margin-bottom: .5em;
+				}
+				.multiple-files {
+					input {
+						width: auto;
+						display: inline-block;
+						min-width: 16px;
+					}
+				}
+			}
+		}
+		td:last-child, th:last-child {
+			padding-right: 1em;
+		}
+		tr:nth-child(odd) {
+			td {
+				background-color: #F9F9F9;
+			}
+		}
+		.sort-column {
+			cursor: move;
+			color: #ccc;
+			&:before {
+				content: "\f333";
+				font-family: 'dashicons';
+			}
+		}
+		.field-actions {
+			text-align: right;
+			a.delete-field {
+				color: #ccc;
+				padding: 1em 0 0 0;
+				width: 1em;
+				height: 0;
+				overflow: hidden;
+				display: inline-block;
+				position: relative;
+				&:before {
+					content: "\f153";
+					font-family: 'dashicons';
+					font-size: 1em;
+					line-height: 1em;
+					vertical-align: top;
+					position: absolute;
+					top:0;
+					left:0;
+				}
+				&:hover {
+					color: red;
+				}
+			}
+		}
+		tfoot th {
+			vertical-align: middle;
+			line-height: 28px;
+			input, .button {
+				margin: 0;
+				float: none;
+				vertical-align: middle;
+			}
+			.add-field {
+				float: left;
+			}
+		}
+	}
+	.save-actions {
+		text-align: right;
+		input {
+			margin-left: 1em;
+		}
+		.reset {
+			color: #bbb;
+			text-decoration: none;
+			&:hover {
+				color: red;
+			}
+		}
+	}
+	.wp-job-applications-email-content-wrapper {
+		overflow: hidden;
+	}
+	.wp-job-applications-email-content {
+		width: 60%;
+		display: block;
+		float: left;
+		p {
+			margin-top: 0;
+		}
+		input {
+			width: 100%;
+			font-size: 1.5em;
+		}
+		textarea {
+			height: 400px;
+			width: 100%;
+			font-family: monospace;
+		}
+	}
+	.wp-job-applications-email-content-tags {
+		width: 40%;
+		padding-left: 1em;
+		box-sizing: border-box;
+		float: right;
+		p {
+			margin-top: 0;
+		}
+	}
+	p.submit-email {
+		clear: both;
+		margin: 0;
+		padding: 1.2em 0;
+		margin: 1em 0;
+		border-top: 1px solid #ddd;
+	}
+}
+.widefat {
+	.column-job_applications {
+		width: 9%;
+		text-align: center;
+	}
+	.column-job_application_posted {
+		strong {
+			display: block;
+			margin-bottom: .2em;
+		}
+		span {
+			display: block;
+			padding-top: 2px
+		}
+	}
+	th.column-candidate {
+		width: 18%;
+	}
+	.column-application_notes {
+		width: 80px;
+	}
+	.column-application_status {
+		text-align: left;
+		width: 5em;
+		word-wrap: normal !important;
+		span.status {
+			color: #fff;
+			padding: 1px 4px;
+			font-size: 10px;
+			.border_radius( 2px );
+			display: block;
+			background-color: #555;
+			text-align: center;
+		}
+	}
+	.column-application_rating {
+		width: 100px !important;
+		.job-application-rating {
+			font-size: 16px;
+			height: 16px;
+			width: 80px;
+			margin: 0;
+			float: left;
+			display: block;
+			position: relative;
+			-webkit-font-smoothing:antialiased;
+			font-family:"job-manager" !important;
+			text-decoration:none;
+			font-weight:400;
+			font-style:normal;
+			overflow: hidden;
+			&:before {
+				font-family:"job-manager" !important;
+				line-height: 16px;
+				content: "\e820\e820\e820\e820\e820";
+				top: 0;
+				left: 0;
+				position: absolute;
+				letter-spacing: 0.075em;
+				letter-spacing:0\9; // IE8 & below hack ;-(
+			}
+			span {
+				width: 0px;
+				height: 16px;
+				display: block;
+				overflow: hidden;
+				position: relative;
+				&:before {
+					line-height: 16px;
+					font-family:"job-manager" !important;
+					content: "\e803\e803\e803\e803\e803";
+					top: 0;
+					left: 0;
+					position: absolute;
+					letter-spacing: 0.075em;
+					letter-spacing:0\9; // IE8 & below hack ;-(
+				}
+			}
+		}
+	}
+	td.column-candidate {
+		padding-right: 50px !important;
+		height: 34px;
+		position: relative;
+		a.candidate_name {
+			font-weight: bold;
+		}
+		img {
+			width: 32px;
+			height: 32px;
+			position: absolute;
+			right: 7px;
+			top: 4px;
+			.border_radius( 50% );
+			.box_shadow( 0, 1px, 0, 1px, rgba( 0,0,0,0.1 ) );
+			border: 1px solid #fff;
+		}
+		.candidate_title {
+			margin-top: .2em;
+			display: block;
+			padding-top: 2px;
+			color: #bbbbbb;
+		}
+	}
+	.column-job_application_actions {
+		text-align: right;
+		width: 104px;
+		strong {
+			display: block;
+			margin-bottom: .2em;
+		}
+		.actions {
+			padding-top: 2px;
+		}
+		a.button {
+			display: inline-block;
+			margin: 0 0 2px 4px;
+			cursor: pointer;
+			padding: 0 !important;
+			height: 2em !important;
+			width: 2em !important;
+			font-size: 1em !important;
+			line-height: 2em !important;
+			overflow: hidden;
+			&:before {
+				.jm-icon;
+				float: left;
+				width: 2em !important;
+				line-height: 2em;
+			}
+		}
+		.icon-view:before {
+			content: '\e805';
+		}
+		.icon-edit:before {
+			content: '\e804';
+		}
+		.icon-delete:before {
+			content: '\e801';
+		}
+	}
+}
+#job_application_save {
+	.inside {
+		margin: 0;
+		padding: 0;
+	}
+	#misc-publishing-actions {
+		padding: 0 !important;
+		select {
+			width: 100% !important;
+		}
+	}
+}
+#job_application_notes {
+	.inside {
+		padding: 1em;
+		margin: 0;
+	}
+	textarea {
+		width: 100%;
+		margin: 0;
+		display: block;
+	}
+	p {
+		margin: 0 0 1em;
+	}
+	p:last-child {
+		margin-bottom: 0;
+	}
+	ul.job-application-notes-list {
+		margin: 0;
+		padding: 0;
+		list-style: none outside;
+		li.job-application-note {
+			padding: 0;
+			background: #fefed8;
+			box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+			margin: 0 0 1em;
+			list-style: none outside;
+		}
+		.job-application-note-content {
+			padding: 1em;
+			p {
+				margin: 0 0 1em;
+			}
+			*:last-child {
+				margin-bottom: 0;
+			}
+		}
+		.job-application-note-meta {
+			font-size: 0.83em;
+			padding: 1em;
+			color: #abab98;
+			border-top: 1px solid rgba(0,0,0,0.05);
+			overflow: hidden;
+			.delete_note {
+				float: right;
+			}
+		}
+	}
+}

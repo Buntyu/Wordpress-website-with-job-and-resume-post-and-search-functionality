@@ -1,0 +1,432 @@
+/*
+ * Responsive images
+ *
+ * Fluid images for posts, comments, and widgets
+ */
+.entry-content img,
+.entry-summary img,
+.comment-content img,
+.widget img,
+.wp-caption,
+.campaign-feature-image img {
+	max-width: 100%;
+}
+
+/* Make sure images with WordPress-added height and width attributes are scaled correctly. */
+.entry-content img,
+.entry-summary img,
+.comment-content img[height],
+img[class*="align"],
+img[class*="wp-image-"],
+img[class*="attachment-"] {
+	height: auto;
+}
+
+img.size-full,
+img.size-large,
+img.wp-post-image {
+	height: auto;
+	max-width: 100%;
+}
+
+/* Make sure videos and embeds fit their containers. */
+embed,
+iframe,
+object,
+video {
+	max-width: 100%;
+}
+
+/* Override the Twitter embed fixed width. */
+.entry-content .twitter-tweet-rendered {
+	max-width: 100% !important;
+}
+
+/* Images */
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alignleft {
+	margin: 5px 20px 5px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 10px 5px 0;
+}
+
+img.alignright {
+	margin: 5px 0 5px 20px;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 5px 10px;
+}
+
+img.aligncenter {
+	margin: 5px auto;
+}
+
+.wp-caption .wp-caption-text,
+.entry-caption,
+.gallery-caption {
+	color: #220e10;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 300;
+}
+
+.wp-caption-text {
+	margin: 12px 0;
+}
+
+img.wp-smiley,
+.rsswidget img {
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/**
+ * 5.0 Content
+ * ----------------------------------------------------------------------------
+ */
+
+.page-header {
+	font: normal 38px/normal 'Varela Round', sans-serif;
+	text-align: center;
+	padding: 20px 0;
+	background: #fafafa;
+	border-bottom: 1px solid #ccc;
+}
+
+.page-header.has-image {
+	padding: 0;
+	border: 0;
+	max-height: 400px;
+	overflow: hidden;
+}
+
+.page-header.has-image img {
+	min-width: 100%;
+	width: auto;
+	height: auto;
+	display: block;
+}
+
+.page-title {
+	font-size: 26px;
+	font-weight: normal;
+	color: #797979;
+}
+
+.page-subtitle {
+	font: normal 14px/normal 'Montserrat', sans-serif;
+	color: #9a9b9e;
+	margin-top: -15px;
+
+	a {
+		color: #9a9b9e;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		display: block;
+		margin: 5px 0;
+
+		&.job-type {
+			text-align: center;
+			padding: 3px 10px;
+			border-right: 0;
+			display: inline-block;
+			word-break: break-word;
+		}
+
+		&:last-child {
+			border-right: 0;
+		}
+	}
+}
+
+.page-content {
+	margin: 60px 0;
+}
+
+.blog-archive,
+.page-with-sidebar {
+	margin: 100px 0 0;
+}
+
+.page-with-sidebar .entry-content {
+	margin-top: 0;
+}
+
+.entry-content {
+	margin: 60px auto 0;
+}
+
+.entry-content .job-manager-form,
+.entry-content .job-manager-error {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.entry-content form[name="loginform"] .job-manager-error {
+	max-width: 100%;
+	width: 100%;
+}
+
+.entry-content p,
+.contact-form div {
+	color: #8c8d90;
+	line-height: 24px;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+	font-weight: normal;
+}
+
+.entry-summary form {
+	margin: 20px 0;
+}
+
+.entry-summary form p label {
+	width: 80%;
+	float: left;
+}
+
+.entry-summary form p input[type="submit"] {
+	width: 18%;
+	float: right;
+	padding: 10px 24px;
+	margin-top: 17px;
+}
+
+.paginate-links {
+	text-align: center;
+	margin: 40px auto;
+}
+
+.paginate-links .page-numbers {
+	font: normal 13px/normal 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 8px 13px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.paginate-links .page-numbers:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.paginate-links .page-numbers.prev,
+.paginate-links .page-numbers.next {
+	padding: 8px;
+}
+
+.blog-archive .hentry {
+	margin-bottom: 75px;
+}
+
+.blog-archive .hentry:last-child,
+.blog-archive .hentry:last-of-type {
+	margin-bottom: 0;
+}
+
+.hentry {
+
+}
+
+.entry-feature {
+	margin: 0 0 34px;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.entry-header a {
+	color: #8c8d90;
+}
+
+.entry-header a:hover {
+	text-decoration: none;
+}
+
+.entry-author img {
+	margin: 0 0 18px;
+	border-radius: 50%;
+	display: block;
+}
+
+.entry-meta,
+.entry-share {
+	font-size: 13px;
+	margin: 8px 0;
+}
+
+.entry-share .twitter-share-button,
+.entry-share .fb-share-button,
+.entry-share .IN-widget {
+	margin-bottom: 10px;
+	display: block !important;
+	text-align: left !important;
+}
+
+.zilla-likes:before,
+.zilla-likes.active:before {
+	font-size: 16px;
+	content: '\e808';
+	vertical-align: baseline;
+}
+
+.zilla-likes.active:before {
+	content: '\e807';
+}
+
+.entry-title {
+	font-size: 38px;
+	font-weight: normal;
+	margin: 0 0 24px;
+}
+
+.entry-title a {
+	color: #8c8d90;
+}
+
+.entry-title a:hover {
+	text-decoration: none;
+}
+
+.comments-link {
+	display: block;
+}
+
+.jobify_widget_blog_posts .comments-link {
+	display: inline-block;
+}
+
+/**
+ * None
+ */
+#searchform input[type="text"] {
+	padding: 15px;
+	width: 80%;
+	float: left;
+}
+
+#searchform input[type="submit"],
+#searchform button {
+	width: 18%;
+	float: right;
+}
+
+.content-none #searchform button {
+	padding: 10px;
+
+	i {
+		font-size: 24px;
+	}
+}
+
+/**
+ * Misc
+ */
+.sticky,
+.bypostauthor {
+
+}
+
+/**
+ * Grid
+ */
+.content-grid .hentry .entry-header,
+.content-grid .hentry .entry {
+	width: 100%;
+	float: none;
+}
+
+.content-grid .entry-header img {
+	border-radius: 6px;
+}
+
+.content-grid .featured-image {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.content-grid .featured-image .overlay {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	border-radius: 6px;
+
+	-webkit-transition: all 0.3s;
+	-moz-transition:    all 0.3s;
+	transition:         all 0.3s;
+}
+
+.content-grid .featured-image i {
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform:     translate(-50%, -50%);
+	transform:         translate(-50%, -50%);
+}
+
+.content-grid .featured-image:hover .overlay {
+	opacity: .8;
+}
+
+.content-grid .entry-title {
+	font-size: 24px;
+	margin: 30px 0 10px;
+}
+
+.content-grid .entry-meta {
+	margin: 0 0 10px;
+}
+
+.jobify_widget_blog_posts .content-grid {
+	margin: 60px 0 0;
+}
+
+.sticky,
+.bypostauthor {
+
+}

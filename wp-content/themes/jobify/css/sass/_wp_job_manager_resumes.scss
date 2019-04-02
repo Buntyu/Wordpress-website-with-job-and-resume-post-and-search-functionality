@@ -1,0 +1,218 @@
+/**
+ * List
+ */
+div.resumes {
+	text-align: center;
+}
+
+
+/**
+ * Apply
+ */
+
+.apply_with_resume {
+	display: none;
+}
+
+.modal {
+	.apply_with_resume {
+		display: block;
+
+		p {
+			margin: 0;
+			padding: 15px 30px;
+		}
+
+		p:first-child {
+			@extend .modal-title;
+			padding-right: 90px;
+			margin-bottom: 15px;
+		}
+
+		p:last-child {
+			@extend .modal-submit;
+			margin-top: 15px;
+		}
+	}
+}
+
+body:not(.wp-job-manager-contact-listing) .modal {
+	.resume_contact_details_inner {
+		@extend .modal-content;
+		padding-right: 60px;
+
+		p:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+}
+
+/**
+ * Sidebar
+ */
+.single-listing-style-side {
+	.resume_contact_button,
+	.candidate_photo {
+		min-width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.fieldset-links .fieldset-name,
+.fieldset-links .fieldset-url {
+	margin-bottom: 0;
+	float: left;
+}
+
+.fieldset-links .fieldset-name {
+	width: 30%;
+	margin-right: 4%;
+}
+
+.fieldset-links .fieldset-url {
+	width: 66%;
+}
+
+.fieldset-links .resume-manager-data-row,
+.fieldset-candidate_education .resume-manager-data-row,
+.fieldset-candidate_experience .resume-manager-data-row {
+	margin-bottom: 20px;
+	padding: 30px;
+	background: #fafafa;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	position: relative;
+}
+
+.resume-manager-data-row fieldset:last-child {
+	border: 0;
+}
+
+.fieldset-links .resume-manager-data-row {
+	overflow: hidden;
+}
+
+.fieldset-links > .field,
+.fieldset-candidate_education > .field,
+.fieldset-candidate_experience > .field {
+	margin-top: 10px;
+}
+
+.fieldset-candidate_education .resume-manager-data-row fieldset,
+.fieldset-candidate_experience .resume-manager-data-row fieldset {
+	margin-bottom: 20px;
+}
+
+.fieldset-candidate_education .resume-manager-data-row fieldset:last-child,
+.fieldset-candidate_experience .resume-manager-data-row fieldset:last-child {
+	margin-bottom: 0;
+}
+
+.resume_filters .search_resumes div.search_categories {
+	clear: none;
+}
+
+.resume_filters .search_resumes div.search_categories .select {
+	width: 100%;
+	margin-right: 0;
+}
+
+.job-overview-content .job-company-about.col-md-12,
+.single-resume-content .resume-info.col-md-12 {
+	margin-top: 30px;
+	padding-top: 29px;
+	border-top: 1px solid #eee;
+}
+
+.resume-info h2:not(:first-child) {
+	margin-top: 1.5em;
+}
+
+li.type-resume .resume-meta {
+	margin-top: 3px;
+}
+
+li.type-resume .resume-meta .resume-category {
+	font-weight: bold;
+	text-align: center;
+}
+
+.candidate_photo {
+	max-width: 100%;
+	min-width: 100%;
+}
+
+.single-resume-content .meta {
+	margin: 15px 0;
+	padding: 0 0 15px;
+	border-bottom: 1px solid #eee;
+	list-style: none;
+}
+
+.single-resume-content dl {
+	margin: 0;
+}
+
+.single-resume-content dt h3 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.single-resume-content dd {
+	margin: 15px 0;
+	padding-left: 15px;
+	border-left: 1px solid #eee;
+}
+
+.single-resume-content dd .date {
+	font: normal 12px/normal 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #919191;
+	display: block;
+}
+
+.single-resume-content dd .date:before {
+	content: '\e85c';
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+.single-resume-content dd .qualification,
+.single-resume-content dd .job_title {
+	margin: 8px 0 0;
+	display: block;
+}
+
+.resume-manager-skills {
+	margin: 0;
+	padding-left: 18px;
+}
+
+.resume-links .resume-link {
+	margin: 5px 0;
+}
+
+.resume-link a:hover {
+	text-decoration: none;
+}
+
+.resume-link a:before {
+	content: '\e823';
+}
+
+.resume-file {
+	font-weight: bold;
+	display: block;
+}
+
+.resume-file:before {
+	content: '\e84e';
+}
+
+.resume-manager-remove-row {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}

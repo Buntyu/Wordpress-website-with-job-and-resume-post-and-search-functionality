@@ -1,0 +1,4 @@
+[15-Nov-2018 11:15:10 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/archipro/public_html/wp-content/themes/jobify-child/plugin-hooks/general-actions.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/archipro/public_html/wp-content/themes/jobify-child/plugin-hooks/general-actions.php on line 18

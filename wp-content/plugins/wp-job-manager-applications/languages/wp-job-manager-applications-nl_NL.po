@@ -1,0 +1,749 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Applications v1.4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-10-01 15:54:20+0000\n"
+"Last-Translator: overuser <info@leonard.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/class-wp-job-manager-applications-admin.php:43
+#: includes/class-wp-job-manager-applications-dashboard.php:265
+#@ wp-job-manager-applications
+msgid "Applications"
+msgstr "Sollicitaties"
+
+#: includes/class-wp-job-manager-applications-admin.php:81
+#@ wp-job-manager-applications
+msgid "Candidate name"
+msgstr "Naam Kandidaat"
+
+#: includes/class-wp-job-manager-applications-admin.php:96
+#: includes/class-wp-job-manager-applications-admin.php:99
+#@ wp-job-manager-applications
+msgid "Job application updated."
+msgstr "Sollicitatie bijgewerkt."
+
+#: includes/class-wp-job-manager-applications-admin.php:97
+#@ wp-job-manager-applications
+msgid "Custom field updated."
+msgstr "Aangepast veld bijgewerkt."
+
+#: includes/class-wp-job-manager-applications-admin.php:98
+#@ wp-job-manager-applications
+msgid "Custom field deleted."
+msgstr "Aangepast veld verwijderd."
+
+#: includes/class-wp-job-manager-applications-admin.php:101
+#@ wp-job-manager-applications
+msgid "Job application published."
+msgstr "Sollicitatie gepubliceerd."
+
+#: includes/class-wp-job-manager-applications-admin.php:102
+#@ wp-job-manager-applications
+msgid "Job application saved."
+msgstr "Sollicitatie opgeslagen."
+
+#: includes/class-wp-job-manager-applications-admin.php:103
+#@ wp-job-manager-applications
+msgid "Job application submitted."
+msgstr "Sollicitatie ingediend."
+
+#: includes/class-wp-job-manager-applications-admin.php:105
+#@ wp-job-manager-applications
+msgid "Job application draft updated."
+msgstr "Sollicitatie concept bijgewerkt."
+
+#: includes/class-wp-job-manager-applications-admin.php:125
+#@ wp-job-manager-applications
+msgid "Status"
+msgstr "Status"
+
+#: includes/class-wp-job-manager-applications-admin.php:126
+#@ wp-job-manager-applications
+msgid "Candidate"
+msgstr "Kandidaat"
+
+#: includes/class-wp-job-manager-applications-admin.php:127
+#: includes/class-wp-job-manager-applications-dashboard.php:204
+#@ wp-job-manager-applications
+msgid "Job applied for"
+msgstr "Gereageerd op vacature"
+
+#: includes/class-wp-job-manager-applications-admin.php:128
+#: includes/class-wp-job-manager-applications-dashboard.php:207
+#@ wp-job-manager-applications
+msgid "Rating"
+msgstr "Waardering"
+
+#: includes/class-wp-job-manager-applications-admin.php:129
+#: includes/class-wp-job-manager-applications-dashboard.php:65
+#: templates/job-application-footer.php:8
+#@ wp-job-manager-applications
+msgid "Notes"
+msgstr "Notities"
+
+#: includes/class-wp-job-manager-applications-admin.php:130
+#@ wp-job-manager-applications
+msgid "Attachment(s)"
+msgstr "Bijlage(s)"
+
+#: includes/class-wp-job-manager-applications-admin.php:133
+#@ wp-job-manager-applications
+msgid "Resume"
+msgstr "CV"
+
+#: includes/class-wp-job-manager-applications-admin.php:136
+#@ wp-job-manager-applications
+msgid "Posted"
+msgstr "Geplaatst"
+
+#: includes/class-wp-job-manager-applications-admin.php:137
+#@ wp-job-manager-applications
+msgid "Actions"
+msgstr "Acties"
+
+#: includes/class-wp-job-manager-applications-admin.php:157
+#, php-format
+#@ wp-job-manager-applications
+msgid "Application ID: %d"
+msgstr "Sollicitatie ID: %d"
+
+#: includes/class-wp-job-manager-applications-admin.php:196
+#, php-format
+#@ wp-job-manager-applications
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] "%d notitie"
+msgstr[1] "%d notities"
+
+#: includes/class-wp-job-manager-applications-admin.php:199
+#@ wp-job-manager-applications
+msgid "M j, Y"
+msgstr "M j, Y"
+
+#: includes/class-wp-job-manager-applications-admin.php:200
+#@ wp-job-manager-applications
+msgid "by a guest"
+msgstr "door een gast"
+
+#: includes/class-wp-job-manager-applications-admin.php:200
+#: includes/wp-job-manager-applications-template.php:86
+#, php-format
+#@ wp-job-manager-applications
+msgid "by %s"
+msgstr "door %s"
+
+#: includes/class-wp-job-manager-applications-admin.php:208
+#@ wp-job-manager-applications
+msgid "View"
+msgstr "Bekijk"
+
+#: includes/class-wp-job-manager-applications-admin.php:213
+#: templates/job-application-edit.php:24
+#@ wp-job-manager-applications
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: includes/class-wp-job-manager-applications-admin.php:243
+#@ woocommerce
+msgid "Applications for all jobs"
+msgstr ""
+
+#: includes/class-wp-job-manager-applications-apply.php:89
+#@ wp-job-manager-applications
+msgid "Full name"
+msgstr "Volledige naam"
+
+#: includes/class-wp-job-manager-applications-apply.php:97
+#@ wp-job-manager-applications
+msgid "Email address"
+msgstr "Emailadres"
+
+#: includes/class-wp-job-manager-applications-apply.php:106
+#@ wp-job-manager-applications
+msgid "Message"
+msgstr "Bericht"
+
+#: includes/class-wp-job-manager-applications-apply.php:109
+#@ wp-job-manager-applications
+msgid "Your cover letter/message sent to the employer"
+msgstr "Uw sollicitatiebrief / bericht verzonden naar de werkgever"
+
+#: includes/class-wp-job-manager-applications-apply.php:114
+#@ wp-job-manager-applications
+msgid "Upload CV"
+msgstr "Upload CV"
+
+#: includes/class-wp-job-manager-applications-apply.php:119
+#, php-format
+#@ wp-job-manager-applications
+msgid "Upload your CV/resume or any other relevant file. Max. file size: %s."
+msgstr "Upload uw CV of een ander relevant bestand. Max. bestandsgrootte: %s."
+
+#: includes/class-wp-job-manager-applications-apply.php:125
+#@ wp-job-manager-applications
+msgid "Online Resume"
+msgstr "Online CV"
+
+#: includes/class-wp-job-manager-applications-apply.php:179
+#@ wp-job-manager-applications
+msgid "Invalid job"
+msgstr "Ongeldige vacature"
+
+#: includes/class-wp-job-manager-applications-apply.php:199
+#, php-format
+#@ wp-job-manager
+msgid "\"%s\" is a required field"
+msgstr ""
+
+#: includes/class-wp-job-manager-applications-apply.php:211
+#@ wp-job-manager-applications
+msgid "Please provide a valid email address"
+msgstr "Geef a.u.b. een geldig emailadres op"
+
+#: includes/class-wp-job-manager-applications-apply.php:241
+#@ wp-job-manager-applications
+msgid "Could not create job application"
+msgstr "Kon geen sollicitatie aanmaken"
+
+#: includes/class-wp-job-manager-applications-apply.php:245
+#@ wp-job-manager-applications
+msgid "Your job application has been submitted successfully"
+msgstr "Uw sollicitatie is succesvol verzonden"
+
+#: includes/class-wp-job-manager-applications-apply.php:280
+#: includes/class-wp-job-manager-applications-apply.php:306
+#, php-format
+#@ wp-job-manager
+msgid "\"%s\" (filetype %s) needs to be one of the following file types: %s"
+msgstr ""
+
+#: includes/class-wp-job-manager-applications-dashboard.php:45
+#: includes/class-wp-job-manager-applications-post-types.php:38
+#@ wp-job-manager-applications
+msgid "Job Applications"
+msgstr "Sollicitaties"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:63
+#: includes/class-wp-job-manager-applications-writepanels.php:247
+#@ wp-job-manager-applications
+msgid "Are you sure you want to delete this? There is no undo."
+msgstr "Weet u zeker dat u dit wilt verwijderen? Dit kan niet ongedaan gemaakt worden."
+
+#: includes/class-wp-job-manager-applications-dashboard.php:64
+#: templates/job-application-footer.php:24
+#@ wp-job-manager-applications
+msgid "Details"
+msgstr "Details"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:66
+#@ wp-job-manager-applications
+msgid "Hide"
+msgstr "Verbergen"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:200
+#@ wp-job-manager-applications
+msgid "Application date"
+msgstr "Sollicitatie datum"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:201
+#: templates/job-application-edit.php:4
+#@ wp-job-manager-applications
+msgid "Application status"
+msgstr "Sollicitatie status"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:202
+#@ wp-job-manager-applications
+msgid "Applicant name"
+msgstr "Naam sollicitant"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:203
+#@ wp-job-manager-applications
+msgid "Applicant email"
+msgstr "Email sollicitant"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:205
+#: includes/class-wp-job-manager-applications-writepanels.php:83
+#@ wp-job-manager-applications
+msgid "Attachment"
+msgstr "Bijlage"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:206
+#@ wp-job-manager-applications
+msgid "Applicant message"
+msgstr "Bericht sollicitant"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:292
+#@ wp-job-manager-applications
+msgid "You do not have permission to view this job."
+msgstr "U heeft geen toestemming om deze vacature te bekijken."
+
+#: includes/class-wp-job-manager-applications-dashboard.php:334
+#@ wp-job-manager-applications
+msgid "Name"
+msgstr "Naam"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:335
+#: templates/job-application-footer.php:11
+#@ wp-job-manager-applications
+msgid "Email"
+msgstr "Email"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:336
+#@ wp-job-manager-applications
+msgid "Date Received"
+msgstr "Datum Ontvangen"
+
+#: includes/class-wp-job-manager-applications-dashboard.php:378
+#: includes/wp-job-manager-applications-template.php:87
+#@ wp-job-manager-applications
+msgid "Delete note"
+msgstr "Verwijder notitie"
+
+#: includes/class-wp-job-manager-applications-integration.php:39
+#@ wp-job-manager-applications
+msgid "Title"
+msgstr "Titel"
+
+#: includes/class-wp-job-manager-applications-integration.php:43
+#@ wp-job-manager-applications
+msgid "Location"
+msgstr "Locatie"
+
+#: includes/class-wp-job-manager-applications-integration.php:44
+#@ wp-job-manager-applications
+msgid "Full Profile"
+msgstr "Volledig Profiel"
+
+#: includes/class-wp-job-manager-applications-post-types.php:39
+#@ wp-job-manager-applications
+msgid "Application"
+msgstr "Sollicitatie"
+
+#: includes/class-wp-job-manager-applications-post-types.php:47
+#, php-format
+#@ wp-job-manager-applications
+msgid "All %s"
+msgstr "Alle %s"
+
+#: includes/class-wp-job-manager-applications-post-types.php:48
+#@ wp-job-manager-applications
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: includes/class-wp-job-manager-applications-post-types.php:49
+#, php-format
+#@ wp-job-manager-applications
+msgid "Add %s"
+msgstr "Toevoegen %s"
+
+#: includes/class-wp-job-manager-applications-post-types.php:50
+#: templates/job-application-footer.php:7
+#@ wp-job-manager-applications
+msgid "Edit"
+msgstr "Wijzigen"
+
+#: includes/class-wp-job-manager-applications-post-types.php:51
+#, php-format
+#@ wp-job-manager-applications
+msgid "Edit %s"
+msgstr "Wijzig %s"
+
+#: includes/class-wp-job-manager-applications-post-types.php:52
+#, php-format
+#@ wp-job-manager-applications
+msgid "New %s"
+msgstr "Nieuwe %s"
+
+#: includes/class-wp-job-manager-applications-post-types.php:53
+#: includes/class-wp-job-manager-applications-post-types.php:54
+#, php-format
+#@ wp-job-manager-applications
+msgid "View %s"
+msgstr "Bekijk %s"
+
+#: includes/class-wp-job-manager-applications-post-types.php:55
+#, php-format
+#@ wp-job-manager-applications
+msgid "Search %s"
+msgstr "Zoek %s"
+
+#: includes/class-wp-job-manager-applications-post-types.php:56
+#, php-format
+#@ wp-job-manager-applications
+msgid "No %s found"
+msgstr "Geen %s gevonden"
+
+#: includes/class-wp-job-manager-applications-post-types.php:57
+#, php-format
+#@ wp-job-manager-applications
+msgid "No %s found in trash"
+msgstr "Geen %s gevonden in de prullenbak"
+
+#: includes/class-wp-job-manager-applications-post-types.php:58
+#, php-format
+#@ wp-job-manager-applications
+msgid "Parent %s"
+msgstr "Hoofd %s"
+
+#: includes/class-wp-job-manager-applications-post-types.php:72
+#@ wp-job-manager-applications
+msgid "This is where you can edit and view applications."
+msgstr "Hier kunt u sollicitaties wijzigen en bekijken."
+
+#: includes/class-wp-job-manager-applications-post-types.php:91
+#@ wp-job-manager-applications
+msgctxt "job_application"
+msgid "New"
+msgstr "Nieuw"
+
+#: includes/class-wp-job-manager-applications-post-types.php:96
+#, php-format
+#@ wp-job-manager-applications
+msgid "New <span class=\"count\">(%s)</span>"
+msgid_plural "New <span class=\"count\">(%s)</span>"
+msgstr[0] "Nieuwe <span class=\"count\">(%s)</span>"
+msgstr[1] "Nieuwe <span class=\"count\">(%s)</span>"
+
+#: includes/class-wp-job-manager-applications-post-types.php:99
+#@ wp-job-manager-applications
+msgctxt "job_application"
+msgid "Interviewed"
+msgstr "Geïnterviewd"
+
+#: includes/class-wp-job-manager-applications-post-types.php:104
+#, php-format
+#@ wp-job-manager-applications
+msgid "Interviewed <span class=\"count\">(%s)</span>"
+msgid_plural "Interviewed <span class=\"count\">(%s)</span>"
+msgstr[0] "geïnterviewde <span class=\"count\">(%s)</span>"
+msgstr[1] "geïnterviewde <span class=\"count\">(%s)</span>"
+
+#: includes/class-wp-job-manager-applications-post-types.php:107
+#@ wp-job-manager-applications
+msgctxt "job_application"
+msgid "Offer extended"
+msgstr "Aanbod uitgebreid"
+
+#: includes/class-wp-job-manager-applications-post-types.php:112
+#, php-format
+#@ wp-job-manager-applications
+msgid "Offer extended <span class=\"count\">(%s)</span>"
+msgid_plural "Offer extended <span class=\"count\">(%s)</span>"
+msgstr[0] "Aanbod uitgebreid <span class=\"count\">(%s)</span>"
+msgstr[1] "Aanbod uitgebreid <span class=\"count\">(%s)</span>"
+
+#: includes/class-wp-job-manager-applications-post-types.php:115
+#@ wp-job-manager-applications
+msgctxt "job_application"
+msgid "Hired"
+msgstr "Aangenomen"
+
+#: includes/class-wp-job-manager-applications-post-types.php:120
+#, php-format
+#@ wp-job-manager-applications
+msgid "Hired <span class=\"count\">(%s)</span>"
+msgid_plural "Hired <span class=\"count\">(%s)</span>"
+msgstr[0] "Aangenomen <span class=\"count\">(%s)</span>"
+msgstr[1] "Aangenomen <span class=\"count\">(%s)</span>"
+
+#: includes/class-wp-job-manager-applications-post-types.php:123
+#@ wp-job-manager-applications
+msgctxt "job_application"
+msgid "Archived"
+msgstr "Gearchiveerd"
+
+#: includes/class-wp-job-manager-applications-post-types.php:128
+#, php-format
+#@ wp-job-manager-applications
+msgid "Archived <span class=\"count\">(%s)</span>"
+msgid_plural "Archived <span class=\"count\">(%s)</span>"
+msgstr[0] "Gearchiveerd <span class=\"count\">(%s)</span>"
+msgstr[1] "Gearchiveerd <span class=\"count\">(%s)</span>"
+
+#: includes/class-wp-job-manager-applications-writepanels.php:78
+#@ wp-job-manager-applications
+msgid "Contact email"
+msgstr "Email sollicitant"
+
+#: includes/class-wp-job-manager-applications-writepanels.php:79
+#@ wp-job-manager-applications
+msgid "you@yourdomain.com"
+msgstr "jij@jouwdomein.com"
+
+#: includes/class-wp-job-manager-applications-writepanels.php:84
+#@ wp-job-manager-applications
+msgid "URL to the attachment if the candidate provided one"
+msgstr "URL naar de bijlage indien de kandidaat deze verstrekt heeft."
+
+#: includes/class-wp-job-manager-applications-writepanels.php:89
+#@ wp-job-manager
+msgid "Posted by"
+msgstr ""
+
+#: includes/class-wp-job-manager-applications-writepanels.php:94
+#: templates/job-application-edit.php:17
+#@ wp-job-manager
+#@ wp-job-manager-applications
+msgid "Rating (out of 5)"
+msgstr "Waardering (uit 5)"
+
+#: includes/class-wp-job-manager-applications-writepanels.php:99
+#@ wp-job-manager
+msgid "Online resume ID"
+msgstr ""
+
+#: includes/class-wp-job-manager-applications-writepanels.php:112
+#@ wp-job-manager-applications
+msgid "Job Application Data"
+msgstr "Sollicitatie Gegevens"
+
+#: includes/class-wp-job-manager-applications-writepanels.php:113
+#@ wp-job-manager-applications
+msgid "Application Notes"
+msgstr "Sollicitatie Notities"
+
+#: includes/updater/class-wpjm-updater.php:242
+#@ default
+msgid "Hide notice"
+msgstr ""
+
+#: includes/updater/class-wpjm-updater.php:281
+#@ default
+msgid "Licence"
+msgstr ""
+
+#: includes/updater/class-wpjm-updater.php:284
+#@ default
+msgid "Enter your licence key and email and hit return. A valid key is required for automatic updates."
+msgstr ""
+
+#: includes/wp-job-manager-applications-functions.php:66
+#@ wp-job-manager-applications
+msgid "Hello"
+msgstr "Hallo"
+
+#: includes/wp-job-manager-applications-functions.php:67
+#, php-format
+#@ wp-job-manager-applications
+msgid "A candidate (%s) has submitted their application for the position \"%s\"."
+msgstr "Een kandidaat (%s) heeft een sollicitatie ingediend voor de positie \"%s\"."
+
+#: includes/wp-job-manager-applications-functions.php:72
+#, php-format
+#@ wp-job-manager-applications
+msgid "You can view this and any other applications here: %s."
+msgstr "U kunt deze en andere sollicitaties hier bekijken: %s."
+
+#: includes/wp-job-manager-applications-functions.php:72
+#@ wp-job-manager-applications
+msgid "You can view the applications from your dashboard."
+msgstr "U kunt de sollicitatie bekijken vanaf het FloQ dashboard."
+
+#: includes/wp-job-manager-applications-functions.php:73
+#, php-format
+#@ wp-job-manager-applications
+msgid "You can contact them directly at: %s."
+msgstr "U kunt direct met deze sollicitant contact opnemen via: %s."
+
+#: includes/wp-job-manager-applications-functions.php:90
+#@ wp-job-manager-applications
+msgid "Their CV/resume is attached to this email."
+msgstr "De CV is aangehecht aan deze email."
+
+#: includes/wp-job-manager-applications-functions.php:93
+#, php-format
+#@ wp-job-manager-applications
+msgid "New job application for %s"
+msgstr "Nieuwe sollicitatie voor %s"
+
+#: includes/wp-job-manager-applications-template.php:85
+#, php-format
+#@ wp-job-manager-applications
+msgid "added %s ago"
+msgstr "toegevoegd %s geleden"
+
+#: includes/wp-job-manager-applications-template.php:96
+#@ wp-job-manager-applications
+msgid "Private note regarding this application"
+msgstr "Privé notitie omtrent deze sollicitatie"
+
+#: includes/wp-job-manager-applications-template.php:97
+#@ wp-job-manager-applications
+msgid "Add note"
+msgstr "Notitie toevoegen"
+
+#: templates/application-form-login.php:1
+#, php-format
+#@ wp-job-manager
+msgid "You must <a href=\"%s\">sign in</a> to apply for this position."
+msgstr ""
+
+#: templates/application-form.php:7
+#@ wp-job-manager
+msgid "(optional)"
+msgstr ""
+
+#: templates/application-form.php:17
+#@ wp-job-manager-applications
+msgid "Send application"
+msgstr "Verstuur sollicitatie"
+
+#: templates/applied-notice.php:2
+#@ wp-job-manager-applications
+msgid "You have already applied for this job."
+msgstr "U heeft al gesolliciteerd op deze vacature."
+
+#: templates/job-application-edit.php:7
+#: templates/job-applications.php:9
+#@ wp-job-manager-applications
+msgid "New"
+msgstr "Nieuw"
+
+#: templates/job-application-edit.php:8
+#: templates/job-applications.php:10
+#@ wp-job-manager-applications
+msgid "Interviewed"
+msgstr "Geïnterviewd"
+
+#: templates/job-application-edit.php:9
+#: templates/job-applications.php:11
+#@ wp-job-manager-applications
+msgid "Offer extended"
+msgstr "Aanbod uitgebreid"
+
+#: templates/job-application-edit.php:10
+#: templates/job-applications.php:12
+#@ wp-job-manager-applications
+msgid "Hired"
+msgstr "Aangenomen"
+
+#: templates/job-application-edit.php:11
+#: templates/job-applications.php:13
+#@ wp-job-manager-applications
+msgid "Archived"
+msgstr "Gearchiveerd"
+
+#: templates/job-application-edit.php:25
+#@ wp-job-manager-applications
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: templates/job-application-footer.php:11
+#, php-format
+#@ wp-job-manager-applications
+msgid "Your job application for %s"
+msgstr "Uw sollicitatie voor %s"
+
+#: templates/job-applications.php:2
+#@ wp-job-manager-applications
+msgid "Download CSV"
+msgstr "Download CSV"
+
+#: templates/job-applications.php:3
+#, php-format
+#@ wp-job-manager-applications
+msgid "The job applications for \"%s\" are listed below."
+msgstr "De sollicitaties voor \"%s\" zijn hieronder weergegeven."
+
+#: templates/job-applications.php:8
+#@ wp-job-manager-applications
+msgid "Filter by status"
+msgstr "Filter op status"
+
+#: templates/job-applications.php:18
+#@ wp-job-manager-applications
+msgid "Newest first"
+msgstr "Nieuwere eerst"
+
+#: templates/job-applications.php:19
+#@ wp-job-manager-applications
+msgid "Sort by name"
+msgstr "Sorteer op naam"
+
+#: templates/job-applications.php:20
+#@ wp-job-manager-applications
+msgid "Sort by rating"
+msgstr "Sorteer op waardering"
+
+#: wp-job-manager-applications.php:71
+#, php-format
+#@ wp-job-manager-applications
+msgid "Applications requies WP Job Manager 1.14.0 and above; you are using %s"
+msgstr "Applications vereist WP Job Manager 1.14.0 of nieuwer; u gebruikt %s"
+
+#: wp-job-manager-applications.php:126
+#@ wp-job-manager-applications
+msgid "Job Application"
+msgstr "Sollicitatie"
+
+#: wp-job-manager-applications.php:133
+#@ wp-job-manager-applications
+msgid "Email Application method"
+msgstr "Email Sollicitatie methode"
+
+#: wp-job-manager-applications.php:134
+#: wp-job-manager-applications.php:142
+#@ wp-job-manager-applications
+msgid "Use application form"
+msgstr "Gebruik sollicitatieformulier"
+
+#: wp-job-manager-applications.php:135
+#@ wp-job-manager-applications
+msgid "Show application form for jobs with an email application method. Disable to use the default application functionality, or another form plugin."
+msgstr "Geef het sollicitatieformulier weer voor vacatures met een email sollicitatie methode. Schakel uit om de standaard sollicitatie functionaliteit of een andere formulieren-plugin te gebruiken."
+
+#: wp-job-manager-applications.php:141
+#@ wp-job-manager-applications
+msgid "Website URL Application method"
+msgstr "Website URL Sollicitatie methode"
+
+#: wp-job-manager-applications.php:143
+#@ wp-job-manager-applications
+msgid "Show application form for jobs with a website url application method. Disable to use the default application functionality, or another form plugin."
+msgstr "Geen het sollicitatieformulier weer voor vacatures met een website url sollicitatie methode. Schakel uit on de standaard sollicitatie functionaliteit, of een andere formulieren-plugin te gebruiken."
+
+#: wp-job-manager-applications.php:149
+#@ wp-job-manager-applications
+msgid "User restriction"
+msgstr "Gebruikersbeperking"
+
+#: wp-job-manager-applications.php:150
+#@ wp-job-manager-applications
+msgid "Only allow registered users to apply"
+msgstr "Sta alleen ingelogde gebruikers toe om te solliciteren"
+
+#: wp-job-manager-applications.php:151
+#@ wp-job-manager-applications
+msgid "If enabled, only logged in users can apply. Non-logged in users will see the contents of the <code>application-form-login.php</code> file instead of a form."
+msgstr "Indien ingeschakeld kunnen enkel ingelogde gebruikers solliciteren. Niet-ingelogde gebruikers zullen de inhoud van het <code>application-form-login.php</code> bestand zien in plaats van een formulier."
+
+#: wp-job-manager-applications.php:157
+#@ wp-job-manager-applications
+msgid "Delete applications"
+msgstr "Verwijder sollicitaties"
+
+#: wp-job-manager-applications.php:158
+#@ wp-job-manager-applications
+msgid "Delete applications when a job is deleted"
+msgstr "Verwijder sollicitaties wanneer een vacature is verwijderd."
+
+#: wp-job-manager-applications.php:159
+#@ wp-job-manager-applications
+msgid "If enabled, job applications will be deleted when the parent job listing is deleted. Otherwise they will be kept on file and visible in the backend."
+msgstr "Indien ingeschakeld zullen sollicitaties verwijderd worden wanneer de hoofdvacature is verwijderd. Anders worden zij bewaard en zichtbaar zijn in de backend."
+
